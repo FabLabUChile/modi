@@ -43,16 +43,24 @@ void setup()
 void draw() 
 {
   background(102);
-  
+   
+  if (ydirection > 0) myPort.write('w'); 
+  else myPort.write('s');
+    
+  if (xpos < (xpos + ( xspeed * xdirection ))) {
+    myPort.write('d'); 
+
+        }
+    else {
+     myPort.write('a');
+
+
+    }
   // Update the position of the shape
-  //xpos = xpos + ( xspeed * xdirection );
+  xpos = xpos + ( xspeed * xdirection );
   ypos = ypos + ( yspeed * ydirection );
   
-      if (ydirection > 0) myPort.write('w'); 
-    else myPort.write('s');
-    
-//        if (xdirection > 0) myPort.write('d'); 
-//    else myPort.write('a');
+ 
   
   // Test to see if the shape exceeds the boundaries of the screen
   // If it does, reverse its direction by multiplying by -1
