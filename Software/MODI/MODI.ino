@@ -1,8 +1,6 @@
-//Versión 2013
+//Version 2013
 
 //Valparaiso
-
-
 
 //motor A connected between A01 and A02
 //motor B connected between B01 and B02
@@ -19,7 +17,10 @@ int PWMB = 11; //Speed control
 int BIN1 = 8; //Direction
 int BIN2 = 12; //Direction
 
+char comando;
+
 void setup(){
+  //Motor pin set
   pinMode(STBY, OUTPUT);
 
   pinMode(PWMA, OUTPUT);
@@ -29,44 +30,24 @@ void setup(){
   pinMode(PWMB, OUTPUT);
   pinMode(BIN1, OUTPUT);
   pinMode(BIN2, OUTPUT);
+  
+  // For XBee
+  Serial.begin(9600);
 }
 
 void loop(){
- //  move(1, 255, 1); //motor 1, full speed, left
-//  move(2, 255, 1); //motor 2, full speed, left
-//
-//  delay(1000); //go for 1 second
-//  stop(); //stop
-//  delay(250); //hold for 250ms until move again
-//
-//  move(1, 128, 0); //motor 1, half speed, right
-//  move(2, 128, 0); //motor 2, half speed, right
-//
-//  delay(1000);
-//  stop();
-//  delay(250); 
   
-  
-  
-  move(1, 255, 1); //motor 1, full speed, left
-  move(2, 255, 1); //motor 2, full speed, left
+  if (Serial.available()){
 
-  delay(400); //go for 1 second
-
-  move(1, 255, 1); //motor 1, full speed, left
-  move(2, 255, 0); //motor 2, full speed, left
-
-  delay(400); //go for 1 second
-
-  move(1, 255, 0); //motor 1, full speed, left
-  move(2, 255, 1); //motor 2, full speed, left
-
-delay(400); //go for 1 second
-
-  move(1, 255, 0); //motor 1, half speed, right
-  move(2, 255, 0); //motor 2, half speed, right
-
-  delay(400);
+    comando=Serial.read();
+    Serial.print("state: ");
+    Serial.println(comando);
+    if(comando=='w')go();
+    else if(comando=='s')back();
+    else if(comando=='a')left();
+    else if(comando=='d')right();
+    else if(comando=='q')stop();
+  }
 
 }
 
@@ -100,4 +81,36 @@ void move(int motor, int speed, int direction){
 void stop(){
 //enable standby  
   digitalWrite(STBY, LOW);
+}
+
+void go(){
+  Serial.println("go");
+  move(1, 100, 0); //motor 1, half speed, right
+  move(2, 100, 0); //motor 2, half speed, right
+  delay(250);
+  stop();
+}
+
+void back(){
+  Serial.println("back");
+  move(1, 100, 1); //motor 1, half speed, right
+  move(2, 100, 1); //motor 2, half speed, right
+  delay(250);
+  stop();
+}
+
+void left(){
+  Serial.println("izquierda");
+  move(1, 100, 1); //motor 1, half speed, right
+  move(2, 100, 0); //motor 2, half speed, right
+  delay(250);
+  stop();
+}
+
+void right(){
+  Serial.println("derecha");
+  move(1, 100, 0); //motor 1, half speed, right
+  move(2, 100, 1); //motor 2, half speed, right
+  delay(250);
+  stop();  
 }
