@@ -19,6 +19,8 @@ int BIN2 = 12; //Direction
 
 char comando;
 
+int pulse = 100;
+
 void setup(){
   //Motor pin set
   pinMode(STBY, OUTPUT);
@@ -32,7 +34,7 @@ void setup(){
   pinMode(BIN2, OUTPUT);
   
   // For XBee
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop(){
@@ -40,8 +42,8 @@ void loop(){
   if (Serial.available()){
 
     comando=Serial.read();
-    Serial.print("state: ");
-    Serial.println(comando);
+   // Serial.print("state: ");
+   // Serial.println(comando);
     if(comando=='w')go();
     else if(comando=='s')back();
     else if(comando=='a')left();
@@ -80,37 +82,35 @@ void move(int motor, int speed, int direction){
 
 void stop(){
 //enable standby  
+  delay(pulse);
   digitalWrite(STBY, LOW);
+  //Serial.println("stop");
 }
 
 void go(){
-  Serial.println("go");
+  //Serial.println("go");
   move(1, 100, 0); //motor 1, half speed, right
   move(2, 100, 0); //motor 2, half speed, right
-  delay(250);
   stop();
 }
 
 void back(){
-  Serial.println("back");
+  //Serial.println("back");
   move(1, 100, 1); //motor 1, half speed, right
   move(2, 100, 1); //motor 2, half speed, right
-  delay(250);
   stop();
 }
 
 void left(){
-  Serial.println("izquierda");
+  //Serial.println("left");
   move(1, 100, 1); //motor 1, half speed, right
   move(2, 100, 0); //motor 2, half speed, right
-  delay(250);
   stop();
 }
 
 void right(){
-  Serial.println("derecha");
+  //Serial.println("right");
   move(1, 100, 0); //motor 1, half speed, right
   move(2, 100, 1); //motor 2, half speed, right
-  delay(250);
   stop();  
 }
