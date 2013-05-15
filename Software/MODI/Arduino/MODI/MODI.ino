@@ -3,9 +3,9 @@
 //Valparaiso
 
 // RGB LED Common Cathode
-int greenPin = 6;
-int bluePin = 9;
-int redPin = 10;
+const int greenPin = 6;
+const int bluePin = 9;
+const int redPin = 10;
 
 
 //motor A connected between A01 and A02
@@ -46,11 +46,10 @@ void setup(){
   
   // For XBee
   Serial.begin(115200);
-  
-  digitalWrite(greenPin, HIGH);
-  
-  
-  //outputColour(0,100,200);
+  Serial.print(255);
+
+  // Start off with the LED off.
+  setColourRgb(0,0,0);
 }
 
 void loop(){
@@ -62,12 +61,12 @@ void loop(){
    // Serial.println(comando);
    if(robotID==1){
      
-    if(comando=='p')go();
-    else if(comando=='q')back();
-    else if(comando=='r')left();
-    else if(comando=='s')right();
-    else if(comando=='t')stop();
-    
+    if(comando=='w')go();
+    else if(comando=='s')back();
+    else if(comando=='a')left();
+    else if(comando=='d')right();
+    else if(comando=='q')stop();
+    Serial.println(comando);
    }
    else if (robotID==2){
      
@@ -77,7 +76,8 @@ void loop(){
     else if(comando=='l')right();
     else if(comando=='u')stop();
    }
-  }
+
+}
 
 }
 
@@ -106,12 +106,14 @@ void move(int motor, int speed, int direction){
     digitalWrite(BIN2, inPin2);
     analogWrite(PWMB, speed);
   }
+  Serial.flush();
 }
 
 void stop(){
 //enable standby  
   delay(pulse);
   digitalWrite(STBY, LOW);
+
   //Serial.println("stop");
 }
 
@@ -119,6 +121,7 @@ void go(){
   //Serial.println("go");
   move(1, 100, 0); //motor 1, half speed, right
   move(2, 100, 0); //motor 2, half speed, right
+   setColourRgb(0,255,0);
   stop();
 }
 
@@ -126,6 +129,7 @@ void back(){
   //Serial.println("back");
   move(1, 100, 1); //motor 1, half speed, right
   move(2, 100, 1); //motor 2, half speed, right
+    setColourRgb(255,0,0);
   stop();
 }
 
@@ -133,6 +137,7 @@ void left(){
   //Serial.println("left");
   move(1, 100, 1); //motor 1, half speed, right
   move(2, 100, 0); //motor 2, half speed, right
+    setColourRgb(0,0,255);
   stop();
 }
 
@@ -140,11 +145,12 @@ void right(){
   //Serial.println("right");
   move(1, 100, 0); //motor 1, half speed, right
   move(2, 100, 1); //motor 2, half speed, right
+    setColourRgb(255,0,225);
   stop();  
 }
 
-void outputColour(int red, int green, int blue) {
+void setColourRgb(unsigned int red, unsigned int green, unsigned int blue) {
   analogWrite(redPin, red);
+  analogWrite(greenPin, green);
   analogWrite(bluePin, blue);
-  analogWrite(greenPin, green);    
-}
+ }
