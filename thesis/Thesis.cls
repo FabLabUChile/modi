@@ -60,14 +60,16 @@
 
 \newcommand\btypeout[1]{\bhrule\typeout{\space #1}\bhrule}
 \def\today{\ifcase\month\or
-  January\or February\or March\or April\or May\or June\or
-  July\or August\or September\or October\or November\or December\fi
+  Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio\or
+  Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre\fi
   \space \number\year}
 \usepackage{setspace}
 \onehalfspacing
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2.0ex plus0.5ex minus0.2ex}
 \usepackage{vmargin}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
@@ -154,7 +156,9 @@
 \pdfstringdefDisableCommands{
    \let\\\space
 }
-\newcommand*{\supervisor}[1]{\def\supname{#1}}
+\newcommand*{\supervisora}[1]{\def\supnamea{#1}}
+\newcommand*{\supervisorb}[1]{\def\supnameb{#1}}
+\newcommand*{\supervisorc}[1]{\def\supnamec{#1}}
 \newcommand*{\thesistitle}[1]{\def\ttitle{#1}}
 \newcommand*{\examiner}[1]{\def\examname{#1}}
 \newcommand*{\degree}[1]{\def\degreename{#1}}
@@ -179,15 +183,20 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Thesis Title} % Your thesis title - this is used in the title and abstract
+\thesistitle{Diseño y construcción de plataforma para estudios en enjambre de robots.} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
-\supervisor{Dr. James \textsc{Smith}} % You supervisor's name - this is used in the title page
-%-------------------------------------------------   
+\supervisora{Dra. María José \textsc{Escobar }} % You supervisor's name - this is used in the title page
+%-------------------------------------------------  
+\supervisorb{Dr. Juan Cristobal \textsc{Zagal }} % You supervisor's name - this is used in the title page
+%-------------------------------------------------  
+\supervisorc{Dr. Pablo \textsc{Prieto}} % You supervisor's name - this is used in the title page
+
+%-------------------------------------------------
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{Doctor of Philosophy} % Your degree name - this is currently used in the title page and abstract
+\degree{Bachiller en Ciencias de la Ingeniería y Licenciado en Ciencias de la Ingeniería Electrónica. } % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{John \textsc{Smith}} % Your name - this is used in the title page and abstract
+\authors{Sebastián \textsc{Sáez}} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
@@ -195,8 +204,8 @@
 %-------------------------------------------------   
 \keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
 %-------------------------------------------------   
-\university{\texorpdfstring{\href{http://www.university.com} % Your university's URL
-                {University Name}} % Your university's name - this is currently used in the title page
+\university{\texorpdfstring{\href{http://www.usm.com} % Your university's URL
+                {Universidad Técnica Federico Santa María}} % Your university's name - this is currently used in the title page
                 {University Name}}
 %-------------------------------------------------   
 \UNIVERSITY{\texorpdfstring{\href{University Web Site URL Here (include http://)} % Your university's URL
@@ -204,7 +213,7 @@
                 {UNIVERSITY NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \department{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
-                {Department or School Name}} % Your department's name - used in the title page and abstract
+                {Ing. civíl Mecanica, Universidad de Chile}} % Your department's name - used in the title page and abstract
                 {Department or School Name}}
 %-------------------------------------------------                
 \DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
@@ -212,7 +221,7 @@
                 {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {Research Group Name}} % Your research group's name - this is currently used in the title page 
+                {Síntesis de Máquinas Inteligentes}} % Your research group's name - this is currently used in the title page 
                 {Research Group Name}}
 %-------------------------------------------------                
 \GROUP{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
@@ -409,7 +418,7 @@
 \btypeout{Acknowledgements}
 \addtotoc{Acknowledgements}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+\begin{center}{\huge{\textit{Agradecimientos}} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 

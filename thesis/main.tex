@@ -1,5 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Thesis 
 % LaTeX Template
 % Version 1.3 (21/12/12)
 %
@@ -26,6 +24,10 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[11pt, a4paper, oneside]{Thesis} % Paper size, default font size and one-sided paper
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
 
 \graphicspath{{./Pictures/}} % Specifies the directory where pictures are stored
 
@@ -62,7 +64,7 @@
 \begin{center}
 
 \textsc{\LARGE \univname}\\[1.5cm] % University name
-\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+\textsc{\Large Memoria Titulación}\\[0.5cm] % Thesis type
 
 \HRule \\[0.4cm] % Horizontal line
 {\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
@@ -70,19 +72,23 @@
  
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
-\emph{Author:}\\
+\emph{Autor:}\\
 \href{http://www.johnsmith.com}{\authornames} % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
-\emph{Supervisor:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\emph{Supervisores:} \\
+\href{http://www.jamessmith.com}{\supnamea} % Supervisor name - remove the \href bracket to remove the link 
+ 
+\href{http://www.jamessmith.com}{\supnameb} % Supervisor name - remove the \href bracket to remove the link  
+
+\href{http://www.jamessmith.com}{\supnamec} % Supervisor name - remove the \href bracket to remove the link  
 \end{flushright}
 \end{minipage}\\[3cm]
  
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
+\large \textit{Memoria para optar al grado de \degreename}\\[0.3cm] % University requirement text
+\textit{en el}\\[0.4cm]
 \groupname\\\deptname\\[2cm] % Research group name and department name
  
 {\large \today}\\[4cm] % Date
@@ -98,47 +104,13 @@
 %	Your institution may give you a different text to place here
 %----------------------------------------------------------------------------------------
 
-\Declaration{
 
-\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
-I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
-
-\begin{itemize} 
-\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
-\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
-\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
-\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
-\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
-\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
-\end{itemize}
- 
-Signed:\\
-\rule[1em]{25em}{0.5pt} % This prints a line for the signature
- 
-Date:\\
-\rule[1em]{25em}{0.5pt} % This prints a line to write the date
-}
-
-\clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	QUOTATION PAGE
 %----------------------------------------------------------------------------------------
 
-\pagestyle{empty} % No headers or footers for the following pages
 
-\null\vfill % Add some space to move the quote down the page a bit
-
-\textit{``Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism."}
-
-\begin{flushright}
-Dave Barry
-\end{flushright}
-
-\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
-
-\clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -148,7 +120,7 @@ Dave Barry
 
 \abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+Desarrollo de una plataforma, de bajo costo, que permita estudiar el comportamiento de grupos de robots. Para que la plataforma funcione es necesario el diseño y construcción de los robots , implementar sistema de tracking 2D, armar la red de comunicación (XBee) y construir el software de control.
 }
 
 \clearpage % Start a new page
@@ -159,7 +131,7 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 
 \setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
 
-\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics 
 
 The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
 }
@@ -252,13 +224,12 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\input{./Chapters/Chapter1}
-%\input{./Chapters/Chapter2} 
-%\input{./Chapters/Chapter3}
+\input{./Chapters/Chapter1} 
+\input{./Chapters/Chapter2}
+\input{./Chapters/Chapter3}
 %\input{./Chapters/Chapter4} 
 %\input{./Chapters/Chapter5} 
-%\input{./Chapters/Chapter6} 
-%\input{./Chapters/Chapter7} 
+%\input{./Chapters/Chapter6}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -284,6 +255,9 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 %----------------------------------------------------------------------------------------
 
 \label{Bibliography}
+%Renombrar pagina
+\renewcommand{\bibname}{Referencias}
+\renewcommand{\refname}{Referencias}
 
 \lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
 
@@ -291,4 +265,4 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 
 \bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
 
-\end{document}  
+\end{document}

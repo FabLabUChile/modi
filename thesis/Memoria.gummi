@@ -1,0 +1,7 @@
+version=0.6.0
+typesetter=pdflatex
+steps=texpdf
+root=/home/otrab/Desktop/thesis/main.tex
+
+file=/home/otrab/Desktop/thesis/Chapters/Chapter2.tex
+file=/home/otrab/Desktop/thesis/Chapters/Chapter3.tex

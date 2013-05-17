@@ -1,0 +1,28 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Zagal and Lipson(2009)]{ZagalL09}
+Juan~Cristóbal Zagal and Hod Lipson.
+\newblock Self-reflection in evolutionary robotics: resilient adaptation with a
+  minimum of physical exploration.
+\newblock In Franz Rothlauf, editor, \emph{GECCO (Companion)}, pages
+  2179--2188. ACM, 2009.
+\newblock ISBN 978-1-60558-505-5.
+\newblock URL
+  \url{http://dblp.uni-trier.de/db/conf/gecco/gecco2009c.html#ZagalL09}.
+
+\bibitem[Kernbach et~al.(2009)Kernbach, Levi, Meister, Schlachter, and
+  Kernbach]{5359578}
+S.~Kernbach, P.~Levi, E.~Meister, F.~Schlachter, and O.~Kernbach.
+\newblock Towards self-adaptation of robot organisms with a high developmental
+  plasticity.
+\newblock In \emph{Future Computing, Service Computation, Cognitive, Adaptive,
+  Content, Patterns, 2009. COMPUTATIONWORLD '09. Computation World:}, pages
+  180--187, 2009.
+\newblock \doi{10.1109/ComputationWorld.2009.11}.
+
+\end{thebibliography}

@@ -38,3 +38,17 @@
 	Url = {http://link.aip.org/link/?RSI/62/1/1},
 	Year = {1991}}
 
+@article{Reference4,
+	Abstract = {Operating a laser diode in an extended cavity which provides frequency-selective feedback is a very effective method of reducing the laser's linewidth and improving its tunability. We have developed an extremely simple laser of this type, built from inexpensive commercial components with only a few minor modifications. A 780~nm laser built to this design has an output power of 80~mW, a linewidth of 350~kHz, and it has been continuously locked to a Doppler-free rubidium transition for several days.},
+	Author = {A. S. Arnold and J. S. Wilson and M. G. Boshier},
+	Journal = {Review of Scientific Instruments},
+	Month = {March},
+	Number = {3},
+	Numpages = {4},
+	Pages = {1236--1239},
+	Title = {A Simple Extended-Cavity Diode Laser},
+	Volume = {69},
+	Url = {http://link.aip.org/link/?RSI/69/1236/1},
+	Year = {1998}}
+
+

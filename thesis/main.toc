@@ -1,0 +1,34 @@
+\select@language {spanish}
+\contentsline {chapter}{Abstract}{\es@scroman {i}}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{\es@scroman {ii}}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{\es@scroman {v}}{dummy.4}
+\contentsline {chapter}{List of Tables}{\es@scroman {vi}}{dummy.6}
+\contentsline {chapter}{Abbreviations}{\es@scroman {vii}}{dummy.8}
+\contentsline {chapter}{Physical Constants}{\es@scroman {viii}}{dummy.11}
+\contentsline {chapter}{Symbols}{\es@scroman {ix}}{dummy.14}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Robot}{1}{chapter.17}
+\contentsline {section}{\numberline {1.1}Desarrollo tecnol\IeC {\'o}gico desde Chile}{1}{section.18}
+\contentsline {section}{\numberline {1.2}\IeC {\textquestiondown }Qu\IeC {\'e} es un robot?}{2}{section.19}
+\contentsline {subsection}{\numberline {1.2.1}Automodelamiento}{3}{subsection.22}
+\contentsline {chapter}{\numberline {2}Swarm}{6}{chapter.26}
+\contentsline {section}{\numberline {2.1}Comportamiento colectivo en la naturaleza}{6}{section.27}
+\contentsline {section}{\numberline {2.2}Robots para construir un enjambre}{7}{section.29}
+\contentsline {subsection}{\numberline {2.2.1}Kilobot}{7}{subsection.30}
+\contentsline {subsection}{\numberline {2.2.2}Organismo Multibot}{8}{subsection.32}
+\contentsline {subsection}{\numberline {2.2.3}E-puck}{9}{subsection.34}
+\contentsline {subsection}{\numberline {2.2.4}3pi Robot}{10}{subsection.36}
+\contentsline {section}{\numberline {2.3}Necesidades de mercado}{11}{section.38}
+\contentsline {subsection}{\numberline {2.3.1}Usos Acad\IeC {\'e}mico}{12}{subsection.40}
+\contentsline {subsection}{\numberline {2.3.2}Usos Militar}{12}{subsection.41}
+\contentsline {subsection}{\numberline {2.3.3}Usos Dom\IeC {\'e}stico}{12}{subsection.42}
+\contentsline {chapter}{\numberline {3}MODI}{13}{chapter.43}
+\contentsline {section}{\numberline {3.1}Setup}{13}{section.44}
+\contentsline {subsection}{\numberline {3.1.1}Construccion}{14}{subsection.46}
+\contentsline {subsection}{\numberline {3.1.2}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.47}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{15}{appendix.49}
+\vspace {2em}
+\contentsline {chapter}{Bibliograf\'{\i }a}{16}{dummy.50}
