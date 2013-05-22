@@ -26,9 +26,9 @@
 \contentsline {subsection}{\numberline {2.3.3}Usos Dom\IeC {\'e}stico}{12}{subsection.42}
 \contentsline {chapter}{\numberline {3}MODI}{13}{chapter.43}
 \contentsline {section}{\numberline {3.1}Setup}{13}{section.44}
-\contentsline {subsection}{\numberline {3.1.1}Construccion}{14}{subsection.46}
-\contentsline {subsection}{\numberline {3.1.2}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.47}
+\contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n}{14}{section.46}
+\contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.47}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{15}{appendix.49}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{16}{appendix.51}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{16}{dummy.50}
+\contentsline {chapter}{Bibliograf\'{\i }a}{17}{dummy.52}

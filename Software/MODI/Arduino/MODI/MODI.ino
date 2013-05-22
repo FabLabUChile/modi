@@ -59,7 +59,6 @@ void loop(){
     comando=Serial.read();
    // Serial.print("state: ");
    // Serial.println(comando);
-   if(robotID==1){
      
     if(comando=='w')go();
     else if(comando=='s')back();
@@ -68,16 +67,6 @@ void loop(){
     else if(comando=='q')stop();
     Serial.println(comando);
    }
-   else if (robotID==2){
-     
-    if(comando=='i')go();
-    else if(comando=='k')back();
-    else if(comando=='j')left();
-    else if(comando=='l')right();
-    else if(comando=='u')stop();
-   }
-
-}
 
 }
 
@@ -119,16 +108,16 @@ void stop(){
 
 void go(){
   //Serial.println("go");
-  move(1, 100, 0); //motor 1, half speed, right
-  move(2, 100, 0); //motor 2, half speed, right
+  move(1, 100, 1); //motor 1, half speed, right
+  move(2, 100, 1); //motor 2, half speed, right
    setColourRgb(0,255,0);
   stop();
 }
 
 void back(){
   //Serial.println("back");
-  move(1, 100, 1); //motor 1, half speed, right
-  move(2, 100, 1); //motor 2, half speed, right
+  move(1, 100, 0); //motor 1, half speed, right
+  move(2, 100, 0); //motor 2, half speed, right
     setColourRgb(255,0,0);
   stop();
 }
