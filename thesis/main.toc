@@ -3,8 +3,8 @@
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{\es@scroman {ii}}{dummy.2}
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{\es@scroman {v}}{dummy.4}
-\contentsline {chapter}{List of Tables}{\es@scroman {vi}}{dummy.6}
+\contentsline {chapter}{\IeC {\'I}ndice de figuras}{\es@scroman {v}}{dummy.4}
+\contentsline {chapter}{\IeC {\'I}ndice de cuadros}{\es@scroman {vi}}{dummy.6}
 \contentsline {chapter}{Abbreviations}{\es@scroman {vii}}{dummy.8}
 \contentsline {chapter}{Physical Constants}{\es@scroman {viii}}{dummy.11}
 \contentsline {chapter}{Symbols}{\es@scroman {ix}}{dummy.14}
@@ -30,6 +30,6 @@
 \contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.47}
 \contentsline {subsection}{\numberline {3.2.2}Software CAD}{16}{subsection.52}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{17}{appendix.53}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{18}{appendix.54}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{18}{dummy.54}
+\contentsline {chapter}{Bibliograf\'{\i }a}{19}{dummy.55}

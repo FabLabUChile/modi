@@ -313,7 +313,7 @@
     \bigskip
     {\normalsize\bf \@title \par} % Thesis title
     \medskip
-    {\normalsize by \authornames \par} % Author name
+    {\normalsize por \authornames \par} % Author name
     \bigskip
   \end{center}
 }
@@ -346,8 +346,8 @@
 }\end{spacing}
 }
 \renewcommand\listoffigures{
-\btypeout{List of Figures}
-\addtotoc{List of Figures}
+\btypeout{Índice de figuras}
+\addtotoc{Índice de figuras}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
@@ -364,8 +364,8 @@
 }\end{spacing}
 }
 \renewcommand\listoftables{
-\btypeout{List of Tables}
-\addtotoc{List of Tables}
+\btypeout{Índice de cuadros}
+\addtotoc{Índice de cuadros}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
