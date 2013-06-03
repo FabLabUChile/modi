@@ -34,7 +34,7 @@ void setup(){
   pinMode(BIN2, OUTPUT);
   
   // For XBee
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop(){

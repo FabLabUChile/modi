@@ -49,7 +49,7 @@ void setup(){
   Serial.print(255);
 
   // Start off with the LED off.
-  setColourRgb(0,0,0);
+  setColourRgb(0,0,255);
 }
 
 void loop(){
@@ -65,6 +65,11 @@ void loop(){
     else if(comando=='a')left();
     else if(comando=='d')right();
     else if(comando=='q')stop();
+    else if(comando=='r')setColourRgb(255,0,0);
+    else if(comando=='g')setColourRgb(0,255,0);
+    else if(comando=='b')setColourRgb(0,0,255);
+    
+    
     Serial.println(comando);
    }
 
