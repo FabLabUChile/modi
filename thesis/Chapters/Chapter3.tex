@@ -40,6 +40,7 @@ La función principal de MODI es ser una plataforma móvil de fácil acceso. Exi
 \item Movimiento simple de cada robot de forma independiente.
 \end{itemize}
 
+
 %-----------------------------------
 %	SECTION 2
 %-----------------------------------
@@ -94,9 +95,9 @@ Utilizando una impresora 3D Makerbot Replicator 1 se hizo esta primera versión 
 	\label{fig:3modirev2}
 \end{figure}
 
-Esta versión se dio de baja ya que presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador, junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado, más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versión exista la posibilidad de una carga autónoma por parte de los Robots.
+Esta versión se dio de baja ya que presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador, junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado, más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO, que es una plataforma de desarrollo Arduino junto con un socket Xbee. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versión exista la posibilidad de una carga autónoma por parte de los Robots. La versión actual de modi permite su carga por medio de un puerto Mini USB, panel solar y de forma inalámbrica.
 
-Aunque han bajado los precios de las maquinas para prototipado rápido, aún no están al alcance de todas las personas. Es por esto que existen los Fab labs (acrónimo del inglés Fabrication Laboratory), que según Wikipedia es, \textit{un espacio de producción de objetos físicos a escala personal o local que agrupa máquinas controladas por ordenadores. Su particularidad reside en su tamaño y en su fuerte vinculación con la sociedad.} Los Fab Labs están por todo el mundo, Figura \ref{fig:Fablabs}. MODI fue concebido como un proyecto del Fab Lab de la Universidad de Chile y por esto es posible reproducirlo en cualquier Fab Lab.
+Aunque han bajado los precios de las maquinas para prototipado rápido, aún no están al alcance de todas las personas. Es por esto que existen los Fab labs (acrónimo del inglés Fabrication Laboratory), que según Wikipedia es, \textit{un espacio de producción de objetos físicos a escala personal o local que agrupa máquinas controladas por ordenadores. Su particularidad reside en su tamaño y en su fuerte vinculación con la sociedad.} Los Fab Labs están por todo el mundo, Figura \ref{fig:Fablabs}. MODI fue concebido como un proyecto del Fab Lab de la Universidad de Chile y por esto es posible reproducirlo en cualquier Fab Lab. En Chile, además del Fab Lab de la Universidad de Chile están: Design LAB UAI, Fab Lab Santiago y Stgo MakerSpace. 
 
 \begin{figure}[htbp]
 	\centering
@@ -128,26 +129,69 @@ El diseño del chasis junto con las ruedas y demás partes plásticas, se hizo e
 	\label{fig:MODISolidWork}
 \end{figure}	
 
-Luego de varias iteraciones se lográ este modelo que tiene cinco piezas. 
+Luego de varias iteraciones se lográ este modelo \ref{fig:render3} que tiene cinco piezas. 
 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/MODI/modi.png}
+		\includegraphics[width=0.9\textwidth]{./Figures/MODI/render3.jpg}
 		\rule{35em}{0.5pt}
-	\caption[Render]{Render de MODI realizado con Autodesk Inventor 2013.}
-	\label{fig:MODIInventor}
+	\caption[Render]{Modelos 3D de MODI realizado con Autodesk Inventor 2013 y renderizado con KeyShot4. }
+	\label{fig:render3}
+\end{figure}	
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+\subsection{Impresora 3D}
+
+Parte importante de este trabajo se realizó con impresoras 3D. Estas existen desde los años 80' y hasta hace algunos años por su precio y tamaño eran de dificil acceso. Utilizan distintas tecnologías, las que se utilizaron en el proceso de este trabajo son las FDM, sigla del ingles "Fused deposition modeling" donde un cabezal extrusor de plástico se mueve en el plano xy depositando capa por capa de material mientras avanza en el eje z.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/fdm.png}
+		\rule{35em}{0.5pt}
+	\caption[MFD]{Metodo MFD que utilizan alguna impresoras 3D. Imagen tomada de http://www.custompartnet.com/}
+	\label{fig:MFD}
 \end{figure}
 
-A continuación se describe cada una de ellas 
+Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{http://teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/MODI/render2.png}
+		\includegraphics[width=0.8\textwidth]{./Figures/3dtouch.jpg}
 		\rule{35em}{0.5pt}
-	\caption[Render]{Render de MODI realizado con Autodesk Inventor 2013.}
-	\label{fig:render2}
+	\caption[3DTouch]{Impresora 3D de Bit From Bytes, 3D Touch.}
+	\label{fig:3Dtouch}
 \end{figure}	
 
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/replicator1.jpg}
+		\rule{35em}{0.5pt}
+	\caption[Replicator1]{Replicator 1 de Makerbot, impresora 3D MDF utilizada para prototipar chasis y ruedas de robot MODI. En Laboratorio de Síntesis de maquinas inteligentes de la Universidad de Chile, junto a la Fab@Home}
+	\label{fig:replicator}
+\end{figure}	
 
+\begin{table}\small 
+    \begin{tabular}{l|lll}
+    ~                     & Replicator 1                          & 3D Touch                   & Uprint      \\ \hline
+    Volumen impresión         & 5$ m^{3} $                            & 10 $m^{3}$                 & 4.7 $m^{3}$ \\
+    Espesor capa      & 0.3 mm                                & 0.125mm                    & 0.254 mm    \\
+    Velocidad                 & 40 mm/s                               & 6 mm/s                     & lenta       \\
+    Precisión & 2.5 $ \mu $m Z , 11$\mu$m XY  & 0.1mm Z  0.2mm XY  & ~           \\
+    Precio insumo   &60USD/Kg	                          &           100USD/Kg         & 400USD/Kg        \\
+    
+    \end{tabular}
+    \caption {Comparación impresoras 3D}
+\end{table}
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/Diagrama.jpg}
+		\rule{35em}{0.5pt}
+	\caption[Replicator1]{Replicator 1 de Makerbot, impresora 3D MDF utilizada para prototipar chasis y ruedas de robot MODI. En Laboratorio Síntesis de maquinas inteligentes de la Universidad de Chile, junto a la Fab@Home}
+	\label{fig:replicator}
+\end{figure}	

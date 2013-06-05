@@ -86,24 +86,6 @@ Uno de los robots más utilizados por los científicos en el mundo para estudios
 	\label{fig:epuck}
 \end{figure}
 
-\textbf{Detalles técnicos}
-\begin{itemize}
-\item Diámetro: 70 mm
-\item Alto: 50 mm
-\item Peso: 200 g
-\item Máxima velocidad: 13 cm/s
-\item Autonomía: 2 horas moviéndose
-\item dsPIC 30 CPU @ 30 MHz (15 MIPS)
-\item 8 KB RAM
-\item 144 KB Flash
-\item 2 step motors
-\item 8 sensores de proximidad y luz (TCRT1000)
-\item color camera, 640x480
-\item 8 LEDs en un aro +un LED en el cuerpo + un LED en frente
-\item Acelerómetro 3D
-\item 3 micrófono
-\item 1 parlante
-\end{itemize}
 
 %-----------------------------------
 %	SUBSECTION 4
@@ -125,14 +107,29 @@ Para el modelo que se planteó en este trabajo hace falta un módulo de comunica
 	\label{fig:3pi}
 \end{figure}
 
-\textbf{Detalles técnicos}
-\begin{itemize}
-\item Procesador ATMega328
-\item TB6612FNG Motor Driver
-\item 2 canales de motores.
-\item 3 - 7V voltaje de operación
-\item 80kHz max PWM fequency
-\end{itemize}
+Una tabla comparativa resume las principales caracteristicas de los robot: Kilobot\footnote{http://www.k-team.com/mobile-robotics-products/kilobot/specifications}, E-puck\footnote{http://www.gctronic.com/doc/index.php/E-Puck} y 3pi\footnote{http://www.pololu.com/catalog/product/975/specs}.
+
+\begin{table}\small
+    \begin{tabular}{l|lll}
+    ~                        &    Kilobot                    &    E-puck                                           &    3pi                          \\ \hline
+       Procesador            &    ATmega   328 @ 8MHz &    dsPIC 30 CPU @ 30 MHz                &    ATMega328                    \\
+       Memoria               &    32 KB   Flash              &    114 KB   Flash                                   &    32 KB   Flash                \\
+       Autonomía             &    3 meses   (modo sleep)     &    3 horas                                          &    45   minutos                 \\
+       Cargador              &    opcional                   &    opcional                                         &    opcional                     \\
+       Comunicacion          &    Infrarojo(IR)              &    Bluetooth                                        &    opcional                     \\
+       Sensores              &    Potencia   recibida IR     &    Proximidad,   camara, otros &    5   Reflectancia \\
+       Movimiento            &    2 motores   vibración      &    2 motores   diferencial                          &    2 motores   diferencial      \\
+       Output                &   1 (RGB) LED                 &    8 (RGB)   LED + parlante                         &    LCD 8x2 + buzzer             \\
+       Diametro              &    33 [mm]                    &    70 [mm]                                          &    95[mm]                       \\
+       Alto                  &    34[mm]                     &    50 [mm]                                          &    32[mm]                       \\
+       Software &    Básico                     &    Complejo                                         &    Básico                       \\
+       Programación          &    WinAVR                     &    MPLAB                                            &    Arduino                      \\
+       Precio USD            &    1.161 (10 pack)            &    900                                              &    100                          \\
+    \end{tabular}
+    \label{table:comparacion}
+    \caption {Comparación de robots Kilobot, e-puck y 3pi.}
+\end{table}
+
 
 %-----------------------------------
 %	SECTION 3

@@ -3,8 +3,8 @@
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{\es@scroman {ii}}{dummy.2}
 \vspace {1em}
-\contentsline {chapter}{\IeC {\'I}ndice de figuras}{\es@scroman {v}}{dummy.4}
-\contentsline {chapter}{\IeC {\'I}ndice de cuadros}{\es@scroman {vi}}{dummy.6}
+\contentsline {chapter}{List of Figures}{\es@scroman {v}}{dummy.4}
+\contentsline {chapter}{List of Tables}{\es@scroman {vi}}{dummy.6}
 \contentsline {chapter}{Abbreviations}{\es@scroman {vii}}{dummy.8}
 \contentsline {chapter}{Physical Constants}{\es@scroman {viii}}{dummy.11}
 \contentsline {chapter}{Symbols}{\es@scroman {ix}}{dummy.14}
@@ -19,17 +19,18 @@
 \contentsline {subsection}{\numberline {2.2.1}Kilobot}{7}{subsection.30}
 \contentsline {subsection}{\numberline {2.2.2}Organismo Multibot}{8}{subsection.32}
 \contentsline {subsection}{\numberline {2.2.3}E-puck}{9}{subsection.34}
-\contentsline {subsection}{\numberline {2.2.4}3pi Robot}{10}{subsection.36}
-\contentsline {section}{\numberline {2.3}Necesidades de mercado}{11}{section.38}
-\contentsline {subsection}{\numberline {2.3.1}Usos Acad\IeC {\'e}mico}{12}{subsection.40}
-\contentsline {subsection}{\numberline {2.3.2}Usos Militar}{12}{subsection.41}
-\contentsline {subsection}{\numberline {2.3.3}Usos Dom\IeC {\'e}stico}{12}{subsection.42}
-\contentsline {chapter}{\numberline {3}MODI}{13}{chapter.43}
-\contentsline {section}{\numberline {3.1}Setup}{13}{section.45}
-\contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n}{14}{section.47}
-\contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.48}
-\contentsline {subsection}{\numberline {3.2.2}Software CAD}{17}{subsection.55}
+\contentsline {subsection}{\numberline {2.2.4}3pi Robot}{9}{subsection.36}
+\contentsline {section}{\numberline {2.3}Necesidades de mercado}{11}{section.42}
+\contentsline {subsection}{\numberline {2.3.1}Usos Acad\IeC {\'e}mico}{12}{subsection.44}
+\contentsline {subsection}{\numberline {2.3.2}Usos Militar}{12}{subsection.45}
+\contentsline {subsection}{\numberline {2.3.3}Usos Dom\IeC {\'e}stico}{12}{subsection.46}
+\contentsline {chapter}{\numberline {3}MODI}{13}{chapter.47}
+\contentsline {section}{\numberline {3.1}Setup}{13}{section.49}
+\contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n}{14}{section.51}
+\contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.52}
+\contentsline {subsection}{\numberline {3.2.2}Software CAD}{18}{subsection.59}
+\contentsline {subsection}{\numberline {3.2.3}Impresora 3D}{19}{subsection.62}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{21}{appendix.59}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{23}{appendix.69}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{22}{dummy.60}
+\contentsline {chapter}{Bibliograf\'{\i }a}{24}{dummy.70}

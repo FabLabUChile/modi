@@ -69,7 +69,7 @@
 \setlength{\parskip}{2.0ex plus0.5ex minus0.2ex}
 \usepackage{vmargin}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish,es-tabla]{babel}
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
@@ -204,7 +204,7 @@
 %-------------------------------------------------   
 \keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
 %-------------------------------------------------   
-\university{\texorpdfstring{\href{http://www.usm.com} % Your university's URL
+\university{\texorpdfstring{\href{http://www.usm.cl} % Your university's URL
                 {Universidad Técnica Federico Santa María}} % Your university's name - this is currently used in the title page
                 {University Name}}
 %-------------------------------------------------   
@@ -346,8 +346,8 @@
 }\end{spacing}
 }
 \renewcommand\listoffigures{
-\btypeout{Índice de figuras}
-\addtotoc{Índice de figuras}
+\btypeout{List of Figures}
+\addtotoc{List of Figures}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
@@ -364,8 +364,8 @@
 }\end{spacing}
 }
 \renewcommand\listoftables{
-\btypeout{Índice de cuadros}
-\addtotoc{Índice de cuadros}
+\btypeout{List of Tables}
+\addtotoc{List of Tables}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
@@ -418,7 +418,7 @@
 \btypeout{Acknowledgements}
 \addtotoc{Acknowledgements}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Agradecimientos}} \par}\end{center}
+\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 
