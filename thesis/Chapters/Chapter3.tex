@@ -97,7 +97,7 @@ Utilizando una impresora 3D Makerbot Replicator 1 se hizo esta primera versión 
 
 Esta versión se dio de baja ya que presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador, junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado, más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO, que es una plataforma de desarrollo Arduino junto con un socket Xbee. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versión exista la posibilidad de una carga autónoma por parte de los Robots. La versión actual de modi permite su carga por medio de un puerto Mini USB, panel solar y de forma inalámbrica.
 
-Aunque han bajado los precios de las maquinas para prototipado rápido, aún no están al alcance de todas las personas. Es por esto que existen los Fab labs (acrónimo del inglés Fabrication Laboratory), que según Wikipedia es, \textit{un espacio de producción de objetos físicos a escala personal o local que agrupa máquinas controladas por ordenadores. Su particularidad reside en su tamaño y en su fuerte vinculación con la sociedad.} Los Fab Labs están por todo el mundo, Figura \ref{fig:Fablabs}. MODI fue concebido como un proyecto del Fab Lab de la Universidad de Chile y por esto es posible reproducirlo en cualquier Fab Lab. En Chile, además del Fab Lab de la Universidad de Chile están: Design LAB UAI, Fab Lab Santiago y Stgo MakerSpace. 
+Aunque han bajado los precios de las maquinas para prototipado rápido, aún no están al alcance de todas las personas. Es por esto que existen los Fab Labs (acrónimo del inglés Fabrication Laboratory), que según Wikipedia es, \textit{un espacio de producción de objetos físicos a escala personal o local que agrupa máquinas controladas por ordenadores. Su particularidad reside en su tamaño y en su fuerte vinculación con la sociedad.} Los Fab Labs están por todo el mundo, Figura \ref{fig:Fablabs}. MODI fue concebido como un proyecto del Fab Lab de la Universidad de Chile y por esto es posible reproducirlo en cualquier Fab Lab. En Chile, además del Fab Lab de la Universidad de Chile están: Design LAB UAI, Fab Lab Santiago y Stgo MakerSpace. 
 
 \begin{figure}[htbp]
 	\centering
@@ -123,13 +123,13 @@ El diseño del chasis junto con las ruedas y demás partes plásticas, se hizo e
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/MODI/1MODI.jpg}
+		\includegraphics[width=0.9\textwidth]{./Figures/MODI/1MODI.jpg}
 		\rule{35em}{0.5pt}
 	\caption[ModiSolidWorks]{Primer Chasis de MODI, realizado con SolidWorks 2012. Esta versión sirve solo como prueba de concepto ya que no tiene espacio para las conexiones eléctricas necesarias}
 	\label{fig:MODISolidWork}
 \end{figure}	
 
-Luego de varias iteraciones se lográ este modelo \ref{fig:render3} que tiene cinco piezas. 
+Luego de varias iteraciones se lográ este modelo, Figura \ref{fig:render3} que tiene cinco piezas. 
 
 
 \begin{figure}[htbp]
@@ -140,8 +140,9 @@ Luego de varias iteraciones se lográ este modelo \ref{fig:render3} que tiene ci
 	\label{fig:render3}
 \end{figure}	
 
+
 %-----------------------------------
-%	SUBSECTION 3
+%	SUBSECTION 4
 %-----------------------------------
 \subsection{Impresora 3D}
 
@@ -149,30 +150,13 @@ Parte importante de este trabajo se realizó con impresoras 3D. Estas existen de
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/fdm.png}
+		\includegraphics[width=0.8\textwidth]{./Figures/3Dprint.png}
 		\rule{35em}{0.5pt}
-	\caption[MFD]{Metodo MFD que utilizan alguna impresoras 3D. Imagen tomada de http://www.custompartnet.com/}
-	\label{fig:MFD}
-\end{figure}
+	\caption[3Dprint]{Modelo de funcionamiento para impresoras 3D MDF. Tiene dos materiales, uno para construir la pieza y otro que funciona como soporte estructural para la impresión, además existe una base que se calienta para sujetar la pieza mientras se construye.}
+	\label{fig:3Dprint}
+\end{figure}	
 
 Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{http://teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/3dtouch.jpg}
-		\rule{35em}{0.5pt}
-	\caption[3DTouch]{Impresora 3D de Bit From Bytes, 3D Touch.}
-	\label{fig:3Dtouch}
-\end{figure}	
-
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/replicator1.jpg}
-		\rule{35em}{0.5pt}
-	\caption[Replicator1]{Replicator 1 de Makerbot, impresora 3D MDF utilizada para prototipar chasis y ruedas de robot MODI. En Laboratorio de Síntesis de maquinas inteligentes de la Universidad de Chile, junto a la Fab@Home}
-	\label{fig:replicator}
-\end{figure}	
 
 \begin{table}\small 
     \begin{tabular}{l|lll}
@@ -181,17 +165,217 @@ Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, que permite h
     Espesor capa      & 0.3 mm                                & 0.125mm                    & 0.254 mm    \\
     Velocidad                 & 40 mm/s                               & 6 mm/s                     & lenta       \\
     Precisión & 2.5 $ \mu $m Z , 11$\mu$m XY  & 0.1mm Z  0.2mm XY  & ~           \\
+    Material soporte  & con herramienta &con herramienta  & Necesita proceso extra      \\
     Precio insumo   &60USD/Kg	                          &           100USD/Kg         & 400USD/Kg        \\
     
     \end{tabular}
     \caption {Comparación impresoras 3D}
 \end{table}
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/3dtouch.jpg}
+		\rule{35em}{0.5pt}
+	\caption[3DTouch]{Impresora 3D de Bit From Bytes, 3D Touch.}
+	\label{fig:3Dtouch}
+\end{figure}	
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/uprint.jpg}
+		\rule{35em}{0.5pt}
+	\caption[uprint]{Impresora 3D de Stratasys, Uprint SE.}
+	\label{fig:uprint}
+\end{figure}	
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/replicator1.jpg}
+		\rule{35em}{0.5pt}
+	\caption[Replicator1]{Replicator 1 de Makerbot, impresora 3D FDM utilizada para prototipar chasis y ruedas de robot MODI. En Laboratorio de Síntesis de maquinas inteligentes de la Universidad de Chile, junto a la Fab@Home y 3DTouch.}
+	\label{fig:replicator}
+\end{figure}	
+
+
+\newpage
+
+%-----------------------------------
+%	SUBSECTION 5
+%-----------------------------------
+\subsection{Diseño PCB}
+
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/Diagrama.jpg}
 		\rule{35em}{0.5pt}
-	\caption[Replicator1]{Replicator 1 de Makerbot, impresora 3D MDF utilizada para prototipar chasis y ruedas de robot MODI. En Laboratorio Síntesis de maquinas inteligentes de la Universidad de Chile, junto a la Fab@Home}
-	\label{fig:replicator}
+	\caption[cables]{15 conexiones que unen distintos componente.}
+	\label{fig:Diagrama cables}
 \end{figure}	
+
+En los primeros prototipos un problema que se repetía constantemente son las conexiones entre los sistemas que componen al robot. Son 15 conexiones que unen distintos componentes, Figura \ref{fig:Diagrama cables}. Por esto es necesario un PCB que permita reducir al mínimo el espacio necesario para para energizar y comunicar los elementos. El requerimiento principal es poder fabricarse con una fresa CNC como la Roland Modela MDX-20, por lo que es necesario diseñar un PCB de una sola capa. Se utilizó Eagle como software para el diseño del diagrama eléctrico y PCB, el resultado se puede ver en la Figura \ref{fig:pcbeagle}.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{./Pictures/MDX20.jpg}
+		\rule{35em}{0.5pt}
+	\caption[MDX20]{Roland Modelo MDX-20 usada para hacer PCB y modelos 3D. Imagen tomada de roland.com}
+	\label{fig:MDX20}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{./Figures/MODI/pcbmodi.png}
+		\rule{35em}{0.5pt}
+	\caption[pcbeagle]{MODIBoard es una PCB diseñada para poder conectar de forma simple los diversos componentes electrónicos. Conecta: Arduino Fio, Lipo Rider Pro, Motor Driver, LED RGB y Motores.}
+	\label{fig:pcbeagle}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Pictures/pcb.jpg}
+		\rule{35em}{0.5pt}
+	\caption[pcb]{Misma PCB fresada en dos maquinas diferentes. Se puede apreciar en el detalle, la importancia de contar con una buena resolución de fresado. En especial es necesario para tener un buen pad.}
+	\label{fig:pcb}
+\end{figure}
+%-----------------------------------
+%	SECTION 2
+%-----------------------------------
+
+\section{Componentes electrónicos}
+
+MODI está compuesto por varios componentes electrónicos que implementan tecnologías nuevas. De forma sencilla el usuario puede hacer uso de todas estas, que por ser Open Source tienen una amplia documentación. Su uso en colegios, talleres y universidades, por ser de bajo costo, y sin partes externas extremadamente frágiles, es una excelente herramienta para iniciar a alumnos en temas como la Programación, Robótica, Comunicación Inalámbrica y Visión Artificial, entre otros, sin los miedos asociados a utilizar un equipo costoso y delicado.
+
+El robot MODI es pequeño y de fácil construcción con las herramientas de Fabricación Digital que se puede encontrar en un FabLab. Tiene un pequeño microcontrolador \textbf{Arduino} que controla dos motores, y un \textbf{XBee} para la comunicación inalámbrica con un computador central que usando cualquier lenguaje de programación con comunicación serial puede controlar uno o más robots. La posición de cada robot se obtiene con tags \textbf{Fiduciales}, que permiten por medio de una cámara cenital saber la coordenada y rotación de cada uno. En esta primera aplicación es necesario contar con autonomía energética por lo que se incluye una batería lipo de 2000[mAh] junto a un módulo que carga la batería y eleva el voltaje de salida a 5[v]. Este el módulo de carga, \textbf{Lipo Rider Pro}, tiene además la ventaja de permitir distintos tipos de carga, como una celda de carga solar o un sistema de carga inalámbrica por medio de bobinas. Tener la posibilidad de cargar una batería con luz solar o por medio de forma inalámbrica hace posible el hacer experimentos que necesiten estar funcionando semanas sin la intervención de un humano para cargar cada uno.
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Arduino FIO}
+
+Microcontrolador
+El Arduino Fio es una placa para microcontrolador basada en el ATmega328P. Funciona a 3.3V y 8 MHz. Tiene 14 pines de I/O digitales (de los cuales 6 pueden usarse como salidas PWM), 8 entradas analógicas, un oscilador en placa, un botón de reinicio (reset), y agujeros para montar conectores de pines. Tiene conexiones para una batería de polímero de Litio e incluye un circuito de carga a través de USB. En el reverso de la placa tiene disponible un zócalo para módulos XBee.
+
+El Arduino FIO está diseñado para aplicaciones inalámbricas. El usuario puede subir sus sketches con un cable FTDI o una placa adicional adaptadora Sparkfun. Además, si utiliza un adaptador de USB a XBee modificado (como el USB Explorador de XBee), el usuario puede subir sketches de forma inalámbrica. La tarjeta viene sin conectores pre-montados, permitiendo el uso de diversos tipos de conectores o la soldadura directa de los cables. La tabla \ref{table:Especificaciones Fio} resume sus características principales.
+
+El Arduino FIO ha sido diseñado por Shigeru Kobayashi y SparkFun, y fabricado por SparkFun.
+Arduino FIO. Similar al arduino mini pro pero además incluye conexión para módulo XBee. Imagen tomada de arduino.cc
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/MODI/fio.jpg}
+		\rule{35em}{0.5pt}
+	\caption[fio]{Arduino FIO. Similar al arduino mini pro pero además incluye conexión para módulo XBee. Imagen tomada de arduino.cc}
+	\label{fig:fio}
+\end{figure}
+
+\begin{table}
+    \begin{tabular}{l|l}
+    Microcontrolador             & ATmega328P                             \\
+    Voltaje operación            & 3.3 V                                  \\
+    Input Vontaje                & 3.35 - 12 V                            \\
+    Input Voltaje carga batería  & 3.7 - 7 V                              \\
+    Pins Digital I/O             & 14 (con 6  salidas PWM)                \\
+    Input Pins Analogos          & 8                                      \\
+    Corriente DC en cada Pin I/O & 40 mA                                  \\
+    Memoria Flash                & 32 KB (2KB son usados para Bootloader) \\
+    SRAM                         & 2 KB                                   \\
+    EEPROM                       & 1 KB                                   \\
+    Clock                        & 8 MHz                                  \\
+    \end{tabular}
+    \caption[Especificaciones Fio]{Especificacion tecnica de Arduiono FIO}
+	\label{table:Especificaciones Fio}
+\end{table}
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+\subsection{Motores DC}
+
+Este motor Pololu es muy pequeño (largo: 9.27 mm), por lo mismo usa muy poca corriente. Además tiene una caja de reduccion metalica de 30:1. El eje tiene forma de D.
+
+Pese a no ser la alternativa más económica, estos motores han sido muy difundidos para su uso en robótica por su bajo consumo y alto torque. La tabla \ref{table:Motor} resume sus características principales.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{./Figures/MODI/Motorpololu.jpg}
+		\rule{35em}{0.5pt}
+	\caption[MotorDC]{Motor pololu con reducción 1:30. Imagen tomada de pololu.com}
+	\label{fig:MotorDC}
+\end{figure}
+
+\begin{table}
+    \begin{tabular}{l|l}
+    Velocidad @6 V, 40 mA &  440 RPM \\
+    Torque                & 3 Kg-mm  \\
+    Reducción             & 1:30     \\
+    Consumo trancado      & 0.36 A   \\
+    \end{tabular}
+        \caption[Motor]{Especificación técnica de Motor DC Pololu}
+	\label{table:Motor}
+\end{table}
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+\subsection{XBee}
+
+XBee es un producto de la empresa Digi basado en el conocido protocolo de comunicación inalámbrica ZigBee. El módulo XBee XBP24-AWI-001 funciona a 2.4GHz. La serie Pro tiene el mismo pinout y set de instrucciones que la serie básica más un incremento de la potencia de salida a 60mW. Estos módulos permiten extender la comunicación serial de forma inalámbrica. Con XBee se pueden hacer redes punto a punto y multipunto de forma fácil.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{./Figures/MODI/xbee.jpg}
+		\rule{35em}{0.5pt}
+	\caption[MotorDC]{Motor pololu con reducción 1:30. Imagen tomada de pololu.com}
+	\label{fig:MotorDC}
+\end{figure}
+
+\begin{table}
+    \begin{tabular}{l|l}
+    Velocidad @6 V, 40 mA &  440 RPM \\
+    Torque                & 3 Kg-mm  \\
+    Reducción             & 1:30     \\
+    Consumo trancado      & 0.36 A   \\
+    \end{tabular}
+        \caption[Xbee]{Módulo XBee para comunicación inalámbrica. Imagen tomada de digi.com}
+	\label{table:Xbee}
+\end{table}
+
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+\subsection{Batería}
+
+%-----------------------------------
+%	SUBSECTION 4
+%-----------------------------------
+\subsection{Lipo Rider Pro}
+
+%-----------------------------------
+%	SUBSECTION 5
+%-----------------------------------
+\subsection{Motor Driver 1A Dual TB6612FNG}
+
+%-----------------------------------
+%	SUBSECTION 6
+%-----------------------------------
+\subsection{LED RGB}
+
+%-----------------------------------
+%	SECTION 3
+%-----------------------------------
+\section{Componentes mecánicos}
+
+%-----------------------------------
+%	SECTION 4
+%-----------------------------------
+
+\section{Locomoción}
+
+%-----------------------------------
+%	SECTION 5
+%-----------------------------------
+
+\section{Tracking 2D}

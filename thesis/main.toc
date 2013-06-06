@@ -30,7 +30,24 @@
 \contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.52}
 \contentsline {subsection}{\numberline {3.2.2}Software CAD}{18}{subsection.59}
 \contentsline {subsection}{\numberline {3.2.3}Impresora 3D}{19}{subsection.62}
+\contentsline {subsection}{\numberline {3.2.4}Dise\IeC {\~n}o PCB}{22}{subsection.69}
+\contentsline {section}{\numberline {3.3}Componentes electr\IeC {\'o}nicos}{24}{section.74}
+\contentsline {subsection}{\numberline {3.3.1}Arduino FIO}{25}{subsection.75}
+\contentsline {subsection}{\numberline {3.3.2}Motores DC}{26}{subsection.78}
+\contentsline {subsection}{\numberline {3.3.3}XBee}{27}{subsection.81}
+\contentsline {subsection}{\numberline {3.3.4}Bater\IeC {\'\i }a}{28}{subsection.84}
+\contentsline {subsection}{\numberline {3.3.5}Lipo Rider Pro}{28}{subsection.85}
+\contentsline {subsection}{\numberline {3.3.6}Motor Driver 1A Dual TB6612FNG}{28}{subsection.86}
+\contentsline {subsection}{\numberline {3.3.7}LED RGB}{28}{subsection.87}
+\contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{28}{section.88}
+\contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{28}{section.89}
+\contentsline {section}{\numberline {3.6}Tracking 2D}{28}{section.90}
+\contentsline {chapter}{\numberline {4}Chapter Title Here}{29}{chapter.91}
+\contentsline {section}{\numberline {4.1}Main Section 1}{29}{section.92}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{29}{subsection.93}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{29}{subsection.94}
+\contentsline {section}{\numberline {4.2}Main Section 2}{30}{section.95}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{23}{appendix.69}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{31}{appendix.96}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{24}{dummy.70}
+\contentsline {chapter}{Bibliograf\'{\i }a}{32}{dummy.97}
