@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytuio
+Version: 0.1
+Summary: A Python library that understands the TUIO protocol
+Home-page: http://code.google.com/p/pytuio/
+Author: Jannis Leidel
+Author-email: jannis@leidel.info
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

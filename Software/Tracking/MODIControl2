@@ -1,0 +1,25 @@
+import serial
+import tuio
+import time 
+
+ser=serial.Serial(3)
+ser.baudrate=115200
+tracking = tuio.Tracking()
+
+try:
+    while 1:
+        tracking.update()
+        for obj in tracking.objects():
+            if obj.id == 0:
+                print int(obj.angle), obj.id
+                if int(obj.angle) < 90:
+                    ser.write('d')
+                    time.sleep(1)
+                    
+                if int(obj.angle) > 110:
+                    ser.write('a')
+                    time.sleep(1)
+            print int(obj.angle), obj.id   
+
+except KeyboardInterrupt:
+    tracking.stop()
