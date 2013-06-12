@@ -129,16 +129,16 @@ void back(){
 
 void left(){
   //Serial.println("left");
-  move(1, 100, 1); //motor 1, half speed, right
-  move(2, 100, 0); //motor 2, half speed, right
+  move(1, 60, 1); //motor 1, half speed, right
+  move(2, 60, 0); //motor 2, half speed, right
     setColourRgb(0,0,255);
   stop();
 }
 
 void right(){
   //Serial.println("right");
-  move(1, 100, 0); //motor 1, half speed, right
-  move(2, 100, 1); //motor 2, half speed, right
+  move(1, 60, 0); //motor 1, half speed, right
+  move(2, 60, 1); //motor 2, half speed, right
     setColourRgb(255,0,225);
   stop();  
 }

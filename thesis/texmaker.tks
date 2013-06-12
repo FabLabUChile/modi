@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TexmakerSession quickmode="3">
-    <document file="C:\Users\otrab\Documents\GitHub\modi\thesis\main.tex" line="0" hasfocus="true" master="true" bookmark1="0" bookmark2="0" bookmark3="0"/>
+    <document hasfocus="true" master="false" bookmark1="0" file="C:/Users/otrab/Documents/GitHub/modi/thesis/./Chapters/Chapter3.tex" bookmark2="0" bookmark3="0" line="77"/>
+    <document hasfocus="false" master="true" bookmark1="0" file="C:\Users\otrab\Documents\GitHub\modi\thesis\main.tex" bookmark2="0" bookmark3="0" line="229"/>
+    <document hasfocus="false" master="false" bookmark1="0" file="C:/Users/otrab/Documents/GitHub/modi/thesis/./Chapters/Chapter2.tex" bookmark2="0" bookmark3="0" line="105"/>
+    <document hasfocus="false" master="false" bookmark1="0" file="C:/Users/otrab/Documents/GitHub/modi/thesis/./Chapters/Chapter4.tex" bookmark2="0" bookmark3="0" line="14"/>
 </TexmakerSession>

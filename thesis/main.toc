@@ -4,10 +4,10 @@
 \contentsline {chapter}{Acknowledgements}{\es@scroman {ii}}{dummy.2}
 \vspace {1em}
 \contentsline {chapter}{List of Figures}{\es@scroman {v}}{dummy.4}
-\contentsline {chapter}{List of Tables}{\es@scroman {vi}}{dummy.6}
-\contentsline {chapter}{Abbreviations}{\es@scroman {vii}}{dummy.8}
-\contentsline {chapter}{Physical Constants}{\es@scroman {viii}}{dummy.11}
-\contentsline {chapter}{Symbols}{\es@scroman {ix}}{dummy.14}
+\contentsline {chapter}{List of Tables}{\es@scroman {vii}}{dummy.6}
+\contentsline {chapter}{Abbreviations}{\es@scroman {viii}}{dummy.8}
+\contentsline {chapter}{Physical Constants}{\es@scroman {ix}}{dummy.11}
+\contentsline {chapter}{Symbols}{\es@scroman {x}}{dummy.14}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Robot}{1}{chapter.17}
 \contentsline {section}{\numberline {1.1}Desarrollo tecnol\IeC {\'o}gico desde Chile}{1}{section.18}
@@ -35,19 +35,19 @@
 \contentsline {subsection}{\numberline {3.3.1}Arduino FIO}{25}{subsection.75}
 \contentsline {subsection}{\numberline {3.3.2}Motores DC}{26}{subsection.78}
 \contentsline {subsection}{\numberline {3.3.3}XBee}{27}{subsection.81}
-\contentsline {subsection}{\numberline {3.3.4}Bater\IeC {\'\i }a}{28}{subsection.84}
-\contentsline {subsection}{\numberline {3.3.5}Lipo Rider Pro}{28}{subsection.85}
-\contentsline {subsection}{\numberline {3.3.6}Motor Driver 1A Dual TB6612FNG}{28}{subsection.86}
-\contentsline {subsection}{\numberline {3.3.7}LED RGB}{28}{subsection.87}
-\contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{28}{section.88}
-\contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{28}{section.89}
-\contentsline {section}{\numberline {3.6}Tracking 2D}{28}{section.90}
-\contentsline {chapter}{\numberline {4}Chapter Title Here}{29}{chapter.91}
-\contentsline {section}{\numberline {4.1}Main Section 1}{29}{section.92}
-\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{29}{subsection.93}
-\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{29}{subsection.94}
-\contentsline {section}{\numberline {4.2}Main Section 2}{30}{section.95}
+\contentsline {subsection}{\numberline {3.3.4}Lipo Rider Pro}{27}{subsection.83}
+\contentsline {subsection}{\numberline {3.3.5}Motor Driver 1A Dual TB6612FNG}{28}{subsection.86}
+\contentsline {subsection}{\numberline {3.3.6}LED RGB}{29}{subsection.88}
+\contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{30}{section.90}
+\contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{33}{section.96}
+\contentsline {section}{\numberline {3.6}Tracking 2D}{36}{section.103}
+\contentsline {section}{\numberline {3.7}Software}{37}{section.105}
+\contentsline {chapter}{\numberline {4}Conclusiones}{38}{chapter.106}
+\contentsline {section}{\numberline {4.1}Mejoras futuras}{38}{section.107}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{38}{subsection.108}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{38}{subsection.109}
+\contentsline {section}{\numberline {4.2}Conclusiones}{38}{section.110}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{31}{appendix.96}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{39}{appendix.111}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{32}{dummy.97}
+\contentsline {chapter}{Bibliograf\'{\i }a}{40}{dummy.112}
