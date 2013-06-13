@@ -1,0 +1,46 @@
+import serial
+import tuio
+import time 
+
+ser=serial.Serial(3,115200,rtscts = 1)
+tracking = tuio.Tracking()
+
+dict={}
+
+while len(dict) < 1:
+    tracking.update()
+    for obj in tracking.objects():
+        dict[obj.id] = int(obj.angle)
+print dict
+
+
+try:
+    while 1:
+        tracking.update()
+        for obj in tracking.objects():
+            while dict[obj.id] == int(obj.angle): ## update tracking only if id 0 move
+                tracking.update()
+                time.sleep(0.1)
+                print dict
+                #print "tracking update"        
+   
+            dict[obj.id] = int(obj.angle)
+            if obj.id == 0:
+                if int(obj.angle) <= 90:
+                    print int(obj.angle), "<= 90"
+                    ser.write('d')
+                    time.sleep(0.1)
+                    ser.write('q')
+                    #print ser.read()
+                    
+                if int(obj.angle) >= 110:
+                    print int(obj.angle), ">= 110"
+                    ser.write('a')
+                    time.sleep(0.1)
+                    ser.write('q')
+                    #print ser.read()
+           # print dict
+
+except KeyboardInterrupt:
+    tracking.stop()
+    ser.close()

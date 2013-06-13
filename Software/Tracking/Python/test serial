@@ -1,0 +1,13 @@
+import serial
+import time
+
+ser=serial.Serial(3,115200,rtscts = 1)
+
+try:
+    while 1:
+        ser.write('d')
+        time.sleep(0.1)
+        print ser.read(1)    
+                    
+except KeyboardInterrupt:
+    ser.close()

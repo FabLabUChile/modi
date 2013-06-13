@@ -16,6 +16,7 @@ import processing.serial.*;
 
 Serial myPort;  // Create object from Serial class
 int val;        // Data received from the serial port
+
 TuioProcessing tuioClient;
 
 // these are some helper variables which are used
@@ -34,7 +35,7 @@ void setup()
   noStroke();
   fill(0);
   
-  loop();
+  
   frameRate(5);
   //noLoop();
   
@@ -75,10 +76,11 @@ void draw()
      angleM = tobj.getAngleDegrees();
      print("angle ");
      println(int(angleM));
+         float a = atan2(tobj.getScreenX(width)-width/2, tobj.getScreenY(height)-height/2);
+
     
-  
- if (int(angleM) < 90) myPort.write('d');
- if (int(angleM) > 100) myPort.write('a');
+     if (int(angleM) < 90) myPort.write('d');
+     if (int(angleM) > 100) myPort.write('a');
 
    }
 
