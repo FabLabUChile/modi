@@ -70,17 +70,36 @@ void draw()
      translate(tobj.getScreenX(width),tobj.getScreenY(height));
      rotate(tobj.getAngle());
      rect(-obj_size/2,-obj_size/2,obj_size,obj_size);
+     drawArrow(0,0,50,0);
      popMatrix();
+    
      fill(255);
      text(""+tobj.getSymbolID(), tobj.getScreenX(width), tobj.getScreenY(height));
      angleM = tobj.getAngleDegrees();
      print("angle ");
      println(int(angleM));
-         float a = atan2(tobj.getScreenX(width)-width/2, tobj.getScreenY(height)-height/2);
-
-    
-     if (int(angleM) < 90) myPort.write('d');
-     if (int(angleM) > 100) myPort.write('a');
+     
+     float a = atan2(tobj.getScreenX(width)-width/2, tobj.getScreenY(height)-height/2);
+     
+     
+     if (int(degrees(a) - angleM) > 10)
+     {
+       print("vector ");
+       println(degrees(a) - angleM);
+       myPort.write('d');
+     }
+     if (int(degrees(a) - angleM) < -10) 
+     {
+       print("vector ");
+       println(degrees(a) - angleM);
+       myPort.write('a');
+     }
+    float distance = dist (tobj.getScreenX(width), tobj.getScreenY(height), width/2, height/2);
+     println(distance);
+     //if (distance > 150)  myPort.write('w');
+     
+//     if (int(angleM) < 90) myPort.write('d');
+//     if (int(angleM) > 100) myPort.write('a');
 
    }
 
@@ -130,7 +149,7 @@ void updateTuioObject (TuioObject tobj) {
 //  println("update object "+tobj.getSymbolID()+" ("+tobj.getSessionID()+") "+tobj.getX()+" "+tobj.getY()+" "+tobj.getAngle()
 //          +" "+tobj.getMotionSpeed()+" "+tobj.getRotationSpeed()+" "+tobj.getMotionAccel()+" "+tobj.getRotationAccel());
           
-           println("update object "+tobj.getSymbolID()+" "+tobj.getAngleDegrees());
+          // println("update object "+tobj.getSymbolID()+" "+tobj.getAngleDegrees());
 
 }
 
@@ -155,3 +174,14 @@ void removeTuioCursor(TuioCursor tcur) {
 void refresh(TuioTime bundleTime) { 
   redraw();
 }
+
+void drawArrow(int cx, int cy, int len, float angle){
+  pushMatrix();
+  translate(cx, cy);
+  rotate(radians(angle));
+  line(0,0,len, 0);
+  line(len, 0, len - 8, -8);
+  line(len, 0, len - 8, 8);
+  popMatrix();
+}
+
