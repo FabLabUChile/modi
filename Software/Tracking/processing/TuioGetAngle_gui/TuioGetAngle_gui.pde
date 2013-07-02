@@ -75,6 +75,7 @@ void draw()
      translate(tobj.getScreenX(width),tobj.getScreenY(height));
      rotate(tobj.getAngle());
      rect(-obj_size/2,-obj_size/2,obj_size,obj_size);
+     drawArrow(0,0,50,0);
      popMatrix();
      fill(255);
      text(""+tobj.getSymbolID(), tobj.getScreenX(width), tobj.getScreenY(height));
@@ -165,4 +166,14 @@ void refresh(TuioTime bundleTime) {
 // to customise the GUI controls
 public void customGUI(){
 
+}
+
+void drawArrow(int cx, int cy, int len, float angle){
+  pushMatrix();
+  translate(cx, cy);
+  rotate(radians(angle));
+  line(0,0,len, 0);
+  line(len, 0, len - 8, -8);
+  line(len, 0, len - 8, 8);
+  popMatrix();
 }

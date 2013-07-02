@@ -42,14 +42,6 @@ A continuación algunos robots que pueden ser utilizados para hacer un Robot Swa
 \subsection{Kilobot}
 El proyecto Kilobot, es un sistema de bajo costo escalable para demostrar comportamientos colectivos. Actualmente existen varios grupos que están investigando algoritmos para enjambres de robots, por esto que diseñaron Kilobot que es un robot de bajo costo, accesible,  que permite hacer pruebas en cientos o miles de robots.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.4\textwidth]{./Figures/kilobot.jpg}
-		\rule{35em}{0.5pt}
-	\caption[Kilobot]{Kilobot. Imagen extraida de http://www.k-team.com.}
-	\label{fig:kilobot}
-\end{figure}
-
 
 
 %-----------------------------------
@@ -61,14 +53,6 @@ El proyecto Kilobot, es un sistema de bajo costo escalable para demostrar compor
 S. Kornienko, O. Kornienko, A. Nagarathinam y P. Levi., exploran el trabajo colaborativo en robots para un mejor rendimiento y mayor fiabilidad a nivel macroscopico. En este articulo demuestran sus últimos trabajos en sistemas colectivos y lo más sorprendente es que logran la agregación y desagregación autónoma para así obtener un organismo multibot.
 \cite{5359578}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/Multibot_organism.jpg}
-		\rule{35em}{0.5pt}
-	\caption[Organismo]{Organismo Multibot. Imagen extraida de http://ieeesbcet.org/}
-	\label{fig:Organismo}
-\end{figure}
-
 
 %-----------------------------------
 %	SUBSECTION 3
@@ -78,13 +62,6 @@ S. Kornienko, O. Kornienko, A. Nagarathinam y P. Levi., exploran el trabajo cola
 
 Uno de los robots más utilizados por los científicos en el mundo para estudios y publicaciones es el E-puck. Este robot es compacto, tiene forma de cilindro con un diámetro de 7 [cm] y para moverse hace uso de sus dos ruedas, dejándolo en la categoría de robot con desplazamiento diferencial. Originalmente fue diseñado para educar en el área de la micro ingeniería por Michael Bonani y Francesco Mondala en el laboratorio ASL del Profesor Roland Siegwart en Escuela Politécnica Federal de Lausana (EPFL) en Suiza. El e-puck es open hardware, software es de código abierto,  lo construyen y venden varias empresas. Para comunicarse con una computador incorporan un módulo Bluetooth conectado a uno de sus dos puertos serie. Existen varios tipos de accesorios, entre los que destacan un Zigbee para comunicaciones, un módulo con varias cámaras y LEDs RGB como sistema de comunicación visual. Su precio a la fecha en Gctronic es 912 USD. Para comprarlo hay que encargarlo desde Suiza.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/E-puck.jpg}
-		\rule{35em}{0.5pt}
-	\caption[epuck]{E-puck. Imagen extraida de Wikipedia}
-	\label{fig:epuck}
-\end{figure}
 
 
 %-----------------------------------
@@ -101,35 +78,24 @@ Para el modelo que se planteó en este trabajo hace falta un módulo de comunica
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/3pi.jpg}
+		\includegraphics[width=0.7\textwidth]{./Figures/robots.png}
 		\rule{35em}{0.5pt} 
 	\caption[3pi]{3pi Robot, simple y económico pero no tiene comunicación inalámbrica. Imagen extraida de http://www.skpang.co.uk}
 	\label{fig:3pi}
 \end{figure}
 
-En la tabla \ref{table:comparacion} comparativa resume las principales caracteristicas de los robot: Kilobot\footnote{http://www.k-team.com/mobile-robotics-products/kilobot/specifications}, E-puck\footnote{http://www.gctronic.com/doc/index.php/E-Puck} y 3pi\footnote{http://www.pololu.com/catalog/product/975/specs}.
+En la tabla \ref{fig:Tabla robots} comparativa resume las principales caracteristicas de los robot: Kilobot\footnote{http://www.k-team.com/mobile-robotics-products/kilobot/specifications}, E-puck\footnote{http://www.gctronic.com/doc/index.php/E-Puck} y 3pi\footnote{http://www.pololu.com/catalog/product/975/specs}.
 
-\begin{table}\small
-    \begin{tabular}{l|lll}
-    ~                        &    Kilobot                    &    E-puck                                           &    3pi                          \\ \hline
-       Procesador            &    ATmega   328 @ 8MHz &    dsPIC 30 CPU @ 30 MHz                &    ATMega328                    \\
-       Memoria               &    32 KB   Flash              &    114 KB   Flash                                   &    32 KB   Flash                \\
-       Autonomía             &    3 meses   (modo sleep)     &    3 horas                                          &    45   minutos                 \\
-       Cargador              &    opcional                   &    opcional                                         &    opcional                     \\
-       Comunicación          &    Infrarojo(IR)              &    Bluetooth                                        &    opcional                     \\
-       Sensores              &    Potencia   recibida IR     &    Proximidad,   cámara, otros &    5   Reflectancia \\
-       Movimiento            &    2 motores   vibración      &    2 motores   diferencial                          &    2 motores   diferencial      \\
-       Output                &   1 (RGB) LED                 &    8 (RGB)   LED + parlante                         &    LCD 8x2 + buzzer             \\
-       Diámetro              &    33 [mm]                    &    70 [mm]                                          &    95[mm]                       \\
-       Alto                  &    34[mm]                     &    50 [mm]                                          &    32[mm]                       \\
-       Software &    Básico                     &    Complejo                                         &    Básico                       \\
-       Programación          &    WinAVR                     &    MPLAB                                            &    Arduino                      \\
-       Precio USD            &    1.161 (10 pack)            &    900                                              &    100                          \\
-    \end{tabular}
-    \label{table:comparacion}
-    \caption {Comparación de robots Kilobot, e-puck y 3pi.}
-\end{table}
 
+
+\section{Necesidades de mercado}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1\textwidth]{./Figures/tabla_robots.png}
+		\rule{35em}{0.5pt}
+	\caption[Tabla]{Tabla comparativa robots}
+	\label{fig:Tabla robots}
+\end{figure}
 
 %-----------------------------------
 %	SECTION 3

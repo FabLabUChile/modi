@@ -53,47 +53,20 @@ La función principal de MODI es ser una plataforma móvil de fácil acceso. Exi
 \subsection{Fabricación Digital vs Análoga}
 Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabricación. Dependiendo de la cantidad de herramientas que se tenga es más o menos fácil la tarea. Desde el comienzo hasta hace un par de años, quienes se dedican a construir robots, debían construir de manera “artesanal” donde es imposible que las piezas queden todas iguales y el tiempo empleado era bastante. Hoy en día existe una gran alternativa que surge como un nuevo paradigma, la Fabricación Digital. Las impresoras 3D, que no son más que un extrusor montado en un sistema con ejes que le dan 3 grados de libertad, permiten desde un modelo hecho en un computador, obtener un objeto real en plástico. También existe otro tipo de máquinas que permite hacer diseños en 2D, estas son las cortadoras LASER. La primera versión de MODI fue construido usando planchas de madera MDF y acrílico, cortados en LASER.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Pictures/MODIrev1.jpg}
-		\rule{35em}{0.5pt}
-	\caption[modirev1]{Primera versión robot MODI, tiene un Arduino mini pro, Xbee, usa pilas AAA y parte del chasis es de Madera MDF de 3[mm] cortado con LASER}
-	\label{fig:modirev1}
-\end{figure}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Pictures/2MODIrev1.jpg}
-		\rule{35em}{0.5pt}
-	\caption[modirev2]{MODI, primera versión basada en gran parte en Fabricación Análoga.}
-	\label{fig:modirev2}
-\end{figure}
+
 
 Utilizando una impresora 3D Makerbot Replicator 1 se hizo esta primera versión con piezas plásticas.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Pictures/MODIrev2.jpg}
+		\includegraphics[width=0.8\textwidth]{./Pictures/modi_analogToDigital.png}
 		\rule{35em}{0.5pt}
 	\caption[modireplicator]{Primera versión de MODI usando técnica de \emph{ Fabricación Digital }con chasis de plástico construido con una MakerBot Replicator 1}
 	\label{fig:modireplicator}
 \end{figure}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Pictures/2MODIrev2.jpg}
-		\rule{35em}{0.5pt}
-	\caption[vista lateral]{Vista lateral.}
-	\label{fig:vistalaterial}
-\end{figure}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{./Pictures/3MODIrev2.jpg}
-		\rule{35em}{0.5pt}
-	\caption[vista inferior]{Vista inferior.}
-	\label{vista inferior}
-\end{figure}
 
 Esta versión se dio de baja ya que presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador, junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado, más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO, que es una plataforma de desarrollo Arduino junto con un socket Xbee. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versión exista la posibilidad de una carga autónoma por parte de los Robots. La versión actual de modi permite su carga por medio de un puerto Mini USB, panel solar y de forma inalámbrica.
 
@@ -255,11 +228,10 @@ El robot MODI es pequeño y de fácil construcción con las herramientas de Fabr
 \subsection{Arduino FIO}
 
 Microcontrolador
-El Arduino Fio es una placa para microcontrolador basada en el ATmega328P. Funciona a 3.3V y 8 MHz. Tiene 14 pines de I/O digitales (de los cuales 6 pueden usarse como salidas PWM), 8 entradas analógicas, un oscilador en placa, un botón de reinicio (reset), y agujeros para montar conectores de pines. Tiene conexiones para una batería de polímero de Litio e incluye un circuito de carga a través de USB. En el reverso de la placa tiene disponible un zócalo para módulos XBee.
+El Arduino FIO ha sido diseñado por Shigeru Kobayashi, es una placa para microcontrolador basada en el ATmega328P. Funciona a 3.3V y 8 MHz. Tiene 14 pines de I/O digitales (de los cuales 6 pueden usarse como salidas PWM), 8 entradas analógicas, un oscilador en placa, un botón de reinicio (reset), y agujeros para montar conectores de pines. Tiene conexiones para una batería de polímero de Litio e incluye un circuito de carga a través de USB. En el reverso de la placa tiene disponible un zócalo para módulos XBee.
 
 El Arduino FIO está diseñado para aplicaciones inalámbricas. El usuario puede subir sus sketches con un cable FTDI o una placa adicional adaptadora Sparkfun. Además, si utiliza un adaptador de USB a XBee modificado (como el USB Explorador de XBee), el usuario puede subir sketches de forma inalámbrica. La tarjeta viene sin conectores pre-montados, permitiendo el uso de diversos tipos de conectores o la soldadura directa de los cables. La tabla \ref{table:Especificaciones Fio} resume sus características principales.
 
-El Arduino FIO ha sido diseñado por Shigeru Kobayashi y SparkFun, y fabricado por SparkFun.
 Arduino FIO. Similar al arduino mini pro pero además incluye conexión para módulo XBee. Imagen tomada de arduino.cc
 
 
@@ -288,6 +260,22 @@ Arduino FIO. Similar al arduino mini pro pero además incluye conexión para mó
     \caption[Especificaciones Fio]{Especificacion tecnica de Arduiono FIO}
 	\label{table:Especificaciones Fio}
 \end{table}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/MODI/fio.png}
+		\rule{35em}{0.5pt}
+	\caption[fio]{Arduino FIO. Similar al arduino mini pro pero además incluye conexión para módulo XBee. Imagen tomada de arduino.cc}
+	\label{fig:fio1}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/MODI/fio2.png}
+		\rule{35em}{0.5pt}
+	\caption[fio]{Arduino FIO. Similar al arduino mini pro pero además incluye conexión para módulo XBee. Imagen tomada de arduino.cc}
+	\label{fig:fio2}
+\end{figure}
 
 %-----------------------------------
 %	SUBSECTION 2
@@ -545,3 +533,11 @@ http://pyserial.sourceforge.net/
 http://www.aaronstannard.com/post/2012/08/17/How-to-Setup-a-Proper-Python-Environment-on-Windows.aspx
 
 https://bugs.launchpad.net/python-uinput/+bug/752699
+
+
+%-----------------------------------
+%	SECTION 6
+%-----------------------------------
+
+\section{Bill Of Material}
+http://kitbom.com/otrab/modi/build-view

@@ -5,49 +5,52 @@
 \vspace {1em}
 \contentsline {chapter}{List of Figures}{\es@scroman {v}}{dummy.4}
 \contentsline {chapter}{List of Tables}{\es@scroman {vii}}{dummy.6}
-\contentsline {chapter}{Abbreviations}{\es@scroman {viii}}{dummy.8}
-\contentsline {chapter}{Physical Constants}{\es@scroman {ix}}{dummy.11}
-\contentsline {chapter}{Symbols}{\es@scroman {x}}{dummy.14}
 \vspace {2em}
-\contentsline {chapter}{\numberline {1}Robot}{1}{chapter.17}
-\contentsline {section}{\numberline {1.1}Desarrollo tecnol\IeC {\'o}gico desde Chile}{1}{section.18}
-\contentsline {section}{\numberline {1.2}\IeC {\textquestiondown }Qu\IeC {\'e} es un robot?}{2}{section.19}
-\contentsline {subsection}{\numberline {1.2.1}Automodelamiento}{3}{subsection.22}
-\contentsline {chapter}{\numberline {2}Swarm}{6}{chapter.26}
-\contentsline {section}{\numberline {2.1}Comportamiento colectivo en la naturaleza}{6}{section.27}
-\contentsline {section}{\numberline {2.2}Robots para construir un enjambre}{7}{section.29}
-\contentsline {subsection}{\numberline {2.2.1}Kilobot}{7}{subsection.30}
-\contentsline {subsection}{\numberline {2.2.2}Organismo Multibot}{8}{subsection.32}
-\contentsline {subsection}{\numberline {2.2.3}E-puck}{9}{subsection.34}
-\contentsline {subsection}{\numberline {2.2.4}3pi Robot}{9}{subsection.36}
-\contentsline {section}{\numberline {2.3}Necesidades de mercado}{11}{section.42}
-\contentsline {subsection}{\numberline {2.3.1}Usos Acad\IeC {\'e}mico}{12}{subsection.44}
-\contentsline {subsection}{\numberline {2.3.2}Usos Militar}{12}{subsection.45}
-\contentsline {subsection}{\numberline {2.3.3}Usos Dom\IeC {\'e}stico}{12}{subsection.46}
-\contentsline {chapter}{\numberline {3}MODI}{13}{chapter.47}
-\contentsline {section}{\numberline {3.1}Setup}{13}{section.49}
-\contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n}{14}{section.51}
-\contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{14}{subsection.52}
-\contentsline {subsection}{\numberline {3.2.2}Software CAD}{18}{subsection.59}
-\contentsline {subsection}{\numberline {3.2.3}Impresora 3D}{19}{subsection.62}
-\contentsline {subsection}{\numberline {3.2.4}Dise\IeC {\~n}o PCB}{22}{subsection.69}
-\contentsline {section}{\numberline {3.3}Componentes electr\IeC {\'o}nicos}{24}{section.74}
-\contentsline {subsection}{\numberline {3.3.1}Arduino FIO}{25}{subsection.75}
-\contentsline {subsection}{\numberline {3.3.2}Motores DC}{26}{subsection.78}
-\contentsline {subsection}{\numberline {3.3.3}XBee}{27}{subsection.81}
-\contentsline {subsection}{\numberline {3.3.4}Lipo Rider Pro}{27}{subsection.83}
-\contentsline {subsection}{\numberline {3.3.5}Motor Driver 1A Dual TB6612FNG}{28}{subsection.86}
-\contentsline {subsection}{\numberline {3.3.6}LED RGB}{29}{subsection.88}
-\contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{30}{section.90}
-\contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{33}{section.96}
-\contentsline {section}{\numberline {3.6}Tracking 2D}{36}{section.103}
-\contentsline {section}{\numberline {3.7}Software}{37}{section.105}
-\contentsline {chapter}{\numberline {4}Conclusiones}{38}{chapter.106}
-\contentsline {section}{\numberline {4.1}Mejoras futuras}{38}{section.107}
-\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{38}{subsection.108}
-\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{38}{subsection.109}
-\contentsline {section}{\numberline {4.2}Conclusiones}{38}{section.110}
+\contentsline {chapter}{\numberline {1}Robot}{1}{chapter.8}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{1}{section.9}
+\contentsline {section}{\numberline {1.2}Desarrollo tecnol\IeC {\'o}gico desde Chile}{2}{section.10}
+\contentsline {section}{\numberline {1.3}\IeC {\textquestiondown }Qu\IeC {\'e} es un robot?}{3}{section.11}
+\contentsline {chapter}{\numberline {2}Swarm}{5}{chapter.14}
+\contentsline {section}{\numberline {2.1}Comportamiento colectivo en la naturaleza}{5}{section.15}
+\contentsline {section}{\numberline {2.2}Robots para construir un enjambre}{6}{section.17}
+\contentsline {subsection}{\numberline {2.2.1}Kilobot}{6}{subsection.18}
+\contentsline {subsection}{\numberline {2.2.2}Organismo Multibot}{7}{subsection.19}
+\contentsline {subsection}{\numberline {2.2.3}E-puck}{7}{subsection.20}
+\contentsline {subsection}{\numberline {2.2.4}3pi Robot}{7}{subsection.21}
+\contentsline {section}{\numberline {2.3}Necesidades de mercado}{8}{section.26}
+\contentsline {section}{\numberline {2.4}Necesidades de mercado}{9}{section.28}
+\contentsline {subsection}{\numberline {2.4.1}Usos Acad\IeC {\'e}mico}{10}{subsection.30}
+\contentsline {subsection}{\numberline {2.4.2}Usos Militar}{10}{subsection.31}
+\contentsline {subsection}{\numberline {2.4.3}Usos Dom\IeC {\'e}stico}{10}{subsection.32}
+\contentsline {chapter}{\numberline {3}MODI}{11}{chapter.33}
+\contentsline {section}{\numberline {3.1}Setup}{11}{section.35}
+\contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n}{12}{section.37}
+\contentsline {subsection}{\numberline {3.2.1}Fabricaci\IeC {\'o}n Digital vs An\IeC {\'a}loga}{12}{subsection.38}
+\contentsline {subsection}{\numberline {3.2.2}Software CAD}{14}{subsection.41}
+\contentsline {subsection}{\numberline {3.2.3}Impresora 3D}{15}{subsection.44}
+\contentsline {subsection}{\numberline {3.2.4}Dise\IeC {\~n}o PCB}{18}{subsection.51}
+\contentsline {section}{\numberline {3.3}Componentes electr\IeC {\'o}nicos}{20}{section.56}
+\contentsline {subsection}{\numberline {3.3.1}Arduino FIO}{21}{subsection.57}
+\contentsline {subsection}{\numberline {3.3.2}Motores DC}{23}{subsection.62}
+\contentsline {subsection}{\numberline {3.3.3}XBee}{23}{subsection.65}
+\contentsline {subsection}{\numberline {3.3.4}Lipo Rider Pro}{25}{subsection.67}
+\contentsline {subsection}{\numberline {3.3.5}Motor Driver 1A Dual TB6612FNG}{26}{subsection.70}
+\contentsline {subsection}{\numberline {3.3.6}LED RGB}{27}{subsection.72}
+\contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{27}{section.74}
+\contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{30}{section.80}
+\contentsline {section}{\numberline {3.6}Tracking 2D}{33}{section.87}
+\contentsline {section}{\numberline {3.7}Software}{34}{section.89}
+\contentsline {section}{\numberline {3.8}Bill Of Material}{34}{section.90}
+\contentsline {chapter}{\numberline {4}Aplicaciones}{35}{chapter.91}
+\contentsline {section}{\numberline {4.1}Auto modelamiento}{35}{section.92}
+\contentsline {section}{\numberline {4.2}Educacion}{37}{section.96}
+\contentsline {subsection}{\numberline {4.2.1}Subsection 2}{37}{subsection.97}
+\contentsline {chapter}{\numberline {5}Conclusiones}{38}{chapter.98}
+\contentsline {section}{\numberline {5.1}Mejoras futuras}{38}{section.99}
+\contentsline {subsection}{\numberline {5.1.1}Subsection 1}{38}{subsection.100}
+\contentsline {subsection}{\numberline {5.1.2}Subsection 2}{38}{subsection.101}
+\contentsline {section}{\numberline {5.2}Conclusiones}{38}{section.102}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{39}{appendix.111}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{39}{appendix.103}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{40}{dummy.112}
+\contentsline {chapter}{Bibliograf\'{\i }a}{40}{dummy.104}
