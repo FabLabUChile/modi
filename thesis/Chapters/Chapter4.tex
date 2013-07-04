@@ -12,7 +12,7 @@
 
 \section{Auto modelamiento}
 
-Juan Cristobal Zagal y Hod Lipson \cite{ZagalL09} exploraron el comportamiento de un robot capaz de entrar en un proceso de self-reflection. Ellos estudiaron a un robot al cual se le programaron dos controladores, uno primitivo (primitive controller) y uno reflexivo (reflective controller) que puede observar al primero.
+Juan Cristobal Zagal junto a Hod Lipson \cite{ZagalL09} exploraron el comportamiento de un robot capaz de entrar en un proceso autoreflexivo. Ellos estudiaron a un robot al cual se le programaron dos controladores, uno primitivo (primitive controller) y uno reflexivo (reflective controller) que puede observar al primero.
 
 \begin{figure}[htbp]
 	\centering
@@ -23,7 +23,7 @@ Juan Cristobal Zagal y Hod Lipson \cite{ZagalL09} exploraron el comportamiento d
 	\label{fig:Automodelado}
 \end{figure}
 
-El controlador reflexivo es capaz de determinar el control primitivo sin tener acceso directo  a sus estados internos si no que haciendo uso de ingeniería inversa al leer los input/output de éste. Acá se implementa como comportamiento que el robot (e-puck) debe alejarse de luces rojas y acercarse a azules. Se logra con una exploración mínima posible de hardware.
+El controlador reflexivo es capaz de determinar el control primitivo sin tener acceso directo a sus estados internos, haciendo uso de ingeniería inversa al leer los input/output de éste. Acá se implementa como comportamiento que el robot (e-puck) debe alejarse de luces rojas y acercarse a azules. Se logra con una exploración mínima posible de hardware.
 
 \begin{figure}[htbp]
 	\centering
