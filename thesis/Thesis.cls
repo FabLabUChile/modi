@@ -346,8 +346,8 @@
 }\end{spacing}
 }
 \renewcommand\listoffigures{
-\btypeout{List of Figures}
-\addtotoc{List of Figures}
+\btypeout{Índice de Figuras y Tablas}
+\addtotoc{Índice de Figuras y Tablas}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
