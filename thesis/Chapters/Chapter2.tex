@@ -45,20 +45,20 @@ El proyecto Kilobot, es un sistema de bajo costo escalable para demostrar compor
 %	SUBSECTION 2
 %-----------------------------------
 \subsection{Organismo Multibot}
-S. Kornienko, et al., exploran el trabajo colaborativo en robots para un mejor rendimiento y mayor fiabilidad a nivel macroscopico. En este articulo demuestran sus últimos trabajos en sistemas colectivos y lo más sorprendente es que logran la agregación y desagregación autónoma para así obtener un organismo multibot.
-\cite{5359578}
+S. Kornienko et al. \cite{5359578}, exploran el trabajo colaborativo en robots para un mejor rendimiento y mayor fiabilidad a nivel macroscópico. En este articulo demuestran sus últimos trabajos en sistemas colectivos y lo más sorprendente es que logran la agregación y desagregación autónoma para así obtener un organismo multibot.
+
 
 %-----------------------------------
 %	SUBSECTION 3
 %-----------------------------------
-\subsection{E-puck}
-Uno de los robots más utilizados por los científicos en el mundo para estudios y publicaciones es el E-puck. Este robot es compacto, tiene forma de cilindro con un diámetro de 7 [cm] y para moverse hace uso de sus dos ruedas, dejándolo en la categoría de robot con desplazamiento diferencial. Originalmente fue diseñado para educar en el área de la micro ingeniería por Michael Bonani y Francesco Mondala en el laboratorio ASL del Profesor Roland Siegwart en Escuela Politécnica Federal de Lausana (EPFL) en Suiza. El e-puck es open hardware, software es de código abierto,  lo construyen y venden varias empresas. Para comunicarse con una computador incorporan un módulo Bluetooth conectado a uno de sus dos puertos serie. Existen varios tipos de accesorios, entre los que destacan un Zigbee para comunicaciones, un módulo con varias cámaras y LEDs RGB como sistema de comunicación visual. Su precio a la fecha en Gctronic es 912 USD. Para comprarlo hay que encargarlo desde Suiza.
+\subsection{e-puck}
+Uno de los robots más utilizados por los científicos en el mundo para estudios y publicaciones es el e-puck \cite{mondada2009puck}. Este robot es compacto, tiene forma de cilindro con un diámetro de 7 [cm] y para moverse hace uso de sus dos ruedas, dejándolo en la categoría de robot con desplazamiento diferencial. Originalmente fue diseñado para educar en el área de la micro ingeniería por Michael Bonani y Francesco Mondala en el laboratorio ASL del Profesor Roland Siegwart en Escuela Politécnica Federal de Lausana (EPFL) en Suiza. El e-puck es open hardware, software es de código abierto,  lo construyen y venden varias empresas. Para comunicarse con una computador incorporan un módulo Bluetooth conectado a uno de sus dos puertos serie. Existen varios tipos de accesorios, entre los que destacan un Zigbee para comunicaciones, un módulo con varias cámaras y LEDs RGB como sistema de comunicación visual. Su precio a la fecha en Gctronic es 912 USD. Para comprarlo hay que encargarlo desde Suiza.
 
 %-----------------------------------
 %	SUBSECTION 4
 %-----------------------------------
 \subsection{3pi Robot}
-Pololu, la misma marca que tiene desarrollo de varios tipos de motores para robótica y PCB para controlarlos, diseño el 3pi Robot. Es un robot bastante más económico que el e-puck, cuyo valor es 99.95USD ref. Sparkfun. También tiene dos ruedas para desplazarse de forma diferencial, 5 sensores de reflectancia, un LCD de 8x2 caracteres, un buzzer y tres botones para que el usuario pueda programarlos. Todos estos dispositivos están conectados a un microcontrolador ATmega328. Su velocidad es de 90 cm/s.
+Pololu, la misma marca que tiene desarrollo de varios tipos de motores para robótica y PCB para controlarlos, diseño el 3pi Robot \cite{thurskyusing}. Es un robot bastante más económico que el e-puck, cuyo valor es 99.95USD ref. Sparkfun. También tiene dos ruedas para desplazarse de forma diferencial, 5 sensores de reflectancia, un LCD de 8x2 caracteres, un buzzer y tres botones para que el usuario pueda programarlos. Todos estos dispositivos están conectados a un microcontrolador ATmega328. Su velocidad es de 90 cm/s.
 
 El 3pi fue diseñado especialmente como un robot seguidor de lineas y solucionador de laberintos. Existen varios videos que muestran la asombrosa velocidad de estos robots para solucionar un laberinto. Se programa en C, pero como posee un microcontrolador ATmega es posible hacer uso del bootloader Arduino y programarlo con ese IDE. Usa 4 baterias AAA y trae 4 LEDs.
 
@@ -68,17 +68,17 @@ Para el modelo que se planteó en este trabajo hace falta un módulo de comunica
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/robots.png}
 		\rule{35em}{0.5pt} 
-	\caption[Robots estudiados como alternativa para armar un ejambre de robots.]{3pi Robot, simple y económico pero no tiene comunicación inalámbrica.}
+	\caption[Robots estudiados como alternativa para armar un enjambre de robots.]{3pi Robot, simple y económico pero no tiene comunicación inalámbrica.}
 	\label{fig:3pi}
 \end{figure}
 
-En la tabla \ref{fig:Tabla robots} comparativa resume las principales caracteristicas de los robot: Kilobot\footnote{http://www.k-team.com/mobile-robotics-products/kilobot/specifications}, E-puck\footnote{http://www.gctronic.com/doc/index.php/E-Puck} y 3pi\footnote{http://www.pololu.com/catalog/product/975/specs}.
+En la Figura \ref{fig:Tabla robots} hay una tabla comparativa que resume las principales características de los robot: Kilobot\footnote{http://www.k-team.com/mobile-robotics-products/kilobot/specifications}, e-puck\footnote{http://www.gctronic.com/doc/index.php/E-Puck} y 3pi\footnote{http://www.pololu.com/catalog/product/975/specs}.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=1\textwidth]{./Figures/tabla_robots.png}
 		\rule{35em}{0.5pt}
-	\caption[Tabla comparativa robots]{Tabla comparativa robots}
+	\caption[Tabla comparativa robots]{En esta tabla se comparan las caracteristicas principipales de los robots: kilobot, e-puck y 3pi. No se incluyó el robot utilizado para el organismo multibot ya que no se comercializa.}
 	\label{fig:Tabla robots}
 \end{figure}
 

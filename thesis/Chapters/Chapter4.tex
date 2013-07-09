@@ -9,26 +9,17 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
+MODI en esencia es un Arduino con ruedas y control inalámbrico. Esto significa que para programarlo y hacer uso de él en un proyecto la curva de aprendizaje es rápida. Existen un sin fin de tutoriales donde se puede aprender lo básico para programar un Arduino y en un día ya se puede controlar de forma simple el movimiento del robot. Es por esto que MODI es indicado para usarse por cualquier persona que desee experimentar con robots y no tenga los conocimientos técnicos para construir uno desde cero. En las secciones siguientes se describen algunas aplicaciones posibles.
 
 \section{Auto modelamiento}
 
-Juan Cristobal Zagal junto a Hod Lipson \cite{ZagalL09} exploraron el comportamiento de un robot capaz de entrar en un proceso autoreflexivo. Ellos estudiaron a un robot al cual se le programaron dos controladores, uno primitivo (primitive controller) y uno reflexivo (reflective controller) que puede observar al primero.
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/arquitectura_cerebro.png}
-		\includegraphics[width=0.4\textwidth]{./Figures/automodelado_epuck.png}
-		\rule{35em}{0.5pt}
-	\caption[Automodelado]{\textbf{Arriba:} Arquitectura de cerebros anidados usado en el trabajo de J.Zagal y H.Lipson, basado en modelos de M. Minsky. \textbf{Abajo:} Modelo de cerebros implementado en robot e-puck. Ambas imágenes  pertenecen a Juan Cristóbal Zagal.}
-	\label{fig:Automodelado}
-\end{figure}
+Uno de los fines de MODI es poder ser utilizado para investigar el Auto modelamiento en robots, que permite a un robot sintetizar un comportamiento en base a la exploración de los posibles modelos de el mismo. La importancia de esta área radica en que actualmente los robots más difundidos hacen uso de un software llamado controlador, que por ejemplo para mover un robot del punto a al punto b controla las señales de cada moto, en base a como se encuentran ubicados en el espacio los motores, pero si un motor falla o si el robot en vez de tener ruedas tiene patas, no logra adaptarse. Juan Cristobal Zagal junto a Hod Lipson \cite{ZagalL09} exploraron el comportamiento de un robot capaz de entrar en un proceso autoreflexivo. Ellos estudiaron a un robot al cual se le programaron dos controladores, uno primitivo (primitive controller) y uno reflexivo (reflective controller) que puede observar al primero.
 
 El controlador reflexivo es capaz de determinar el control primitivo sin tener acceso directo a sus estados internos, haciendo uso de ingeniería inversa al leer los input/output de éste. Acá se implementa como comportamiento que el robot (e-puck) debe alejarse de luces rojas y acercarse a azules. Se logra con una exploración mínima posible de hardware.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.4\textwidth]{./Figures/robotTest.png}
-		\includegraphics[width=0.5\textwidth]{./Figures/implementacion.png}
+		\includegraphics[width=\textwidth]{./Figures/automod.png}
 		\rule{35em}{0.5pt}
 	\caption[Automodelado]{\textbf{Izquierda:} Arquitectura de cerebros anidados usado en el trabajo de J.Zagal y H.Lipson, basado en modelos de M. Minsky. \textbf{Derecha:} Modelo de cerebros implementado en robot e-puck. Ambas imágenes  pertenecen a Juan Cristóbal Zagal.}
 	\label{fig:AutomodeladoTest}
@@ -45,7 +36,7 @@ En la figura \ref{fig:AutomodeladoLIPSON}, se describe un esquema del algoritmo.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.5\textwidth]{./Figures/algoritmo_automodelo.png}
+		\includegraphics[width=\textwidth]{./Figures/algoritmo_automodelo.png}
 		\rule{35em}{0.5pt}
 	\caption[AutomodeladoLIPSON]{Esquema del algoritmo que puede usar un robot para desplazarse haciendo uso de Automodelos. Imagen obtenida desde http://creativemachines.cornell.edu}
 	\label{fig:AutomodeladoLIPSON}
@@ -54,21 +45,14 @@ En la figura \ref{fig:AutomodeladoLIPSON}, se describe un esquema del algoritmo.
 
 \section{Educacion}
 
-%-----------------------------------
-%	SUBSECTION 2.1
-%-----------------------------------
-
-\subsection{Subsection 2}
-
-%----------------------------------------------------------------------------------------
-%	SUBSECTION 3
-%----------------------------------------------------------------------------------------
-\subsection{Usos Académico}
-
 Un enjambre de robots puede presentar muchas ventajas dentro del aula. Si se tiene un sistema de fácil uso para los alumnos, el profesor puede asignar una tarea a un grupo de estudiantes donde cada uno tiene la responsabilidad de controlar o programar un robot para que el conjunto logre una meta determinada como ordenar unos bloques o hacerse cargo de regar un pequeño huerto. Abusando un poco del concepto de la colectividad, incluso pueden generarse tareas donde cada colegio se especializa en un tipo de tareas para luego juntar los distintos robots y probar cómo interactúan.
 
 Tener un setup con robots que demuestren un comportamiento colectivo puede ser muy ventajoso para ayudar a niños con trastornos como el Asperger a practicar sus habilidades para reconocer estos mismo comportamientos.
 
-\subsection{Usos Militar}
+\section{Usos Militar}
 
-\subsection{Usos Doméstico}
+Con un enjambre de robots, se puede simular una situación de catástrofe, donde es necesario poder desplegar un grupo de robots para hacer una tarea de reconocimiento y así poder buscar personas heridas o atrapadas.
+
+\section{Usos Doméstico}
+
+Existen las aspiradoras Roomba, que sin necesidad de un operario humano pueden aspirar nuestras casas. Ellas recorren nuestro hogar y gracias a sus sensores pueden auto generar un mapa del entorno. Este modelo del hogar puede hacerse mucho más rápido si en vez de tener un solo robot, se tienen 20. El mismo concepto se puede aplicar en seguridad del hogar, donde se pueden tener varios mini robots haciendo rondas en el perímetro de nuestra casa y en forma colectiva abarcan lo más posible. Todas estas situaciones se pueden simular con los robot MODI.
