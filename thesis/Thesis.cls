@@ -209,27 +209,27 @@
                 {University Name}}
 %-------------------------------------------------   
 \UNIVERSITY{\texorpdfstring{\href{University Web Site URL Here (include http://)} % Your university's URL
-                {UNIVERSITY NAME (IN BLOCK CAPITALS)}} % Your university's name in capitals - this is currently used in the abstract page
+                {UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA}} % Your university's name in capitals - this is currently used in the abstract page
                 {UNIVERSITY NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \department{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
-                {Ing. civíl Mecanica, Universidad de Chile}} % Your department's name - used in the title page and abstract
+                {Departamento de Electrónica}} % Your department's name - used in the title page and abstract
                 {Department or School Name}}
 %-------------------------------------------------                
 \DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
-                {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {DEPARTAMENTO DE ELECTRÓNICA}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
                 {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {Síntesis de Máquinas Inteligentes}} % Your research group's name - this is currently used in the title page 
+                {}} % Your research group's name - this is currently used in the title page 
                 {Research Group Name}}
 %-------------------------------------------------                
 \GROUP{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}} % Your research group's name in capitals - this is not currently used anywhere in the template, cite it with \GROUPNAME if you want it
+                {}} % Your research group's name in capitals - this is not currently used anywhere in the template, cite it with \GROUPNAME if you want it
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \faculty{\texorpdfstring{\href{Faculty Web Site URL Here (include http://)} % Your faculty's URL
-                {Faculty Name}} % Your faculty's name - this is currently used in the abstract page
+                {}} % Your faculty's name - this is currently used in the abstract page
                 {Faculty Name}}
 %-------------------------------------------------                
 \FACULTY{\texorpdfstring{\href{Faculty Web Site URL Here (include http://)} % Your faculty's URL
@@ -293,7 +293,7 @@
   \cleardoublepage
 }
 %----------------------------------------------------------------------------------------
-%	ABSTRACT PAGE DESIGN
+%	ABSTRACT PAGE DESIGN ESP
 %----------------------------------------------------------------------------------------
 \newenvironment{abstract}
 {
@@ -304,7 +304,7 @@
     \setlength{\parskip}{0pt}
     {\normalsize \UNIVNAME \par} % University name in capitals
     \bigskip
-    {\huge{\textit{Abstract}} \par}
+    {\huge{\textit{Resumen}} \par}
     \bigskip
     {\normalsize \facname \par} % Faculty name
     {\normalsize \deptname \par} % Department name
@@ -318,6 +318,7 @@
   \end{center}
 }
 %----------------------------------------------------------------------------------------
+
 {
   \vfil\vfil\vfil\null
   \cleardoublepage

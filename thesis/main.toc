@@ -32,22 +32,24 @@
 \contentsline {subsection}{\numberline {3.3.5}Motor Driver 1A Dual TB6612FNG}{23}{subsection.52}
 \contentsline {section}{\numberline {3.4}Componentes mec\IeC {\'a}nicos}{25}{section.54}
 \contentsline {section}{\numberline {3.5}Locomoci\IeC {\'o}n}{26}{section.57}
-\contentsline {section}{\numberline {3.6}Implementaci\IeC {\'o}n}{30}{section.64}
-\contentsline {subsection}{\numberline {3.6.1}Setup}{30}{subsection.65}
-\contentsline {subsection}{\numberline {3.6.2}Software}{30}{subsection.67}
-\contentsline {subsection}{\numberline {3.6.3}Tracking 2D}{31}{subsection.68}
-\contentsline {subsection}{\numberline {3.6.4}Bill Of Material}{31}{subsection.70}
-\contentsline {chapter}{\numberline {4}Aplicaciones}{33}{chapter.73}
-\contentsline {section}{\numberline {4.1}Auto modelamiento}{33}{section.74}
-\contentsline {section}{\numberline {4.2}Educacion}{35}{section.77}
-\contentsline {section}{\numberline {4.3}Usos Militar}{36}{section.78}
-\contentsline {section}{\numberline {4.4}Usos Dom\IeC {\'e}stico}{36}{section.79}
-\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.80}
-\contentsline {section}{\numberline {5.1}Mejoras futuras}{37}{section.81}
-\contentsline {subsection}{\numberline {5.1.1}Subsection 1}{37}{subsection.82}
-\contentsline {subsection}{\numberline {5.1.2}Subsection 2}{37}{subsection.83}
-\contentsline {section}{\numberline {5.2}Conclusiones}{37}{section.84}
+\contentsline {section}{\numberline {3.6}Implementaci\IeC {\'o}n}{29}{section.64}
+\contentsline {subsection}{\numberline {3.6.1}Setup}{29}{subsection.65}
+\contentsline {subsection}{\numberline {3.6.2}Software}{29}{subsection.67}
+\contentsline {subsection}{\numberline {3.6.3}Tracking 2D}{30}{subsection.68}
+\contentsline {subsection}{\numberline {3.6.4}Bill Of Material}{30}{subsection.70}
+\contentsline {chapter}{\numberline {4}Aplicaciones}{32}{chapter.73}
+\contentsline {section}{\numberline {4.1}Auto modelamiento}{32}{section.74}
+\contentsline {section}{\numberline {4.2}Educaci\IeC {\'o}n}{34}{section.76}
+\contentsline {section}{\numberline {4.3}Usos Militar}{35}{section.77}
+\contentsline {section}{\numberline {4.4}Usos Dom\IeC {\'e}stico}{35}{section.78}
+\contentsline {chapter}{\numberline {5}Mejoras futuras y Conclusiones}{36}{chapter.79}
+\contentsline {section}{\numberline {5.1}Mejoras futuras}{36}{section.80}
+\contentsline {subsection}{\numberline {5.1.1}Encoders}{36}{subsection.81}
+\contentsline {subsection}{\numberline {5.1.2}Cables incrustados y Soporte motor}{36}{subsection.83}
+\contentsline {subsection}{\numberline {5.1.3}Una PCB para todo}{37}{subsection.85}
+\contentsline {subsection}{\numberline {5.1.4}M\IeC {\'o}dulo de carga inal\IeC {\'a}mbrica}{37}{subsection.86}
+\contentsline {section}{\numberline {5.2}Conclusiones}{38}{section.88}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{38}{appendix.85}
+\contentsline {chapter}{\numberline {A}}{40}{appendix.89}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{39}{dummy.86}
+\contentsline {chapter}{Bibliograf\'{\i }a}{42}{dummy.92}

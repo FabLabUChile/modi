@@ -1,9 +1,34 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Stiehl et~al.(2006)Stiehl, Breazeal, Han, Lieberman, Lalla, Maymin,
+  Salinas, Fuentes, Toscano, Tong, Kishore, Berlin, and
+  Gray]{Stiehl:2006:HTR:1179133.1179149}
+Walter~Dan Stiehl, Cynthia Breazeal, Kuk-Hyun Han, Jeff Lieberman, Levi Lalla,
+  Allan Maymin, Jonathan Salinas, Daniel Fuentes, Robert Toscano, Cheng~Hau
+  Tong, Aseem Kishore, Matt Berlin, and Jesse Gray.
+\newblock The huggable: a therapeutic robotic companion for relational,
+  affective touch.
+\newblock In \emph{ACM SIGGRAPH 2006 Emerging technologies}, SIGGRAPH '06, New
+  York, NY, USA, 2006. ACM.
+\newblock ISBN 1-59593-364-6.
+\newblock \doi{10.1145/1179133.1179149}.
+\newblock URL \url{http://doi.acm.org/10.1145/1179133.1179149}.
+
+\bibitem[Forlizzi and DiSalvo(2006)]{Forlizzi:2006:SRD:1121241.1121286}
+Jodi Forlizzi and Carl DiSalvo.
+\newblock Service robots in the domestic environment: a study of the roomba
+  vacuum in the home.
+\newblock In \emph{Proceedings of the 1st ACM SIGCHI/SIGART conference on
+  Human-robot interaction}, HRI '06, pages 258--265, New York, NY, USA, 2006.
+  ACM.
+\newblock ISBN 1-59593-294-1.
+\newblock \doi{10.1145/1121241.1121286}.
+\newblock URL \url{http://doi.acm.org/10.1145/1121241.1121286}.
 
 \bibitem[Kernbach et~al.(2009)Kernbach, Levi, Meister, Schlachter, and
   Kernbach]{5359578}
@@ -28,6 +53,20 @@ Francesco Mondada, Michael Bonani, Xavier Raemy, James Pugh, Christopher
 Branislav Thursk{\`y} and Gabriel Ga{\v{s}}par.
 \newblock Using pololu‘s 3pi robot in the education process.
 
+\bibitem[Rubenstein et~al.(2012)Rubenstein, Ahler, and Nagpal]{6224638}
+M.~Rubenstein, C.~Ahler, and R.~Nagpal.
+\newblock Kilobot: A low cost scalable robot system for collective behaviors.
+\newblock In \emph{Robotics and Automation (ICRA), 2012 IEEE International
+  Conference on}, pages 3293--3298, 2012.
+\newblock \doi{10.1109/ICRA.2012.6224638}.
+
+\bibitem[Kaltenbrunner and Bencina(2007)]{kaltenbrunner2007reactivision}
+Martin Kaltenbrunner and Ross Bencina.
+\newblock reactivision: a computer-vision framework for table-based tangible
+  interaction.
+\newblock In \emph{Proceedings of the 1st international conference on Tangible
+  and embedded interaction}, pages 69--74. ACM, 2007.
+
 \bibitem[Zagal and Lipson(2009)]{ZagalL09}
 Juan~Cristóbal Zagal and Hod Lipson.
 \newblock Self-reflection in evolutionary robotics: resilient adaptation with a
@@ -37,5 +76,12 @@ Juan~Cristóbal Zagal and Hod Lipson.
 \newblock ISBN 978-1-60558-505-5.
 \newblock URL
   \url{http://dblp.uni-trier.de/db/conf/gecco/gecco2009c.html#ZagalL09}.
+
+\bibitem[Bongard et~al.(2006)Bongard, Zykov, and Lipson]{Bongard17112006}
+Josh Bongard, Victor Zykov, and Hod Lipson.
+\newblock Resilient machines through continuous self-modeling.
+\newblock \emph{Science}, 314\penalty0 (5802):\penalty0 1118--1121, 2006.
+\newblock \doi{10.1126/science.1133687}.
+\newblock URL \url{http://www.sciencemag.org/content/314/5802/1118.abstract}.
 
 \end{thebibliography}

@@ -17,15 +17,6 @@ Uno de los fines de MODI es poder ser utilizado para investigar el Auto modelami
 
 El controlador reflexivo es capaz de determinar el control primitivo sin tener acceso directo a sus estados internos, haciendo uso de ingeniería inversa al leer los input/output de éste. Acá se implementa como comportamiento que el robot (e-puck) debe alejarse de luces rojas y acercarse a azules. Se logra con una exploración mínima posible de hardware.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=\textwidth]{./Figures/automod.png}
-		\rule{35em}{0.5pt}
-	\caption[Automodelado]{\textbf{Izquierda:} Arquitectura de cerebros anidados usado en el trabajo de J.Zagal y H.Lipson, basado en modelos de M. Minsky. \textbf{Derecha:} Modelo de cerebros implementado en robot e-puck. Ambas imágenes  pertenecen a Juan Cristóbal Zagal.}
-	\label{fig:AutomodeladoTest}
-\end{figure}
-
-
 El diagrama del algoritmo que controla todo el proceso que se implementa como comportamiento para recuperarse de fallas puede verse en el anexo.
 
 J. Bongard., V. Zykov y H. Lipson., logran que un robot se recupere de una falla inesperada de forma autónoma. Dicen que el robot puede recuperarse de manera autónoma haciendo uso de su (propio al robot) Self-modeling. Concretamente implementan sus algoritmos en un robot de 4 patas que utiliza una relación entre sus sensores y motores para indirectamente inferir su propia estructura.
@@ -36,18 +27,18 @@ En la figura \ref{fig:AutomodeladoLIPSON}, se describe un esquema del algoritmo.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=\textwidth]{./Figures/algoritmo_automodelo.png}
+		\includegraphics[width=0.7\textwidth]{./Figures/algoritmo_automodelo.png}
 		\rule{35em}{0.5pt}
-	\caption[AutomodeladoLIPSON]{Esquema del algoritmo que puede usar un robot para desplazarse haciendo uso de Automodelos. Imagen obtenida desde http://creativemachines.cornell.edu}
+	\caption[Esquema algoritmo automodelado Hod Lipson]{Esquema del algoritmo que puede usar un robot para desplazarse haciendo uso de Automodelos. Imagen tomada de \cite{Bongard17112006}}
 	\label{fig:AutomodeladoLIPSON}
 \end{figure}
 
 
-\section{Educacion}
+\section{Educación}
 
 Un enjambre de robots puede presentar muchas ventajas dentro del aula. Si se tiene un sistema de fácil uso para los alumnos, el profesor puede asignar una tarea a un grupo de estudiantes donde cada uno tiene la responsabilidad de controlar o programar un robot para que el conjunto logre una meta determinada como ordenar unos bloques o hacerse cargo de regar un pequeño huerto. Abusando un poco del concepto de la colectividad, incluso pueden generarse tareas donde cada colegio se especializa en un tipo de tareas para luego juntar los distintos robots y probar cómo interactúan.
 
-Tener un setup con robots que demuestren un comportamiento colectivo puede ser muy ventajoso para ayudar a niños con trastornos como el Asperger a practicar sus habilidades para reconocer estos mismo comportamientos.
+Tener un setup con robots que demuestren un comportamiento colectivo puede ser muy ventajoso para promover el aprendizaje de roles sociales si la docente a cargo programa los robot para que tengan distintos roles como Lider y participante. Este mismo juego de roles puede ayudar a los niños a generar estrategias y herramientas para enfrentarse al mundo. En síntesis haciendo juegos para los niños con los robots se puede tener su atención para reforzar su educación y favorecer en el desarrollo de habilidades y competencias. 
 
 \section{Usos Militar}
 

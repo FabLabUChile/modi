@@ -10,45 +10,45 @@ Warning--can't use both volume and number fields in mondada2009puck
 Warning--empty journal in thurskyusing
 Warning--empty year in thurskyusing
 Warning--empty year in thurskyusing
-You've used 4 entries,
+You've used 9 entries,
             2481 wiz_defined-function locations,
-            577 strings with 5530 characters,
-and the built_in function-call counts, 2204 in all, are:
-= -- 176
-> -- 130
-< -- 6
-+ -- 47
-- -- 39
-* -- 171
-:= -- 336
-add.period$ -- 15
-call.type$ -- 4
-change.case$ -- 8
-chr.to.int$ -- 4
-cite$ -- 8
-duplicate$ -- 111
-empty$ -- 183
-format.name$ -- 47
-if$ -- 484
+            622 strings with 7120 characters,
+and the built_in function-call counts, 4939 in all, are:
+= -- 424
+> -- 283
+< -- 11
++ -- 103
+- -- 85
+* -- 388
+:= -- 757
+add.period$ -- 42
+call.type$ -- 9
+change.case$ -- 18
+chr.to.int$ -- 9
+cite$ -- 13
+duplicate$ -- 245
+empty$ -- 410
+format.name$ -- 102
+if$ -- 1097
 int.to.chr$ -- 1
-int.to.str$ -- 5
-missing$ -- 4
-newline$ -- 30
-num.names$ -- 14
-pop$ -- 44
+int.to.str$ -- 10
+missing$ -- 9
+newline$ -- 64
+num.names$ -- 29
+pop$ -- 85
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 9
 quote$ -- 0
-skip$ -- 82
+skip$ -- 171
 stack$ -- 0
-substring$ -- 96
-swap$ -- 39
-text.length$ -- 4
+substring$ -- 225
+swap$ -- 78
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
+type$ -- 63
 warning$ -- 4
-while$ -- 16
+while$ -- 35
 width$ -- 0
-write$ -- 63
+write$ -- 152
 (There was 1 error message)

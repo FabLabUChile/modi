@@ -69,7 +69,7 @@ Aunque han bajado los precios de las maquinas para prototipado rápido, aún no 
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/map.png}
 		\rule{35em}{0.5pt}
-	\caption[Mapa fab labs en el mundo.]{Mapa actual de lugares en el mundo que cuentan con un Fab Lab. En Chile a la fecha existen 3. Imagen obtenida desde fablabamersfoort.nl/fablabs/}
+	\caption[Mapa fab labs en el mundo.]{Mapa actual de lugares en el mundo que cuentan con un Fab Lab. En Chile a la fecha existen 3. Imagen tomada de fablabamersfoort.nl/fablabs/}
 	\label{fig:Fablabs}
 \end{figure}	
 
@@ -168,7 +168,7 @@ En los primeros prototipos un problema que se repetía constantemente son las co
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/compElo.png}
 		\rule{35em}{0.5pt}
-	\caption[Componentes Electrónicos]{\textbf{a.} Batería LIPO 2,000 mAh, \textbf{b.} XBee, \textbf{c.} LED Rgb difuso, de esta manera se obtiene un ángulo de visión mucho más amplio, \textbf{d.} Arduino Fio, \textbf{e.} Lipo Rider Pro,\textbf{ f.} Motor DC 30:1 \textbf{g.} Motor Driver 1A Dual TB6612FNG.}
+	\caption[Componentes Electrónicos]{Todos los componentes electrónicos que forman MODI \textbf{ a.} Batería LIPO 2,000 mAh, \textbf{b.} XBee, \textbf{c.} LED Rgb difuso, de esta manera se obtiene un ángulo de visión mucho más amplio, \textbf{d.} Arduino Fio, \textbf{e.} Lipo Rider Pro,\textbf{ f.} Motor DC 30:1 \textbf{g.} Motor Driver 1A Dual TB6612FNG.}
 	\label{fig:compELO}
 \end{figure}
 
@@ -267,7 +267,7 @@ Existen distintas áreas donde se utilizan robots, dependiendo de la tarea a rea
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/AtlasCADlr.jpg}
 		\rule{35em}{0.5pt}
-	\caption[Robot Atlas]{Atlas es un humanoide con gran movilidad, diseñado para poder usar herramientas humanas. Posee 28 grados de libertad con actuadores hidráulicos y la energía se le entrega por medio de un cable flexible. Imagen extraída de bostondynamics.com }
+	\caption[Robot Atlas]{Atlas es un humanoide con gran movilidad, diseñado para poder usar herramientas humanas. Posee 28 grados de libertad con actuadores hidráulicos y la energía se le entrega por medio de un cable flexible. Imagen tomada de bostondynamics.com.}
 	\label{fig:Atlas}
 \end{figure}
 
@@ -276,13 +276,13 @@ Para moverse MODI tiene dos motores DC \ref{fig:MotorDC}. Estos tienen una caja 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=\textwidth]{./Figures/graficosMotores.png}
+		\includegraphics[width=0.8\textwidth]{./Figures/graficosMotores.png}
 		\rule{35em}{0.5pt}
 	\caption[Gráficos Motor DC]{a. Operación motores: Corriente, velocidad y torque. Imagen extraída de pololu.com, b. Control de velocidad PWM, se observa como disminuye la velocidad según el ancho del pulso pwm.}
 	\label{fig:DCMotor}
 \end{figure}
 
-El control de velocidad de los motores se hace con PWM, que es una señal periódica a la cual se le modifica el ciclo de trabajo. El sentido de giro es controlado con el chip TB6612FNG \ref{fig:DCMotor} a. Los valores que genera el Arduino para control de los motores van desde -255 a 255, y para los distintos casos se puede ver la Figura \ref{fig:pwm} que indica los 3 movimientos que son: avanzar, avanzar hacia a la izquierda y girar en el eje. Se puede realizar un control mas fino de la posición usando la información de posicion del robot en un PID, se recomienda ver este video tutorial \footnote{http://www.youtube.com/watch?v=aE7RQNhwnPQ}. Para más información sobre PWM y este chip ver esta pagina web \footnote{http://www.pololu.com/docs/0J21/5.c}.
+El control de velocidad de los motores se hace con PWM, que es una señal periódica a la cual se le modifica el ciclo de trabajo. El sentido de giro es controlado con el chip TB6612FNG \ref{fig:DCMotor} a. Los valores que genera el Arduino para control de los motores van desde -255 a 255, y para los distintos casos se puede ver la Figura \ref{fig:pwm} que indica los 3 movimientos que son: avanzar, avanzar hacia a la izquierda y girar en el eje. Aquí los numeros representan el periodo del ciclo de trabajo de la señal enviada por el Arduino al controlador de los motores. Se puede realizar un control mas fino de la posición usando la información de posicion del robot en un PID, se recomienda ver este video tutorial \footnote{http://www.youtube.com/watch?v=aE7RQNhwnPQ}. Para más información sobre PWM y este chip ver esta pagina web \footnote{http://www.pololu.com/docs/0J21/5.c}.
 
 \begin{figure}[htbp]
 	\centering
@@ -311,7 +311,6 @@ Para investigar el comportamiento colectivo de un grupo de robots, en el mundo r
 	\caption[Setup Enjambre MODI]{Setup a montarse para hacer estudios de grupos de robots.}
 	\label{fig:setup}
 \end{figure}
-\FloatBarrier
 %-----------------------------------
 %	SUBSECTION 6
 %-----------------------------------
@@ -326,7 +325,7 @@ A continuación algunos ejemplos de como controlar a MODI. El puerto serie en MO
 \subsection{Tracking 2D}
 Al igual que los seres vivos un robot necesita \textit{sentidos} o algún sistema sensorial para poder interactuar con su entorno. Estos pueden ser sensores IR para detectar objetos cercanos, cámaras o LASER para hacer un mapa del entorno o simplemente un pulsador que sea presionado cada vez que el robot colisiona. Para bajar costos, MODI actualmente no cuenta con sensores “onBoard”. Cada robot es comandado por un sistema que le dice donde donde está él, dónde están los demás y los límites del área de trabajo. Se diseñó de esta manera para simplificar la programación de cada robot.
 
-reacTIVision es un framework open source, cross-platform, para realizar tracking rápido y robusto de tags fiduciales pegadas a objetos físicos. Ha sido diseñado como un toolkit para el desarrollo rápido multi-touch interactive surfaces. Este Framework fue desarrollado por Martin Kaltenbrunner y Ross Bencina en el Music Technology Group de la universidad de Pompeu Fabra en Barcelona, España. reacTIVision fue diseñado como sensor principal de la Reactable, un sintetizador modular tangible que ha marcado los standards en lo que a aplicaciones multitouch se refiere. Esta alternativa debe ir acompañada de otros elementos, como la cámara y el computador en el cual se ejecuta el software. 
+reacTIVision \cite{kaltenbrunner2007reactivision} es un framework open source, cross-platform, para realizar tracking rápido y robusto de tags fiduciales pegadas a objetos físicos. Ha sido diseñado como un toolkit para el desarrollo rápido multi-touch interactive surfaces. Este Framework fue desarrollado por Martin Kaltenbrunner y Ross Bencina en el Music Technology Group de la universidad de Pompeu Fabra en Barcelona, España. reacTIVision fue diseñado como sensor principal de la Reactable, un sintetizador modular tangible que ha marcado los standards en lo que a aplicaciones multitouch se refiere. Esta alternativa debe ir acompañada de otros elementos, como la cámara y el computador en el cual se ejecuta el software. 
 
 
 \begin{figure}[htbp]
@@ -350,6 +349,6 @@ Con un precio total de ~180 USD, figura \ref{fig:BOM}, MODI se propone como una 
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/kitbom.png}
 		\rule{35em}{0.5pt}
-	\caption[Bill Of Materials]{http://kitbom.com/otrab/modi}
+	\caption[Bill Of Materials]{Lista de materiales a comprar para construir un robot MODI, la versión online de este BOM se puede ver en http://kitbom.com/otrab/modi}
 	\label{fig:BOM}
 \end{figure}
