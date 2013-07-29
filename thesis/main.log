@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.16)  26 JUL 2013 18:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.16)  29 JUL 2013 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,15 +1147,16 @@ Cap\'{\i }tulo 6.
 ------------------------------------------------------------------------------
  6 Mejoras futuras y Conclusiones
 ------------------------------------------------------------------------------
-<./Pictures/wires.png, id=632, 722.7pt x 542.025pt>
-File: ./Pictures/wires.png Graphic file (type png)
- <use ./Pictures/wires.png>
-Package pdftex.def Info: ./Pictures/wires.png used on input line 31.
-(pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
-
 [37
 
-] [38 <./Pictures/wires.png>]) [39] (./Appendices/AppendixA.tex [40]
+] <./Pictures/wires.png, id=637, 722.7pt x 542.025pt>
+File: ./Pictures/wires.png Graphic file (type png)
+
+<use ./Pictures/wires.png>
+Package pdftex.def Info: ./Pictures/wires.png used on input line 34.
+(pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
+ [38 <./Pictures/wires.png>] [39])
+(./Appendices/AppendixA.tex [40]
 Ap\'{e}ndice A.
 ------------------------------------------------------------------------------
  A 
@@ -1167,15 +1168,15 @@ File: ./Pictures/historia.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Pictures/historia.jpg used on input line 13.
 (pdftex.def)             Requested size: 417.47307pt x 313.09865pt.
 
-<./Figures/MODI/circuitoPCB.png, id=655, 547.3248pt x 382.5492pt>
-File: ./Figures/MODI/circuitoPCB.png Graphic file (type png)
+<./Figures/MODI/MODI_schem.png, id=655, 879.285pt x 918.632pt>
+File: ./Figures/MODI/MODI_schem.png Graphic file (type png)
 
-<use ./Figures/MODI/circuitoPCB.png>
-Package pdftex.def Info: ./Figures/MODI/circuitoPCB.png used on input line 21.
-(pdftex.def)             Requested size: 417.47307pt x 291.79109pt.
+<use ./Figures/MODI/MODI_schem.png>
+Package pdftex.def Info: ./Figures/MODI/MODI_schem.png used on input line 21.
+(pdftex.def)             Requested size: 417.47307pt x 436.14449pt.
 ) [41
 
- <./Pictures/historia.jpg>] [42 <./Figures/MODI/circuitoPCB.png>]
+ <./Pictures/historia.jpg>] [42 <./Figures/MODI/MODI_schem.png>]
 ------------------------------------------------------------------------------
  Bibliograf\'{\i }a
 ------------------------------------------------------------------------------
@@ -1208,7 +1209,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
  14146 strings out of 493481
- 198055 string characters out of 3144398
+ 198050 string characters out of 3144398
  269349 words of memory out of 3000000
  17043 multiletter control sequences out of 15000+200000
  17288 words of font info for 63 fonts, out of 3000000 for 9000
@@ -1226,7 +1227,7 @@ ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2012/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2012/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2012/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (52 pages, 9832596 bytes).
+Output written on main.pdf (52 pages, 10108233 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  633 compressed objects within 7 object streams
