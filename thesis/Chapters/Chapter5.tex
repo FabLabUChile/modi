@@ -9,32 +9,6 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-MODI en esencia es un Arduino con ruedas y control inalámbrico. Esto significa que para programarlo y hacer uso de él en un proyecto la curva de aprendizaje es rápida. Existen un sin fin de tutoriales donde se puede aprender lo básico para programar un Arduino y en un día ya se puede controlar de forma simple el movimiento del robot. Es por esto que MODI es indicado para usarse por cualquier persona que desee experimentar con robots y no tenga los conocimientos técnicos para construir uno desde cero. En las secciones siguientes se describen algunas aplicaciones posibles.
-
-\section{Auto modelamiento}
-
-Uno de los fines de MODI es poder ser utilizado para investigar el Auto modelamiento en robots, que permite a un robot sintetizar un comportamiento en base a la exploración de los posibles modelos de el mismo. La importancia de esta área radica en que actualmente los robots más difundidos hacen uso de un software llamado controlador, que por ejemplo para mover un robot del punto a al punto b controla las señales de cada moto, en base a como se encuentran ubicados en el espacio los motores, pero si un motor falla o si el robot en vez de tener ruedas tiene patas, no logra adaptarse. Juan Cristobal Zagal junto a Hod Lipson \cite{ZagalL09} exploraron el comportamiento de un robot capaz de entrar en un proceso autoreflexivo. Ellos estudiaron a un robot al cual se le programaron dos controladores, uno primitivo (primitive controller) y uno reflexivo (reflective controller) que puede observar al primero.
-
-El controlador reflexivo es capaz de determinar el control primitivo sin tener acceso directo a sus estados internos, haciendo uso de ingeniería inversa al leer los input/output de éste. Acá se implementa como comportamiento que el robot (e-puck) debe alejarse de luces rojas y acercarse a azules. Se logra con una exploración mínima posible de hardware.
-
-El diagrama del algoritmo que controla todo el proceso que se implementa como comportamiento para recuperarse de fallas puede verse en el anexo.
-
-J. Bongard., et al. \cite{Bongard17112006}, logran que un robot se recupere de una falla inesperada de forma autónoma. Dicen que el robot puede recuperarse de manera autónoma haciendo uso de su (propio al robot) Self-modeling. Concretamente implementan sus algoritmos en un robot de 4 patas que utiliza una relación entre sus sensores y motores para indirectamente inferir su propia estructura.
-
-
-Si se remueve una extremidad, el robot es capaz de generar una nueva forma de caminata que le permita cumplir con su misión que es avanzar.
-En la figura \ref{fig:AutomodeladoLIPSON}, se describe un esquema del algoritmo. El robot realiza una acción física (A), al azar, luego se ejecuta la mejor acción que se encuentre en (C). A continuación genera varios auto-modelos que coincidan con las lecturas de los sensores obtenidas en (B). Aún no sabe cual es el modelo, por lo que en (C) genera varias acciones posibles que acotan la búsqueda de modelos.Después de varios ciclos de (A) a (C),  el modelo obtenido se utiliza en (E) para generar la secuencia de locomoción. La mejor secuencia de locomoción es probada físicamente en el robot. Se refina el modelo volviendo al paso (B) y en (D) pueden crearse nuevos comportamientos.
-
-Utilizando el robot MODI es posible implementar el concepto de Self-modeling a un grupo de robots, donde el enjambre es capaz de adaptarse a distinta situaciones automodelando su forma grupal para por ejemplo lograr cruzar un puente 
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/algoritmo_automodelo.png}
-		\rule{35em}{0.5pt}
-	\caption[Esquema algoritmo automodelado Hod Lipson]{Esquema del algoritmo que puede usar un robot para desplazarse haciendo uso de Automodelos. Imagen tomada de \cite{Bongard17112006}}
-	\label{fig:AutomodeladoLIPSON}
-\end{figure}
-
 
 \section{Educación}
 
@@ -45,8 +19,7 @@ Tener un setup con robots que demuestren un comportamiento colectivo puede ser m
 \section{Usos Militar}
 
 Con un enjambre de robots, se puede simular una situación de catástrofe, donde es necesario poder desplegar un grupo de robots para hacer una tarea de reconocimiento y así poder buscar personas heridas o atrapadas.
-
-%Imaginemos una situación hipotética donde un edificio es destruido, la búsqueda de sobrevivientes no es una tarea fácil, implica que rescatistas ingresen al lugar corriendo grave peligro, usualmente buscando a las víctimas en condiciones de poca visibilidad. Esto mismo podría ser ejecutado por un enjambre robótico que esté programado para buscar gente y que de manera colectiva recorra un área mucho mayor que 2 o 3 personas. Incluso un robot del mismo enjambre puede fallar, pero al ser un sistema distribuido el enjambre continúa funcionando, es un sistema muy robusto.
+Imaginemos una situación hipotética donde un edificio es destruido, la búsqueda de sobrevivientes no es una tarea fácil, implica que rescatistas ingresen al lugar corriendo grave peligro, usualmente buscando a las víctimas en condiciones de poca visibilidad. Esto mismo podría ser ejecutado por un enjambre robótico que esté programado para buscar gente y que de manera colectiva recorra un área mucho mayor que 2 o 3 personas. Incluso un robot del mismo enjambre puede fallar, pero al ser un sistema distribuido el enjambre continúa funcionando, es un sistema muy robusto.
 
 \section{Usos Doméstico}
 
