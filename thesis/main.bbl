@@ -1,23 +1,9 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Stiehl et~al.(2006)Stiehl, Breazeal, Han, Lieberman, Lalla, Maymin,
-  Salinas, Fuentes, Toscano, Tong, Kishore, Berlin, and
-  Gray]{Stiehl:2006:HTR:1179133.1179149}
-Walter~Dan Stiehl, Cynthia Breazeal, Kuk-Hyun Han, Jeff Lieberman, Levi Lalla,
-  Allan Maymin, Jonathan Salinas, Daniel Fuentes, Robert Toscano, Cheng~Hau
-  Tong, Aseem Kishore, Matt Berlin, and Jesse Gray.
-\newblock The huggable: a therapeutic robotic companion for relational,
-  affective touch.
-\newblock In \emph{ACM SIGGRAPH 2006 Emerging technologies}, SIGGRAPH '06, New
-  York, NY, USA, 2006. ACM.
-\newblock ISBN 1-59593-364-6.
-\newblock \doi{10.1145/1179133.1179149}.
-\newblock URL \url{http://doi.acm.org/10.1145/1179133.1179149}.
 
 \bibitem[Forlizzi and DiSalvo(2006)]{Forlizzi:2006:SRD:1121241.1121286}
 Jodi Forlizzi and Carl DiSalvo.
@@ -66,22 +52,5 @@ Martin Kaltenbrunner and Ross Bencina.
   interaction.
 \newblock In \emph{Proceedings of the 1st international conference on Tangible
   and embedded interaction}, pages 69--74. ACM, 2007.
-
-\bibitem[Zagal and Lipson(2009)]{ZagalL09}
-Juan~Cristóbal Zagal and Hod Lipson.
-\newblock Self-reflection in evolutionary robotics: resilient adaptation with a
-  minimum of physical exploration.
-\newblock In Franz Rothlauf, editor, \emph{GECCO (Companion)}, pages
-  2179--2188. ACM, 2009.
-\newblock ISBN 978-1-60558-505-5.
-\newblock URL
-  \url{http://dblp.uni-trier.de/db/conf/gecco/gecco2009c.html#ZagalL09}.
-
-\bibitem[Bongard et~al.(2006)Bongard, Zykov, and Lipson]{Bongard17112006}
-Josh Bongard, Victor Zykov, and Hod Lipson.
-\newblock Resilient machines through continuous self-modeling.
-\newblock \emph{Science}, 314\penalty0 (5802):\penalty0 1118--1121, 2006.
-\newblock \doi{10.1126/science.1133687}.
-\newblock URL \url{http://www.sciencemag.org/content/314/5802/1118.abstract}.
 
 \end{thebibliography}

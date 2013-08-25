@@ -61,35 +61,67 @@
 %----------------------------------------------------------------------------------------
 
 \begin{titlepage}
+
+\thispagestyle{empty}
+
 \begin{center}
+\linespread{1.15}
+\textbf{\large{UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA\\}
+\normalsize{DEPARTAMENTO DE ELECTRÓNICA\\VALPARAÍSO - CHILE\\}}
 
-\textsc{\LARGE \univname}\\[1.5cm] % University name
-\textsc{\Large Memoria Titulación}\\[0.5cm] % Thesis type
+\vspace{0.5cm}
+\begin{figure}[!ht]
+\centering
+  \includegraphics[width=5.85cm]{./Figures/usmLogo.png}
+\end{figure}
+\vspace{0.5cm}
 
-\HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-\HRule \\[1.5cm] % Horizontal line
- 
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Autor:}\\
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Supervisores:} \\
-\end{flushright}
-\end{minipage}\\[3cm]
- 
-\large \textit{Memoria para optar al grado de \degreename}\\[0.3cm] % University requirement text
-\textit{en el}\\[0.4cm]
-\deptname\\[2cm] % Research group name and department name
- 
-{\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
-\vfill
+\linespread{1}\hangindent=0cm
+\textbf{\Large ``DISEÑO Y CONSTRUCCIÓN DE PLATAFORMA PARA ESTUDIO DE ENJAMBRES DE ROBOTS''\\}
+\vspace{3cm}
+
+\hangindent=0cm\large \textbf{SEBASTIÁN IGNACIO SÁEZ SAN JUAN}\\
+\vspace{0.5cm}
+\hangindent=0cm\normalsize \textbf{MEMORIA DE TITULACIÓN PARA OPTAR AL TÍTULO DE INGENIERO CIVIL ELECTRÓNICO}\\
+\vspace{3cm}
+\hangindent=0cm\normalsize \textbf{PROFESOR GUIA: \hspace{1cm} DRA. MARÍA JOSE ESCOBAR}\\
+\vspace{0.5cm}
+\hangindent=0cm\normalsize \textbf{PROFESOR CORREFERENTE: \hspace{1cm} DR. PABLO PRIETO}\\
+\vspace{0.5cm}
+\hangindent=0cm\normalsize \textbf{PROFESOR CORREFERENTE: \hspace{1cm} DR. JUAN CRISTOBAL ZAGAL}\\
+
+
 \end{center}
+%
+%\begin{center}
+%
+%\textsc{\LARGE \univname}\\[1.5cm] % University name
+%\textsc{\Large Memoria Titulación}\\[0.5cm] % Thesis type
+%
+%\HRule \\[0.4cm] % Horizontal line
+%{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+% 
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Autor:}\\
+%\end{flushleft}
+%\end{minipage}
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisores:} \\
+%\end{flushright}
+%\end{minipage}\\[3cm]
+% 
+%\large \textit{Memoria para optar al grado de \degreename}\\[0.3cm] % University requirement text
+%\textit{en el}\\[0.4cm]
+%\deptname\\[2cm] % Research group name and department name
+% 
+%{\large \today}\\[4cm] % Date
+%%\includegraphics{Logo} % University/department logo - uncomment to place it
+% 
+%\vfill
+%\end{center}
 
 \end{titlepage}
 
@@ -110,14 +142,26 @@
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
 
-\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+\addtotoc{Resumen} % Add the "Abstract" page entry to the Contents
 
-\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\resumen{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 Desarrollo de una plataforma, de bajo costo, que permita estudiar el comportamiento de grupos de robots. Para que la plataforma funcione es necesario el diseño y construcción de los robots , implementar sistema de tracking 2D, armar la red de comunicación (XBee) y construir el software de control.
 }
 
 \clearpage % Start a new page
 
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+Create a low cost platform, which allows to study the behavior of a group of robots. For this platform to work, it is necessary the design and building of the robots, implement a 2D tracking system, build a communication network (xbee) and create the control software.
+}
+
+\clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
@@ -155,6 +199,7 @@ Este trabajo no habría podido realizarse sin el apoyo incondicional de mi profe
 \dedicatory{Pía, mi fiel compañera de aventuras\ldots} % Dedication text
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+\addcontentsline{toc}{chapter}{Prefacio}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -167,12 +212,16 @@ Este trabajo no habría podido realizarse sin el apoyo incondicional de mi profe
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
+
+\input{./Chapters/Prefacio}
 \input{./Chapters/Chapter1} 
 \input{./Chapters/Chapter2}
 \input{./Chapters/Chapter3}
 \input{./Chapters/Chapter4} 
 \input{./Chapters/Chapter5} 
 \input{./Chapters/Chapter6}
+\input{./Chapters/Chapter7}
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

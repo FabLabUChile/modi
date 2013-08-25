@@ -3,52 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
-A bad cross reference---entry "ZagalL09"
-refers to entry "conf/gecco/2009c", which doesn't exist
-Warning--I didn't find a database entry for "conf/gecco/2009c"
 Warning--can't use both volume and number fields in mondada2009puck
 Warning--empty journal in thurskyusing
 Warning--empty year in thurskyusing
 Warning--empty year in thurskyusing
-You've used 9 entries,
+You've used 6 entries,
             2481 wiz_defined-function locations,
-            622 strings with 7120 characters,
-and the built_in function-call counts, 4939 in all, are:
-= -- 424
-> -- 283
-< -- 11
-+ -- 103
-- -- 85
-* -- 388
-:= -- 757
-add.period$ -- 42
-call.type$ -- 9
-change.case$ -- 18
-chr.to.int$ -- 9
-cite$ -- 13
-duplicate$ -- 245
-empty$ -- 410
-format.name$ -- 102
-if$ -- 1097
+            593 strings with 6083 characters,
+and the built_in function-call counts, 3223 in all, are:
+= -- 281
+> -- 162
+< -- 9
++ -- 60
+- -- 48
+* -- 237
+:= -- 473
+add.period$ -- 24
+call.type$ -- 6
+change.case$ -- 12
+chr.to.int$ -- 6
+cite$ -- 10
+duplicate$ -- 171
+empty$ -- 279
+format.name$ -- 60
+if$ -- 726
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 9
-newline$ -- 64
-num.names$ -- 29
-pop$ -- 85
+int.to.str$ -- 7
+missing$ -- 6
+newline$ -- 42
+num.names$ -- 18
+pop$ -- 64
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 6
 quote$ -- 0
-skip$ -- 171
+skip$ -- 125
 stack$ -- 0
-substring$ -- 225
-swap$ -- 78
-text.length$ -- 7
+substring$ -- 156
+swap$ -- 60
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 63
+type$ -- 42
 warning$ -- 4
-while$ -- 35
+while$ -- 25
 width$ -- 0
-write$ -- 152
-(There was 1 error message)
+write$ -- 96
+(There were 4 warnings)

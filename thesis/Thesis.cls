@@ -304,6 +304,33 @@
     \setlength{\parskip}{0pt}
     {\normalsize \UNIVNAME \par} % University name in capitals
     \bigskip
+    {\huge{\textit{Abstract}} \par}
+    \bigskip
+    {\normalsize \facname \par} % Faculty name
+    {\normalsize \deptname \par} % Department name
+    \bigskip
+    {\normalsize \degreename\par} % Degree name
+    \bigskip
+    {\normalsize\bf \@title \par} % Thesis title
+    \medskip
+    {\normalsize por \authornames \par} % Author name
+    \bigskip
+  \end{center}
+}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE DESIGN ESP
+%----------------------------------------------------------------------------------------
+\newenvironment{resumen}
+{
+  \btypeout{Resumen Page}
+  \thispagestyle{empty}
+  \null\vfil
+  \begin{center}
+    \setlength{\parskip}{0pt}
+    {\normalsize \UNIVNAME \par} % University name in capitals
+    \bigskip
     {\huge{\textit{Resumen}} \par}
     \bigskip
     {\normalsize \facname \par} % Faculty name
@@ -417,9 +444,9 @@
 }
 \newcommand\acknowledgements[1]{
 \btypeout{Acknowledgements}
-\addtotoc{Acknowledgements}
+\addtotoc{Agradecimientos}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+\begin{center}{\huge{\textit{Agradecimientos}} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 

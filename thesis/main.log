@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.16)  29 JUL 2013 17:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.16)  25 AUG 2013 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,10 +733,7 @@ LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 
 
-LaTeX Warning: Label `Chapter2' multiply defined.
-
-
-LaTeX Warning: Label `ChapterX' multiply defined.
+LaTeX Warning: Label `fig:MODI' multiply defined.
 
 
 LaTeX Warning: Label `fig:Historia' multiply defined.
@@ -815,31 +812,38 @@ LaTeX Info: Redefining \nameref on input line 38.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+<./Figures/usmLogo.png, id=209, 201.75375pt x 163.3603pt>
+File: ./Figures/usmLogo.png Graphic file (type png)
 
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+<use ./Figures/usmLogo.png>
+Package pdftex.def Info: ./Figures/usmLogo.png used on input line 75.
+(pdftex.def)             Requested size: 166.44879pt x 134.7739pt.
+ [1
 
 
 
-]
+ <./Figures/usmLogo.png>]
+------------------------------------------------------------------------------
+ Resumen Page
+------------------------------------------------------------------------------
+
+Package hyperref Warning: Suppressing empty link on input line 147.
+
+[1]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
 
-Package hyperref Warning: Suppressing empty link on input line 115.
+Package hyperref Warning: Suppressing empty link on input line 160.
 
-[1]
+[2
+
+]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[2
+[3
 
 ]
 ------------------------------------------------------------------------------
@@ -865,14 +869,26 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
 (spanish)                faked small caps on input line 6.
 
-[3
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 8.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
 
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [4]
+ [5]
 ------------------------------------------------------------------------------
  \IeC {\'I}ndice de Figuras y Tablas
 ------------------------------------------------------------------------------
@@ -883,394 +899,382 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5
+ [6
 
 
-] [6]
+]
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
 [7
 
-] (./Chapters/Chapter1.tex
+] (./Chapters/Prefacio.tex [1
+
+
+
+]) (./Chapters/Chapter1.tex [2]
 Cap\'{\i }tulo 1.
 ------------------------------------------------------------------------------
  1 Introducci\IeC {\'o}n
 ------------------------------------------------------------------------------
-<./Figures/robot.jpg, id=365, 421.575pt x 279.0425pt>
+<./Figures/robot.jpg, id=373, 421.575pt x 279.0425pt>
 File: ./Figures/robot.jpg Graphic file (type jpg)
 
 <use ./Figures/robot.jpg>
-Package pdftex.def Info: ./Figures/robot.jpg used on input line 20.
+Package pdftex.def Info: ./Figures/robot.jpg used on input line 18.
 (pdftex.def)             Requested size: 333.97972pt x 221.06705pt.
- [1
+ [3
 
-
-
- <./Figures/robot.jpg>] [2])
-(./Chapters/Chapter2.tex [3]
+ <./Figures/robot.jpg>]) (./Chapters/Chapter2.tex
+[4]
 Cap\'{\i }tulo 2.
 ------------------------------------------------------------------------------
  2 Robot
 ------------------------------------------------------------------------------
-<./Figures/Duck_of_Vaucanson.jpg, id=381, 281.05pt x 252.945pt>
+<./Figures/Duck_of_Vaucanson.jpg, id=384, 281.05pt x 252.945pt>
 File: ./Figures/Duck_of_Vaucanson.jpg Graphic file (type jpg)
 
 <use ./Figures/Duck_of_Vaucanson.jpg>
 Package pdftex.def Info: ./Figures/Duck_of_Vaucanson.jpg used on input line 19.
 
 (pdftex.def)             Requested size: 250.48637pt x 225.43683pt.
- [4
+ [5
 
  <./Figures/Duck_of_Vaucanson.jpg>]
-<./Figures/RobotsInd.png, id=388, 608.2725pt x 282.30469pt>
+
+Package caption Warning: \label without proper \caption on input line 22.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:Duck' on page 6 undefined on input line 36.
+
+<./Figures/RobotsInd.png, id=391, 608.2725pt x 282.30469pt>
 File: ./Figures/RobotsInd.png Graphic file (type png)
 
 <use ./Figures/RobotsInd.png>
-Package pdftex.def Info: ./Figures/RobotsInd.png used on input line 37.
+Package pdftex.def Info: ./Figures/RobotsInd.png used on input line 42.
 (pdftex.def)             Requested size: 417.47307pt x 193.7566pt.
- [5 <./Figures/RobotsInd.png>]
-<./Figures/6DOF.jpg, id=398, 602.25pt x 398.23781pt>
-File: ./Figures/6DOF.jpg Graphic file (type jpg)
- <use ./Figures/6DOF.jpg>
-Package pdftex.def Info: ./Figures/6DOF.jpg used on input line 49.
-(pdftex.def)             Requested size: 417.47307pt x 276.06654pt.
-)
-(./Chapters/Chapter3.tex [6 <./Figures/6DOF.jpg>]
+ [6]
+<./Figures/6DOF.png, id=404, 391.4625pt x 258.21469pt>
+File: ./Figures/6DOF.png Graphic file (type png)
+
+<use ./Figures/6DOF.png>
+Package pdftex.def Info: ./Figures/6DOF.png used on input line 54.
+(pdftex.def)             Requested size: 417.47307pt x 275.3847pt.
+) (./Chapters/Chapter3.tex [7 <./Figures/RobotsInd.png>] [8 <./Figures/6DOF.png
+>]
 Cap\'{\i }tulo 3.
 ------------------------------------------------------------------------------
  3 Swarm
 ------------------------------------------------------------------------------
-<./Figures/swarm.jpg, id=403, 146.36961pt x 99.71431pt>
+<./Figures/swarm.jpg, id=416, 146.36961pt x 99.71431pt>
 File: ./Figures/swarm.jpg Graphic file (type jpg)
 
 <use ./Figures/swarm.jpg>
-Package pdftex.def Info: ./Figures/swarm.jpg used on input line 17.
+Package pdftex.def Info: ./Figures/swarm.jpg used on input line 11.
 (pdftex.def)             Requested size: 333.97972pt x 227.56244pt.
- [7
+ [9
 
- <./Figures/swarm.jpg>] [8]
-<./Figures/robots.png, id=418, 722.7pt x 542.025pt>
-File: ./Figures/robots.png Graphic file (type png)
- <use ./Figures/robots.png>
-Package pdftex.def Info: ./Figures/robots.png used on input line 67.
+ <./Figures/swarm.jpg>] [10] [11]
+<./Figures/robots1.png, id=441, 722.7pt x 542.025pt>
+File: ./Figures/robots1.png Graphic file (type png)
+
+<use ./Figures/robots1.png>
+Package pdftex.def Info: ./Figures/robots1.png used on input line 70.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
 
-[9] <./Figures/tabla_robots.png, id=437, 685.8122pt x 356.0803pt>
+<./Figures/tabla_robots.png, id=454, 685.8122pt x 356.0803pt>
 File: ./Figures/tabla_robots.png Graphic file (type png)
 
 <use ./Figures/tabla_robots.png>
-Package pdftex.def Info: ./Figures/tabla_robots.png used on input line 77.
+Package pdftex.def Info: ./Figures/tabla_robots.png used on input line 80.
 (pdftex.def)             Requested size: 417.47307pt x 216.76314pt.
- [10 <./Figures/robots.png>]
-<./Figures/nicho.png, id=451, 722.7pt x 542.025pt>
+ [12 <./Figures/robots1.png>]
+<./Figures/nicho.png, id=465, 722.7pt x 542.025pt>
 File: ./Figures/nicho.png Graphic file (type png)
  <use ./Figures/nicho.png>
-Package pdftex.def Info: ./Figures/nicho.png used on input line 94.
+Package pdftex.def Info: ./Figures/nicho.png used on input line 97.
 (pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
 )
-(./Chapters/Chapter4.tex [11 <./Figures/tabla_robots.png>] [12 <./Figures/nicho
+(./Chapters/Chapter4.tex [13 <./Figures/tabla_robots.png>] [14 <./Figures/nicho
 .png>]
 Cap\'{\i }tulo 4.
 ------------------------------------------------------------------------------
- 4 MODI
+ 4 Dise\IeC {\~n}o y fabricaci\IeC {\'o}n digital
 ------------------------------------------------------------------------------
-<./Figures/MODI/render.png, id=462, 448.67625pt x 340.27126pt>
+<./Figures/FabDig.JPG, id=477, 1606.0pt x 1003.75pt>
+File: ./Figures/FabDig.JPG Graphic file (type jpg)
+
+<use ./Figures/FabDig.JPG>
+Package pdftex.def Info: ./Figures/FabDig.JPG used on input line 12.
+(pdftex.def)             Requested size: 333.97972pt x 208.72606pt.
+ [15
+
+ <./Figures/FabDig.JPG>] [16] [17]
+<./Pictures/modi_analogToDigital.png, id=507, 722.7pt x 542.025pt>
+File: ./Pictures/modi_analogToDigital.png Graphic file (type png)
+
+<use ./Pictures/modi_analogToDigital.png>
+Package pdftex.def Info: ./Pictures/modi_analogToDigital.png used on input line
+ 72.
+(pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
+
+<./Figures/3Dprint.png, id=508, 621.07031pt x 379.4175pt>
+File: ./Figures/3Dprint.png Graphic file (type png)
+
+<use ./Figures/3Dprint.png>
+Package pdftex.def Info: ./Figures/3Dprint.png used on input line 80.
+(pdftex.def)             Requested size: 417.47307pt x 255.03629pt.
+
+<./Figures/tabla_impresoras.png, id=509, 717.43031pt x 207.77625pt>
+File: ./Figures/tabla_impresoras.png Graphic file (type png)
+
+<use ./Figures/tabla_impresoras.png>
+Package pdftex.def Info: ./Figures/tabla_impresoras.png used on input line 90.
+(pdftex.def)             Requested size: 417.47307pt x 120.9066pt.
+
+<./Figures/impresoras.png, id=510, 722.7pt x 542.025pt>
+File: ./Figures/impresoras.png Graphic file (type png)
+
+<use ./Figures/impresoras.png>
+Package pdftex.def Info: ./Figures/impresoras.png used on input line 99.
+(pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
+
+<./Figures/map.png, id=512, 788.19469pt x 455.45157pt>
+File: ./Figures/map.png Graphic file (type png)
+ <use ./Figures/map.png>
+Package pdftex.def Info: ./Figures/map.png used on input line 111.
+(pdftex.def)             Requested size: 417.47307pt x 241.22833pt.
+) (./Chapters/Chapter5.tex [18 <./Pictures/modi_analogToDigital.png>] [19 <./Fi
+gures/3Dprint.png> <./Figures/tabla_impresoras.png>] [20 <./Figures/impresoras.
+png> <./Figures/map.png>]
+Cap\'{\i }tulo 5.
+------------------------------------------------------------------------------
+ 5 MODI
+------------------------------------------------------------------------------
+<./Figures/MODI/render.png, id=529, 448.67625pt x 340.27126pt>
 File: ./Figures/MODI/render.png Graphic file (type png)
 
 <use ./Figures/MODI/render.png>
 Package pdftex.def Info: ./Figures/MODI/render.png used on input line 14.
 (pdftex.def)             Requested size: 333.97972pt x 253.2921pt.
- [13
 
- <./Figures/MODI/render.png>] [14]
-<./Pictures/modi_analogToDigital.png, id=486, 722.7pt x 542.025pt>
-File: ./Pictures/modi_analogToDigital.png Graphic file (type png)
 
-<use ./Pictures/modi_analogToDigital.png>
-Package pdftex.def Info: ./Pictures/modi_analogToDigital.png used on input line
- 58.
-(pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 28.
 
-<./Figures/3Dprint.png, id=487, 621.07031pt x 379.4175pt>
-File: ./Figures/3Dprint.png Graphic file (type png)
+[21
 
-<use ./Figures/3Dprint.png>
-Package pdftex.def Info: ./Figures/3Dprint.png used on input line 66.
-(pdftex.def)             Requested size: 417.47307pt x 255.03629pt.
-
-<./Figures/tabla_impresoras.png, id=488, 717.43031pt x 207.77625pt>
-File: ./Figures/tabla_impresoras.png Graphic file (type png)
-
-<use ./Figures/tabla_impresoras.png>
-Package pdftex.def Info: ./Figures/tabla_impresoras.png used on input line 76.
-(pdftex.def)             Requested size: 417.47307pt x 120.9066pt.
-
-<./Figures/impresoras.png, id=489, 722.7pt x 542.025pt>
-File: ./Figures/impresoras.png Graphic file (type png)
-
-<use ./Figures/impresoras.png>
-Package pdftex.def Info: ./Figures/impresoras.png used on input line 85.
-(pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [15]
-<./Figures/map.png, id=497, 788.19469pt x 455.45157pt>
-File: ./Figures/map.png Graphic file (type png)
- <use ./Figures/map.png>
-Package pdftex.def Info: ./Figures/map.png used on input line 97.
-(pdftex.def)             Requested size: 417.47307pt x 241.22833pt.
-
-[16 <./Pictures/modi_analogToDigital.png>] [17 <./Figures/3Dprint.png> <./Figur
-es/tabla_impresoras.png>] [18 <./Figures/impresoras.png> <./Figures/map.png>]
-<./Figures/MODI/piezas.jpg, id=519, 803.0pt x 670.505pt>
+ <./Figures/MODI/render.png>]
+<./Figures/MODI/piezas.jpg, id=539, 803.0pt x 670.505pt>
 File: ./Figures/MODI/piezas.jpg Graphic file (type jpg)
 
 <use ./Figures/MODI/piezas.jpg>
-Package pdftex.def Info: ./Figures/MODI/piezas.jpg used on input line 138.
+Package pdftex.def Info: ./Figures/MODI/piezas.jpg used on input line 47.
 (pdftex.def)             Requested size: 417.47307pt x 348.59299pt.
 
-<./Figures/MODI/compRender.png, id=520, 651.93562pt x 212.29312pt>
+<./Figures/MODI/compRender.png, id=540, 651.93562pt x 212.29312pt>
 File: ./Figures/MODI/compRender.png Graphic file (type png)
 
 <use ./Figures/MODI/compRender.png>
-Package pdftex.def Info: ./Figures/MODI/compRender.png used on input line 146.
+Package pdftex.def Info: ./Figures/MODI/compRender.png used on input line 55.
 (pdftex.def)             Requested size: 417.47307pt x 135.9481pt.
 
-<./Figures/MODI/ensamble.png, id=521, 894.34125pt x 587.19376pt>
+<./Figures/MODI/ensamble.png, id=541, 894.34125pt x 587.19376pt>
 File: ./Figures/MODI/ensamble.png Graphic file (type png)
 
 <use ./Figures/MODI/ensamble.png>
-Package pdftex.def Info: ./Figures/MODI/ensamble.png used on input line 154.
+Package pdftex.def Info: ./Figures/MODI/ensamble.png used on input line 63.
 (pdftex.def)             Requested size: 417.47307pt x 274.09953pt.
-
-<./Figures/modi/MODI_schem.png, id=524, 879.285pt x 918.632pt>
+ [22] [23 <./Figures/MODI/piezas.jpg> <./Figures/MODI/compRender.png>]
+<./Figures/modi/MODI_schem.png, id=555, 2472.98906pt x 2583.6525pt>
 File: ./Figures/modi/MODI_schem.png Graphic file (type png)
 
 <use ./Figures/modi/MODI_schem.png>
-Package pdftex.def Info: ./Figures/modi/MODI_schem.png used on input line 171.
-(pdftex.def)             Requested size: 417.47307pt x 436.14449pt.
+Package pdftex.def Info: ./Figures/modi/MODI_schem.png used on input line 80.
+(pdftex.def)             Requested size: 417.47307pt x 436.1401pt.
 
-<./Figures/modi/pcb.png, id=525, 722.7pt x 542.025pt>
+<./Figures/modi/pcb.png, id=556, 722.7pt x 542.025pt>
 File: ./Figures/modi/pcb.png Graphic file (type png)
 
 <use ./Figures/modi/pcb.png>
-Package pdftex.def Info: ./Figures/modi/pcb.png used on input line 179.
+Package pdftex.def Info: ./Figures/modi/pcb.png used on input line 88.
 (pdftex.def)             Requested size: 375.7232pt x 281.78845pt.
- [19] [20 <./Figures/MODI/piezas.jpg> <./Figures/MODI/compRender.png>] [21 <./F
-igures/MODI/ensamble.png>] [22 <./Figures/modi/MODI_schem.png>] [23 <./Figures/
-modi/pcb.png>]
-<./Figures/MODI/compElo.png, id=551, 722.7pt x 542.025pt>
+ [24 <./Figures/MODI/ensamble.png>] [25 <./Figures/modi/MODI_schem.png>] [26 <.
+/Figures/modi/pcb.png>]
+<./Figures/MODI/compElo.png, id=571, 722.7pt x 542.025pt>
 File: ./Figures/MODI/compElo.png Graphic file (type png)
 
 <use ./Figures/MODI/compElo.png>
-Package pdftex.def Info: ./Figures/MODI/compElo.png used on input line 193.
+Package pdftex.def Info: ./Figures/MODI/compElo.png used on input line 102.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [24
+ [27
 
- <./Figures/MODI/compElo.png>] [25]
-[26] <./Figures/MODI/MODI_without_LED_bb.png, id=570, 330.033pt x 214.401pt>
+ <./Figures/MODI/compElo.png>] [28]
+[29] <./Figures/MODI/MODI_without_LED_bb.png, id=591, 927.465pt x 597.73312pt>
 File: ./Figures/MODI/MODI_without_LED_bb.png Graphic file (type png)
 
 <use ./Figures/MODI/MODI_without_LED_bb.png>
 Package pdftex.def Info: ./Figures/MODI/MODI_without_LED_bb.png used on input l
-ine 249.
-(pdftex.def)             Requested size: 333.97972pt x 216.9653pt.
-
-<./Figures/MODI/comparacionElo.png, id=571, 358.33875pt x 722.7pt>
-File: ./Figures/MODI/comparacionElo.png Graphic file (type png)
-
-<use ./Figures/MODI/comparacionElo.png>
-Package pdftex.def Info: ./Figures/MODI/comparacionElo.png used on input line 2
-58.
-(pdftex.def)             Requested size: 333.97972pt x 673.61482pt.
-
-
-LaTeX Warning: Float too large for page by 36.24174pt on input line 262.
-
-[27 <./Figures/MODI/MODI_without_LED_bb.png>] [28 <./Figures/MODI/comparacionEl
-o.png>] <./Figures/MODI/RGBLED.png, id=584, 244.66406pt x 148.30406pt>
+ine 158.
+(pdftex.def)             Requested size: 333.97972pt x 215.2476pt.
+ [30 <./Figures/MODI/MODI_without_LED_bb.png>] <./Figures/MODI/RGBLED.png, id=5
+99, 1011.78pt x 429.10312pt>
 File: ./Figures/MODI/RGBLED.png Graphic file (type png)
 
 <use ./Figures/MODI/RGBLED.png>
-Package pdftex.def Info: ./Figures/MODI/RGBLED.png used on input line 275.
-(pdftex.def)             Requested size: 333.97972pt x 202.44891pt.
+Package pdftex.def Info: ./Figures/MODI/RGBLED.png used on input line 177.
+(pdftex.def)             Requested size: 333.97972pt x 141.64374pt.
 
-<./Figures/AtlasCADlr.jpg, id=587, 496.85625pt x 420.57124pt>
-File: ./Figures/AtlasCADlr.jpg Graphic file (type jpg)
+<./Figures/MODI/comparacionElo.png, id=600, 358.33875pt x 722.7pt>
+File: ./Figures/MODI/comparacionElo.png Graphic file (type png)
 
-<use ./Figures/AtlasCADlr.jpg>
-Package pdftex.def Info: ./Figures/AtlasCADlr.jpg used on input line 291.
-(pdftex.def)             Requested size: 417.47307pt x 353.38011pt.
- [29 <./Figures/MODI/RGBLED.png>]
-<./Figures/graficosMotores.png, id=597, 722.7pt x 296.60812pt>
+<use ./Figures/MODI/comparacionElo.png>
+Package pdftex.def Info: ./Figures/MODI/comparacionElo.png used on input line 1
+85.
+(pdftex.def)             Requested size: 333.97972pt x 673.61482pt.
+
+
+LaTeX Warning: Float too large for page by 36.24174pt on input line 189.
+
+[31 <./Figures/MODI/RGBLED.png>] [32 <./Figures/MODI/comparacionElo.png>]
+<./Figures/robots.png, id=613, 701.62125pt x 436.63126pt>
+File: ./Figures/robots.png Graphic file (type png)
+
+<use ./Figures/robots.png>
+Package pdftex.def Info: ./Figures/robots.png used on input line 202.
+(pdftex.def)             Requested size: 417.47307pt x 259.8088pt.
+
+<./Figures/graficosMotores.png, id=616, 722.7pt x 296.60812pt>
 File: ./Figures/graficosMotores.png Graphic file (type png)
 
 <use ./Figures/graficosMotores.png>
-Package pdftex.def Info: ./Figures/graficosMotores.png used on input line 302.
+Package pdftex.def Info: ./Figures/graficosMotores.png used on input line 213.
 (pdftex.def)             Requested size: 333.97972pt x 137.07048pt.
- [30 <./Figures/AtlasCADlr.jpg>]
-<./Figures/MODI/pwm.png, id=607, 600.74437pt x 453.19313pt>
+ [33 <./Figures/robots.png>]
+<./Figures/MODI/pwm.png, id=628, 722.7pt x 542.025pt>
 File: ./Figures/MODI/pwm.png Graphic file (type png)
 
 <use ./Figures/MODI/pwm.png>
-Package pdftex.def Info: ./Figures/MODI/pwm.png used on input line 315.
-(pdftex.def)             Requested size: 333.97972pt x 251.9539pt.
- [31 <./Figures/graficosMotores.png>]
-<./Figures/setup.png, id=615, 1606.0pt x 821.0675pt>
+Package pdftex.def Info: ./Figures/MODI/pwm.png used on input line 226.
+(pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
+ [34 <./Figures/graficosMotores.png>]
+<./Figures/setup.png, id=637, 1606.0pt x 821.0675pt>
 File: ./Figures/setup.png Graphic file (type png)
  <use ./Figures/setup.png>
-Package pdftex.def Info: ./Figures/setup.png used on input line 337.
+Package pdftex.def Info: ./Figures/setup.png used on input line 248.
 (pdftex.def)             Requested size: 417.47307pt x 213.43492pt.
 
-[32 <./Figures/MODI/pwm.png>] [33 <./Figures/setup.png>]
-<./Figures/MODI/fiducial.png, id=628, 513.92pt x 385.44pt>
+[35 <./Figures/MODI/pwm.png>] [36 <./Figures/setup.png>]
+<./Figures/MODI/fiducial.png, id=650, 513.92pt x 385.44pt>
 File: ./Figures/MODI/fiducial.png Graphic file (type png)
 
 <use ./Figures/MODI/fiducial.png>
-Package pdftex.def Info: ./Figures/MODI/fiducial.png used on input line 364.
+Package pdftex.def Info: ./Figures/MODI/fiducial.png used on input line 275.
 (pdftex.def)             Requested size: 333.97972pt x 250.48598pt.
 
-<./Figures/MODI/kitbom.png, id=631, 520.19344pt x 350.05782pt>
+<./Figures/MODI/kitbom.png, id=653, 520.19344pt x 350.05782pt>
 File: ./Figures/MODI/kitbom.png Graphic file (type png)
 
 <use ./Figures/MODI/kitbom.png>
-Package pdftex.def Info: ./Figures/MODI/kitbom.png used on input line 381.
+Package pdftex.def Info: ./Figures/MODI/kitbom.png used on input line 292.
 (pdftex.def)             Requested size: 417.47307pt x 280.9333pt.
-) (./Chapters/Chapter5.tex [34 <./Figures/MODI/fiducial.png (PNG copy)>] [35 <.
+) (./Chapters/Chapter6.tex [37 <./Figures/MODI/fiducial.png (PNG copy)>] [38 <.
 /Figures/MODI/kitbom.png>]
-Cap\'{\i }tulo 5.
-------------------------------------------------------------------------------
- 5 Aplicaciones
-------------------------------------------------------------------------------
-[36
-
-]) (./Chapters/Chapter6.tex [37]
 Cap\'{\i }tulo 6.
 ------------------------------------------------------------------------------
- 6 Mejoras futuras y Conclusiones
+ 6 Aplicaciones
 ------------------------------------------------------------------------------
-[38
+[39
 
-] <./Pictures/wires.png, id=662, 722.7pt x 542.025pt>
+]) (./Chapters/Chapter7.tex [40]
+Cap\'{\i }tulo 7.
+------------------------------------------------------------------------------
+ 7 Mejoras futuras y Conclusiones
+------------------------------------------------------------------------------
+[41
+
+] <./Pictures/wires.png, id=681, 722.7pt x 542.025pt>
 File: ./Pictures/wires.png Graphic file (type png)
 
 <use ./Pictures/wires.png>
 Package pdftex.def Info: ./Pictures/wires.png used on input line 34.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [39 <./Pictures/wires.png>] [40])
-(./Appendices/AppendixA.tex [41]
+ [42 <./Pictures/wires.png>] [43])
+(./Appendices/AppendixA.tex [44]
 Ap\'{e}ndice A.
 ------------------------------------------------------------------------------
  A 
 ------------------------------------------------------------------------------
-<./Pictures/historia.jpg, id=683, 2055.68pt x 1541.76pt>
+<./Pictures/historia.jpg, id=698, 2055.68pt x 1541.76pt>
 File: ./Pictures/historia.jpg Graphic file (type jpg)
 
 <use ./Pictures/historia.jpg>
-Package pdftex.def Info: ./Pictures/historia.jpg used on input line 13.
+Package pdftex.def Info: ./Pictures/historia.jpg used on input line 14.
 (pdftex.def)             Requested size: 417.47307pt x 313.09865pt.
 
-<./Figures/MODI/MODI_schem.png, id=684, 879.285pt x 918.632pt>
-File: ./Figures/MODI/MODI_schem.png Graphic file (type png)
+<./Figures/MODI/pcbmodi.png, id=699, 113.4639pt x 115.19838pt>
+File: ./Figures/MODI/pcbmodi.png Graphic file (type png)
 
-<use ./Figures/MODI/MODI_schem.png>
-Package pdftex.def Info: ./Figures/MODI/MODI_schem.png used on input line 21.
-(pdftex.def)             Requested size: 417.47307pt x 436.14449pt.
-) [42
+<use ./Figures/MODI/pcbmodi.png>
+Package pdftex.def Info: ./Figures/MODI/pcbmodi.png used on input line 22.
+(pdftex.def)             Requested size: 417.47307pt x 423.95097pt.
+) [45
 
- <./Pictures/historia.jpg>] [43 <./Figures/MODI/MODI_schem.png>]
+ <./Pictures/historia.jpg>] [46 <./Figures/MODI/pcbmodi.png>]
 ------------------------------------------------------------------------------
  Bibliograf\'{\i }a
 ------------------------------------------------------------------------------
-(./main.bbl [44
+(./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
+ [47
 
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
- [45]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A4F144D5A4597BCC4F9C765D76EF27B8;7765.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 30BFF71C872BDEE629BB48FD67793835;7776
-(rerunfilecheck)             After:  55B1A39B2184FF2747FA6F01B85B1785;7609.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 14183 strings out of 493481
- 198666 string characters out of 3144398
- 273519 words of memory out of 3000000
- 17056 multiletter control sequences out of 15000+200000
- 17288 words of font info for 63 fonts, out of 3000000 for 9000
+ 14189 strings out of 493481
+ 198598 string characters out of 3144398
+ 269499 words of memory out of 3000000
+ 17057 multiletter control sequences out of 15000+200000
+ 16339 words of font info for 60 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,45p,3681b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.102} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.101} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.95} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.86} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{dummy.103} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.100} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.99} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.97} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.96} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.91} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.90} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.88} has been referenced but does not exist,
- replaced by a fixed one
-
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2012/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2012/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (54 pages, 10329813 bytes).
+ 49i,12n,45p,3687b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (56 pages, 10977012 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 177 named destinations out of 1000 (max. 500000)
- 545 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 798 PDF objects out of 1000 (max. 8388607)
+ 659 compressed objects within 7 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 571 words of extra memory for PDF output out of 10000 (max. 10000000)
 
