@@ -21,32 +21,29 @@ Como se expuso en el capítulo anterior, actualmente existen varias alternativas
 
 
 
-
-
-
-
-\subsection{Diseño de Chasis MODI}
-El diseño del chasis junto con las ruedas y demás partes plásticas, se hizo en un comienzo con SolidWorks 2012 y luego por ser más simple de usar, Inventor 2013 de Autodesk. Ambos softwares permiten generar modelos en 3D para luego exportar el diseño al formato STL que es estándar para prototipar en plástico. Luego de varias iteraciones se logra el modelo final, Figura \ref{fig:compRender} b, que tiene cinco piezas hechas en plástico como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. 
+\section{Diseño de Chasis MODI}
+Luego de varias iteraciones se logró el modelo final, ver Figura \ref{fig:compRender} b, que tiene cuatro piezas hechas en plástico PLA como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. 
 
 Las piezas del robot fueron diseñadas para ser construidas por una máquina de prototipado rápido del tipo FDM. Se debe tener en cuenta la tolerancia mecánica de las piezas. En especial hay dos piezas: la rueda y el chasis, que se unen al motor. Esta unión debe quedar con un ajuste mecánico Forzado Medio \footnote{http://campuscurico.utalca.cl/\~ fespinos/Ajustes\%20y\%20tolerancias\%20mecanicas.pdf}, para que estas uniones queden fijas y las ruedas estén en el eje correspondiente.
 
 Está formado por cuatro partes:
 
-
-\begin{itemize}
-\item Chasis, debe cumplir con la tarea de contener toda la electrónica y motores
+\begin{enumerate}
+\item Chasis, que es la pieza que une a todos los componentes y cumple con el \textbf{Requerimiento 4.}
 \item Ruedas, permiten el desplazamiento y poseen dos canales para poner o-ring y así aumentar el roce con la supercifie.
 \item Accesorio, tiene un sistema de anclaje al chasis que permite tener distintas carcasas y sensores.
-\item Logo,  sujeta parte de la electrónica contenida en el Chasis y un LED RGB.
-\end{itemize}
+\item Logo,  sujeta parte de la electrónica contenida en el Chasis y dos LEDs RGB.
+\end{enumerate}
 
-La pieza que más demora en construirse es el Chasis, que son 108 minutos en una Replicator 1 de MakerBot.
+Cada una de estas piezas puede ser vista en la Figura \ref{fig:Render Piezas 3D}.
+
+Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es el Chasis, que son 108 minutos. Cada Rueda demora 20 minutos, el accesorio 58 minutos y el logo 25 minutos.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/piezas.jpg}
 		\rule{35em}{0.5pt}
-	\caption[Piezas 3D]{Las cinco piezas que componen el hardware mecánico de MODI, estas son: el chasis, las dos ruedas, el accesorio y logo.}
+	\caption[Piezas 3D]{Las cinco piezas que componen el hardware mecánico de MODI, estas son: el chasis, las dos ruedas, el accesorio y logo. Las dimensiones del robot MODI ensamblado son 96[mm] de diámetro y 50 [mm] de alto.}
 	\label{fig:Render Piezas 3D}
 \end{figure}
 
@@ -70,7 +67,7 @@ La pieza que más demora en construirse es el Chasis, que son 108 minutos en una
 %-----------------------------------
 %	SUBSECTION 5
 %-----------------------------------
-\subsection{Diseño de PCB MODI}
+\section{Diseño de PCB MODI}
 
 En los primeros prototipos un problema que se repetía constantemente fueron las conexiones entre los sistemas que componen al robot. Son 15 conexiones que unen distintos componentes, Figura \ref{fig:Diagrama cables}. Por esto se requiere un PCB que permita reducir al mínimo el espacio necesario para energizar y comunicar los componentes. El requerimiento principal es poder fabricarlo con una fresa CNC como la Roland Modela MDX-20, por lo que para facilitar el proceso de construcción es necesario diseñar un PCB de una sola capa. Se utilizó Eagle como software para el diseño del diagrama eléctrico y PCB, el resultado se puede ver en la Figura \ref{fig:pcb}.
 
@@ -135,13 +132,13 @@ Los dispositivos con los cuales interactuamos a diario poseen acceso a distintos
 
 Para comunicar un robot con otro pueden usarse diversas técnicas. Dependiendo del área en particular que sea del interés del científico, los robot pueden comunicarse por medio de sensores de proximidad o tacto, para saber que hay otro cerca, pueden tener un sistema de visión artificial con una cámara a bordo que le permita “ver” el entorno al robot, con parlantes y micrófonos pueden emitir algún ruido que sea interpretado por su entorno, o lo mismo con sensores de otros tipos.
 
-En nuestro caso optamos por usar el protocolo ZigBee, y para esto hacemos uso de los dispositivos XBee de la empresa Digi. Existen varios modelos de XBee con distintos tipos de antena (chip, alambre o conector SMA), potencia de transición (2mW - 60mW) y frecuencia de operación (2.4 GHz y 900 MHz). Además son de bajo consumo (<50mA en funcionamiento) y se puede tener una gran distancia de comunicación (1.6 Km). Otra característica importante de los XBee es que son capaces de formar redes MESH, que es un tipo de red donde los dispositivos se pueden agregar o remover en forma dinámica y los dispositivos pueden ayudar a dispositivos fuera de alcance a  conectarse con el computador principal. Como el proyecto está diseñado para funcionar dentro de un laboratorio pequeño se escogió el XBee Serie 2 de 2mW con antena chip, ya que son los más económicos por ser para comunicación a corta distancia.
+En nuestro caso optamos por usar el protocolo ZigBee, y para esto hacemos uso de los dispositivos XBee de la empresa Digi. Existen varios modelos de XBee con distintos tipos de antena (chip, alambre o conector SMA), potencia de transición (2mW - 60mW) y frecuencia de operación (2.4 GHz y 900 MHz). Además son de bajo consumo (50mA en funcionamiento) y se puede tener una gran distancia de comunicación (1.6 Km). Otra característica importante de los XBee es que son capaces de formar redes MESH, que es un tipo de red donde los dispositivos se pueden agregar o remover en forma dinámica y los dispositivos pueden ayudar a dispositivos fuera de alcance a  conectarse con el computador principal. Como el proyecto está diseñado para funcionar dentro de un laboratorio pequeño se escogió el XBee Serie 2 de 2mW con antena chip, ya que son los más económicos por ser para comunicación a corta distancia. Con esto se cumple con el \textbf{Requerimiento 9}.
 
 %-----------------------------------
 %	SUBSECTION 3
 %-----------------------------------
 \subsection{Lipo Rider Pro}
- La versión actual de MODI permite su carga por medio de un puerto Mini USB, panel solar y de forma inalámbrica. cumpliendo con el \textbf{requerimiento 6}.
+ La versión actual de MODI permite su carga por medio de un puerto Mini USB, panel solar y de forma inalámbrica. cumpliendo con el \textbf{Requerimiento 5}.
 
 El LiPo Rider Pro, Figura \ref{fig:compELO} a, es una versión mejorada del LiPo Rider, que es una fuente de poder para alimentar distintos gadget con energía solar. Esta placa permite alimentar con 5V distintos dispositivos. Cuya energía puede provenir de diferentes fuentes, tales como, energía del sol o por medio de inducción magnética y almacena esta energía en una batería LiPo. Esta PCB es extremadamente útil ya que además de energizar a MODI, puede incluso cargar un SmartPhone para poder más adelante extender las capacidades de procesamiento del robot.
 
@@ -151,13 +148,13 @@ La Lipo Rider obtiene de dos formas la energía, una es con un panel solar y la 
 %	SUBSECTION 4
 %-----------------------------------
 \subsection{Motor Driver 1A Dual TB6612FNG}
-El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente constante de 1.2A (3.2A peak) y así separar la lógica del Arduino con la potencia que necesitan los motores. Dos señales de entrada (IN1 y IN2) puede ser usadas para controlar el motor en una de cuatro modos de funcionamiento: giro horario, giro anti horario, short-brake, y parada. A cada motor se le conectan dos salidas y cada motor se puede controlar separadamente, la velocidad de cada uno es controlada vía pin PWM con una frecuencia de hasta 100khz. El pin STBY debe colocarse en High para que el motor salga del estado Standby. Figura \ref{fig:compELO} g.
+El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente constante de 1.2A (3.2A peak) y así separar la lógica del Arduino con la potencia que necesitan los motores. Dos señales de entrada (IN1 y IN2) puede ser usadas para controlar el motor en una de cuatro modos de funcionamiento: giro horario, giro anti horario, short-brake, y parada. A cada motor se le conectan dos salidas y cada motor se puede controlar separadamente, la velocidad de cada uno es controlada vía pin PWM y puede alcanzar las 440 RPM. El pin STBY debe colocarse en High para que el motor salga del estado Standby. Ver Figura  \ref{fig:TB6612FNG} para las conexiones. Con esto se cumple el \textbf{Requerimiento 8}.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/MODI/MODI_without_LED_bb.png}
 		\rule{35em}{0.5pt}
-	\caption[Conexión eléctrica Motor Driver 1A Dual TB6612FNG]{Diagrama de conexiones eléctricas para conectar Motor Driver 1A Dual TB6612FNG con motores DC y arduino FIO.}
+	\caption[Conexión eléctrica Motor Driver 1A Dual TB6612FNG]{Diagrama de conexiones eléctricas para conectar Motor Driver 1A Dual TB6612FNG con motores DC y Arduino FIO.}
 	\label{fig:TB6612FNG}
 \end{figure}
 
@@ -168,15 +165,15 @@ El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente 
 %-----------------------------------
 \subsection{Batería LiPo y LED RGB}
 
-Al comienzo se utilizaron baterías AAA para el robot, pero estas tienen el problema de que es necesario que el usuario las retire del robot para recargarlas. Por su parte las baterías LiPo permiten cargarse con el circuito de la Lipo Rider Pro y posee una alta densidad de carga, 2000mAh a 3.7V. Esta batería ayuda a cumplir con el \textbf{requerimiento 6.}
+Al comienzo se utilizaron baterías AAA para el robot, pero estas tienen el problema de que es necesario que el usuario las retire del robot para recargarlas. Por su parte las baterías LiPo permiten cargarse con el circuito de la Lipo Rider Pro y posee una alta densidad de carga, 2000mAh a 3.7V, que significa casi 3 horas de autonomía en funcionamiento continuo de los motores. Esta batería ayuda a cumplir con el \textbf{Requerimiento 5.}
 
-El \textbf{Requerimiento 8} se cumple incluyendo un LED RGB, que se puede controlar de manera simple para indicar los distintos estados en que puede encontrarse el robot. En la Figura \ref{fig:LED} se puede ver un diagrama de conexiones.
+El \textbf{Requerimiento 7} se cumple incluyendo un LED RGB, que se puede controlar de manera simple para indicar los distintos estados en que puede encontrarse el robot. En la Figura \ref{fig:LED} se puede ver un diagrama de conexiones.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/MODI/RGBLED.png}
 		\rule{35em}{0.5pt}
-	\caption[Conexión eléctrica LED RGB]{Diagrama de conexiones eléctricas para LED RGB. Para obtener un brillo óptimo se recomienda usar los valores de resistencias: 180ohm Rojo, 100ohm Verde, 100ohm Azul.}
+	\caption[Conexión eléctrica LED RGB]{Diagrama de conexiones eléctricas para LED RGB. Para obtener un brillo óptimo se recomienda usar los valores de resistencias: 180 Ohm Rojo, 100 Ohm Verde, 100 Ohm Azul.}
 	\label{fig:LED}
 \end{figure}
 
@@ -184,7 +181,7 @@ El \textbf{Requerimiento 8} se cumple incluyendo un LED RGB, que se puede contro
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/MODI/comparacionElo.png}
 		\rule{35em}{0.5pt}
-	\caption[Tabla caracteristicas mas importantes de los componentes Eléctronicos]{Resumen de las características más importantes de los componentes electrónicos que tiene MODI.}
+	\caption[Tabla caracteristicas más importantes de los componentes Eléctronicos]{Resumen de las características más importantes de los componentes electrónicos que tiene MODI.}
 	\label{fig:TablaElo}
 \end{figure}
 
@@ -201,29 +198,29 @@ Existen distintas áreas donde se utilizan robots, dependiendo de la tarea a rea
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/robots.png}
 		\rule{35em}{0.5pt}
-	\caption[Robot Atlas]{Atlas es un humanoide con gran movilidad, diseñado para poder usar herramientas humanas. Posee 28 grados de libertad con actuadores hidráulicos y la energía se le entrega por medio de un cable flexible. Imagen tomada de bostondynamics.com.}
+	\caption[Robots]{Varios robots con distintos tipos de locomoción.}
 	\label{fig:Atlas}
 \end{figure}
 
 
-Para moverse MODI tiene dos motores DC, ver Figura \ref{fig:compELO} f. Estos tienen una caja de reducción 30:1 que permiten aumentar el torque y disminuir la velocidad. La Figura \ref{fig:DCMotor} muestra la característica de estos. 
+Para moverse MODI tiene dos motores DC, ver Figura \ref{fig:compELO} f. Estos tienen una caja de reducción 30:1 que permiten aumentar el torque hasta 3 Kg-mm y disminuir la velocidad máxima hasta las 440 RPM. La Figura \ref{fig:DCMotor} a, muestra como se relaciona la velocidad y el consumo de corriente con el torque del motor.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/graficosMotores.png}
 		\rule{35em}{0.5pt}
-	\caption[Gráficos Motor DC]{a. Operación motores: Corriente, velocidad y torque. Imagen extraída de pololu.com, b. Control de velocidad PWM, se observa como disminuye la velocidad según ciclo de trabajo..}
+	\caption[Gráficos Motor DC]{a. Operación motores: Corriente, velocidad y torque. Imagen extraída de pololu.com, b. Control de velocidad PWM, se observa como disminuye la velocidad según ciclo de trabajo.}
 	\label{fig:DCMotor}
 \end{figure}
 
-El control de velocidad de los motores se hace con PWM, que es una señal periódica a la cual se le modifica el ciclo de trabajo, ver Figura \ref{fig:pwm}, y por ende el valor medio de la señal. Esta es una forma práctica de obtener salidas análogas desde una salida digital en Arduino. 
-Los motores son controlado con el chip TB6612FNG, ver Figura \ref{fig:TB6612FNG}. En este diagrama se pueden ver dos cables naranjos, que son los que controlan la velocidad. En el arduino se generan señales PWM en sus pins D3 y D11, Los valores que genera el Arduino para control de velocidad de los motores van desde 0 a 255, y además se puede controlar el sentido de giro según las salidas AIN y BIN. Por ejemplo para hacer que la rueda izquierda gire en sentido horario se debe dejar el pin AIN1 en 0 y AIN2 en 1 y la velocidad de ésta va a ser según el valor de la señal en PWMA, ver Figura \ref{fig:pwm} b. Para los distintos casos se puede ver la Figura \ref{fig:pwm} a, que indica los 3 movimientos que son: avanzar, avanzar hacia a la izquierda y girar en el eje. Aquí los números representan el período del ciclo de trabajo de la señal enviada por el Arduino al controlador de los motores. 
+El control de velocidad de los motores se hace por medio de una señal PWM que se genera en el arduino. La señal PWM es periódica y se modifica solo su ciclo de trabajo, ver Figura \ref{fig:pwm}, que está relacionado con el valor medio de la señal. De manera que con una señal PWM con un ciclo de trabajo menor se obtiene un voltaje de salida menor, por ende una menor velocidad en el motor.  La Figura \ref{fig:DCMotor} b, relaciona el valor de la señal PWM como un voltaje con la velocidad del motor. Esta es una forma práctica de obtener salidas análogas desde una salida digital en Arduino. 
+La potencia de los motores es controlada con el chip TB6612FNG, ver Figura \ref{fig:TB6612FNG}. En este diagrama se pueden ver dos cables naranjos, que son los que controlan la velocidad. En el Arduino se generan señales PWM en sus pins D3 y D11, Los valores que genera el Arduino para control de velocidad de los motores como representacion interna de la señal PWM van desde 0 a 255, y además se puede controlar el sentido de giro según las salidas AIN y BIN. Por ejemplo para hacer que la rueda izquierda gire en sentido horario se debe dejar el pin AIN1 en 0 y AIN2 en 1 y la velocidad de ésta va a ser según el valor de la señal en PWMA, ver Figura \ref{fig:pwm} b. Para los distintos casos se puede ver la Figura \ref{fig:pwm} a, que indica los 3 movimientos que son: avanzar, avanzar hacia a la izquierda y girar en el eje. Aquí los números representan el período del ciclo de trabajo de la señal enviada por el Arduino al controlador de los motores. 
 
-Se puede realizar un control más fino de la posición usando la información de posición del robot en un PID, que es una técnica clásica de control automático. Midiendo el error entre la posición deseada y la obtenida se modifica el valor de la actuación hasta hacer mínino este error. Se recomienda ver este vídeo tutorial \footnote{http://www.youtube.com/watch?v=aE7RQNhwnPQ}. 
+Se puede realizar un control más fino de la posición usando la información de posición del robot con un control Control Proporcional, Integral y Diferencial (PID). El PID es para controlar un sistema realimentado, donde se calcula la desviación (error) entre un valor medido (la posición obtenida con el sistema de tracking) y el valor que se quiere obtener, para aplicar una acción correctora que ajuste el proceso. En este algoritmo hay tres parámetros distintos: el proporcional, el integral y el derivativo. El valor del parámetro proporcional produce una señal proporcional a la desviación de la salida del proceso. El integral elimina el problema del error en estado estacionario frente a perturbaciones de carga constante y el derivativo determina la reacción según el tiempo donde el error se produce. Estos tres parámetros permiten controlar la posición y/o orientación del robot MODI. Se recomienda ver este vídeo tutorial \footnote{http://www.youtube.com/watch?v=aE7RQNhwnPQ}. 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/MODI/pwm.png}
+		\includegraphics[width=\textwidth]{./Figures/MODI/pwm.png}
 		\rule{35em}{0.5pt}
 	\caption[Señal PWM]{Movimiento diferencial. A diferencia de un auto, MODI tiene dos motores que giran de forma independiente. Las distintas velocidades y sentido de giro determinan el ángulo para girar. Si se necesita solamente rotar los motores deben girar en sentidos opuestos. Se utiliza -255 en la última Figura para referirse a una señal PWM de 255 pero con sentido contrario.}
 	\label{fig:pwm}
@@ -233,9 +230,9 @@ Se puede realizar un control más fino de la posición usando la información de
 %	SECTION 5
 %-----------------------------------
 \section{Implementación}
-La construcción de MODI fue motivada por una aplicación concreta, que es tener un grupo de robots controlables de forma independiente para hacer estudios del comportamiento del grupo. Para esto fue necesario montar un sistema simple con una cámara cenital que vigila  la posición y orientación de cada uno.
+La construcción de MODI fue motivada por una aplicación concreta, que es tener un grupo de robots controlables de forma independiente para hacer estudios del comportamiento del grupo. Para esto fue necesario montar un sistema simple con una cámara cenital que vigila  la posición y orientación de cada uno de ellos.
 
-El robot que se construyó para hacer las pruebas cuenta con un sistema externo de visión artificial que permite obtener posición y orientación de cada robot. Esto es necesario ya que como se mencionó, no existe ningún sensor interno del robot que le pueda ayudar a ubicarse en el espacio. Esta información es transmitida a cada robot por medio del protocolo \textit{zigbee} implementado en los chip XBee de la empresa Digi, Figura \ref{fig:compELO} b. Esto permite comunicar un alto número de robots, con muy poco consumo energético y de manera relativamente simple. Se escogió usar visión artificial sobre el sistema para bajar los costos individuales de los robots y XBee por ser el estándar en la industria en redes de sensores inalámbricos. Cabe destacar que los robots que existen en el mercado no incluyen XBee, y los que lo traen lo hacen como accesorio. 
+El robot que se construyó para hacer las pruebas cuenta con un sistema externo de visión artificial que permite obtener posición y orientación de cada robot. Esto es necesario ya que como se mencionó, no existe ningún sensor interno del robot que le pueda ayudar a ubicarse en el espacio. Esta información es transmitida a cada robot por medio del protocolo \textit{zigbee} implementado en los chip XBee de la empresa Digi, ver Figura \ref{fig:compELO} b. Esto permite comunicar un alto número de robots, con muy poco consumo energético y de manera relativamente simple. Se escogió usar visión artificial sobre el sistema para bajar los costos individuales de los robots y XBee por ser el estándar en la industria en redes de sensores inalámbricos. Cabe destacar que los robots que existen en el mercado no incluyen XBee, y los que lo traen lo hacen como accesorio. 
 %-----------------------------------
 %	SECTION 6
 %-----------------------------------
@@ -256,23 +253,23 @@ Para investigar el comportamiento colectivo de un grupo de robots, en el mundo r
 
 \subsection{Software}
 
-El software de MODI es bastante sencillo. Básicamente se configuraron todas las variables para cumplir con las conexiones eléctricas definidas en \ref{fig:Diagrama cables} y un puerto serial que escucha los comandos que recibe para transformarlos en acciones del robot. El puerto serie en MODI se configuró a una velocidad de 115200 y está esperando los caracteres ‘w’,’a’,’d’ y ‘s’, como Adelante, Izquierda, Derecha y Atrás respectivamente. 
+El software de MODI es bastante sencillo. Básicamente se configuraron todas las variables para cumplir con las conexiones eléctricas definidas en la Figura \ref{fig:Diagrama cables} y un puerto serial que está a la espera de comandos que indican acciones del robot. El puerto serie en MODI se configuró a una velocidad de 115200 y está esperando los caracteres ‘w’,’a’,’d’ y ‘s’, como Adelante, Izquierda, Derecha y Atrás respectivamente. 
 
-Firmware y algunos ejemplos para testear funciones de manera individual se encuentran en el Git de MODI en Github.
+Firmware y algunos ejemplos para testear funciones de manera individual se encuentran en el Git de MODI en Github. \footnote{https://github.com/FabLabUChile/modi}
 
 
 \subsection{Tracking 2D}
 Al igual que los seres vivos un robot necesita \textit{sentidos} o algún sistema sensorial para poder interactuar con su entorno. Estos pueden ser sensores IR para detectar objetos cercanos, cámaras o LASER para hacer un mapa del entorno o simplemente un pulsador que sea presionado cada vez que el robot colisiona. Para bajar costos, MODI actualmente no cuenta con sensores “onBoard”. Cada robot es comandado por un sistema que le dice donde está él, donde están los demás, y los límites del área de trabajo. Se diseñó de esta manera para simplificar la programación de cada robot.
 
-reacTIVision \cite{kaltenbrunner2007reactivision} es un framework Open Source, cross-platform, para realizar tracking rápido y robusto de tags fiduciales, ver Figura \ref{fig:Fiducial}, pegadas a objetos físicos. Ha sido diseñado como un toolkit para el desarrollo rápido de multi-touch interactive surfaces. Este Framework fue desarrollado por Martin Kaltenbrunner y Ross Bencina en el Music Technology Group de la universidad de Pompeu Fabra en Barcelona, España. reacTIVision fue diseñado como sensor principal de la Reactable, un sintetizador modular tangible que ha marcado los standards en lo que a aplicaciones multitouch se refiere. 
-Esta alternativa debe ir acompañada de otros elementos, como la cámara y el computador en el cual se ejecuta el software. Con estos elementos mediante un protocolo llamado TUIO, disponible como biblioteca en los lenguajes de programación más populares, se puede obtener: la posición, orientación e identificador de cada robot, cumpliendo con el \textbf{requerimiento 7}. Con reacTIVision es posible detectar hasta 216 tag fiduciales a una velocidad de 50 fps a una resolución de 640 x 480.
+reacTIVision \cite{kaltenbrunner2007reactivision} es un framework Open Source, cross-platform, para realizar tracking rápido y robusto de tags fiduciales, pegadas a objetos físicos, ver Figura \ref{fig:Fiducial}. Ha sido diseñado como un toolkit para el desarrollo rápido de multi-touch interactive surfaces. Este framework fue desarrollado por Martin Kaltenbrunner y Ross Bencina en el Music Technology Group de la universidad de Pompeu Fabra en Barcelona, España. reacTIVision fue diseñado como sensor principal de la Reactable, un sintetizador modular tangible que ha marcado los standards en lo que a aplicaciones multitouch se refiere. 
+Esta alternativa debe ir acompañada de otros elementos, como la cámara y el computador en el cual se ejecuta el software. Con estos elementos mediante un protocolo llamado TUIO, disponible como biblioteca en los lenguajes de programación más populares, se puede obtener: la posición, orientación e identificador de cada robot, cumpliendo con el \textbf{Requerimiento 6}. Con reacTIVision es posible detectar hasta 216 tag fiduciales a una velocidad de 50 fps a una resolución de 640 x 480.
 
 
 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./Figures/MODI/fiducial.png}
+		\includegraphics[width=0.65\textwidth]{./Figures/MODI/fiducial.png}
 		\rule{35em}{0.5pt}
 	\caption[Fiduciales usados como tag en reacTIVision]{Códigos fiduciales utilizados en reacTIVision. Estos códigos aunque parecen algo extraños para los seres humanos están diseñados de tal forma que es muy fácil diferenciar unos de otros y además obtener su orientación y posición en un software de análisis de imágenes. Se tiene un total de 216 configuraciones posibles de códigos.}
 	\label{fig:Fiducial}
@@ -286,11 +283,21 @@ Esta alternativa debe ir acompañada de otros elementos, como la cámara y el co
 
 \subsection{Bill Of Material}
 
-Con un precio total de ~180 USD, Figura \ref{fig:BOM}, MODI se propone como una alternativa económica para construir un robot. Pensando en comprar desde Chile, son tres las tiendas en que se cotizaron los componentes. Es posible comprar todo desde internet. Para más detalles sobre la Lista de materiales ver link \footnote{http://kitbom.com/otrab/modi}.
+Con un precio total de 180 USD, Figura \ref{fig:BOM}, MODI se propone como una alternativa económica para construir un robot de desplazamiento diferencial. Pensando en comprar desde Chile, son tres las tiendas en que se cotizaron los componentes. Es posible comprar todo desde internet. Para más detalles sobre la Lista de materiales ver link \footnote{http://kitbom.com/otrab/modi}.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/kitbom.png}
 		\rule{35em}{0.5pt}
 	\caption[Bill Of Materials]{Lista de materiales a comprar para construir un robot MODI, la versión online de este BOM se puede ver en http://kitbom.com/otrab/modi}
 	\label{fig:BOM}
+\end{figure}
+
+Luego de haber seleccionado los componentes se incluye la tabla en la Figura \ref{fig:Tabla robots MODI} que compara al robot MODI con los otros robots estudiados en el capitulo 3.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/tabla_robots_modi.png}
+		\rule{35em}{0.5pt}
+	\caption[Tabla comparativa robots MODI]{En esta tabla se comparan las características principales del robot MODI con los robots: kilobot, e-puck y 3pi.}
+	\label{fig:Tabla robots MODI}
 \end{figure}

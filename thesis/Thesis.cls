@@ -196,7 +196,7 @@
 %-------------------------------------------------   
 \degree{Bachiller en Ciencias de la Ingeniería y Licenciado en Ciencias de la Ingeniería Electrónica. } % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{Sebastián \textsc{Sáez}} % Your name - this is used in the title page and abstract
+\authors{Sebastián \textsc{Sáez San Juan} } % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   

@@ -1,11 +1,11 @@
 \select@language {spanish}
 \contentsline {chapter}{Resumen}{\es@scroman {i}}{dummy.2}
 \vspace {1em}
-\contentsline {chapter}{Abstract}{\es@scroman {ii}}{dummy.3}
+\contentsline {chapter}{Abstract}{\es@scroman {iii}}{dummy.3}
 \vspace {1em}
-\contentsline {chapter}{Agradecimientos}{\es@scroman {iii}}{dummy.4}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {iv}}{dummy.4}
 \vspace {1em}
-\contentsline {chapter}{\IeC {\'I}ndice de Figuras y Tablas}{\es@scroman {vi}}{dummy.6}
+\contentsline {chapter}{\IeC {\'I}ndice de Figuras y Tablas}{\es@scroman {vii}}{dummy.6}
 \vspace {2em}
 \contentsline {chapter}{Prefacio}{1}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{3}{chapter.9}
@@ -21,37 +21,37 @@
 \contentsline {section}{\numberline {3.3}Necesidades de mercado}{13}{section.33}
 \contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o y fabricaci\IeC {\'o}n digital}{15}{chapter.35}
 \contentsline {section}{\numberline {4.1}Dise\IeC {\~n}o}{15}{section.37}
-\contentsline {section}{\numberline {4.2}Fabricaci\IeC {\'o}n Digital}{17}{section.47}
-\contentsline {subsection}{\numberline {4.2.1}Software CAD}{17}{subsection.48}
-\contentsline {subsection}{\numberline {4.2.2}Impresoras 3D}{17}{subsection.49}
-\contentsline {chapter}{\numberline {5}MODI}{21}{chapter.56}
-\contentsline {subsection}{\numberline {5.0.3}Dise\IeC {\~n}o de Chasis MODI}{21}{subsection.58}
-\contentsline {subsection}{\numberline {5.0.4}Dise\IeC {\~n}o de PCB MODI}{24}{subsection.63}
-\contentsline {section}{\numberline {5.1}Componentes electr\IeC {\'o}nicos}{27}{section.66}
-\contentsline {subsection}{\numberline {5.1.1}Arduino FIO}{28}{subsection.68}
-\contentsline {subsection}{\numberline {5.1.2}Motores DC}{28}{subsection.69}
-\contentsline {subsection}{\numberline {5.1.3}XBee}{29}{subsection.70}
-\contentsline {subsection}{\numberline {5.1.4}Lipo Rider Pro}{29}{subsection.71}
-\contentsline {subsection}{\numberline {5.1.5}Motor Driver 1A Dual TB6612FNG}{30}{subsection.72}
-\contentsline {subsection}{\numberline {5.1.6}Bater\IeC {\'\i }a LiPo y LED RGB}{31}{subsection.74}
-\contentsline {section}{\numberline {5.2}Locomoci\IeC {\'o}n}{33}{section.77}
-\contentsline {section}{\numberline {5.3}Implementaci\IeC {\'o}n}{35}{section.83}
-\contentsline {subsection}{\numberline {5.3.1}Setup}{36}{subsection.84}
-\contentsline {subsection}{\numberline {5.3.2}Software}{36}{subsection.86}
-\contentsline {subsection}{\numberline {5.3.3}Tracking 2D}{36}{subsection.87}
-\contentsline {subsection}{\numberline {5.3.4}Bill Of Material}{38}{subsection.89}
-\contentsline {chapter}{\numberline {6}Aplicaciones}{39}{chapter.92}
-\contentsline {section}{\numberline {6.1}Educaci\IeC {\'o}n}{39}{section.93}
-\contentsline {section}{\numberline {6.2}Usos Militar}{39}{section.94}
-\contentsline {section}{\numberline {6.3}Usos Dom\IeC {\'e}stico}{40}{section.95}
-\contentsline {chapter}{\numberline {7}Mejoras futuras y Conclusiones}{41}{chapter.96}
-\contentsline {section}{\numberline {7.1}Mejoras futuras}{41}{section.97}
-\contentsline {subsection}{\numberline {7.1.1}Encoders}{41}{subsection.98}
-\contentsline {subsection}{\numberline {7.1.2}Cables incrustados y Soporte motor}{41}{subsection.100}
-\contentsline {subsection}{\numberline {7.1.3}Una PCB para todo}{42}{subsection.102}
-\contentsline {subsection}{\numberline {7.1.4}M\IeC {\'o}dulo de carga inal\IeC {\'a}mbrica}{43}{subsection.103}
-\contentsline {section}{\numberline {7.2}Conclusiones}{43}{section.105}
+\contentsline {section}{\numberline {4.2}Fabricaci\IeC {\'o}n Digital}{17}{section.48}
+\contentsline {subsection}{\numberline {4.2.1}Software CAD}{17}{subsection.49}
+\contentsline {subsection}{\numberline {4.2.2}Impresoras 3D}{17}{subsection.50}
+\contentsline {chapter}{\numberline {5}MODI}{21}{chapter.57}
+\contentsline {section}{\numberline {5.1}Dise\IeC {\~n}o de Chasis MODI}{22}{section.59}
+\contentsline {section}{\numberline {5.2}Dise\IeC {\~n}o de PCB MODI}{24}{section.68}
+\contentsline {section}{\numberline {5.3}Componentes electr\IeC {\'o}nicos}{27}{section.71}
+\contentsline {subsection}{\numberline {5.3.1}Arduino FIO}{28}{subsection.73}
+\contentsline {subsection}{\numberline {5.3.2}Motores DC}{28}{subsection.74}
+\contentsline {subsection}{\numberline {5.3.3}XBee}{29}{subsection.75}
+\contentsline {subsection}{\numberline {5.3.4}Lipo Rider Pro}{29}{subsection.76}
+\contentsline {subsection}{\numberline {5.3.5}Motor Driver 1A Dual TB6612FNG}{30}{subsection.77}
+\contentsline {subsection}{\numberline {5.3.6}Bater\IeC {\'\i }a LiPo y LED RGB}{31}{subsection.79}
+\contentsline {section}{\numberline {5.4}Locomoci\IeC {\'o}n}{33}{section.82}
+\contentsline {section}{\numberline {5.5}Implementaci\IeC {\'o}n}{35}{section.88}
+\contentsline {subsection}{\numberline {5.5.1}Setup}{36}{subsection.89}
+\contentsline {subsection}{\numberline {5.5.2}Software}{36}{subsection.91}
+\contentsline {subsection}{\numberline {5.5.3}Tracking 2D}{37}{subsection.93}
+\contentsline {subsection}{\numberline {5.5.4}Bill Of Material}{38}{subsection.95}
+\contentsline {chapter}{\numberline {6}Aplicaciones de MODI}{40}{chapter.99}
+\contentsline {section}{\numberline {6.1}Educaci\IeC {\'o}n}{40}{section.100}
+\contentsline {section}{\numberline {6.2}Usos Militar}{40}{section.101}
+\contentsline {section}{\numberline {6.3}Usos Dom\IeC {\'e}stico}{41}{section.102}
+\contentsline {chapter}{\numberline {7}Mejoras futuras y Conclusiones}{42}{chapter.103}
+\contentsline {section}{\numberline {7.1}Mejoras futuras}{42}{section.104}
+\contentsline {subsection}{\numberline {7.1.1}Encoders}{42}{subsection.105}
+\contentsline {subsection}{\numberline {7.1.2}Cables incrustados y Soporte motor}{42}{subsection.107}
+\contentsline {subsection}{\numberline {7.1.3}Una PCB para todo}{43}{subsection.109}
+\contentsline {subsection}{\numberline {7.1.4}M\IeC {\'o}dulo de carga inal\IeC {\'a}mbrica}{44}{subsection.110}
+\contentsline {section}{\numberline {7.2}Conclusiones}{44}{section.112}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}}{45}{appendix.106}
+\contentsline {chapter}{\numberline {A}}{46}{appendix.113}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{47}{dummy.109}
+\contentsline {chapter}{Bibliograf\'{\i }a}{48}{dummy.116}
