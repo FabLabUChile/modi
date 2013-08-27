@@ -1,38 +1,38 @@
 \select@language {spanish}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Robots Roomba y KUKA}}{7}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Grados de libertad}}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Robots Roomba y KUKA}}{7}{figure.caption.18}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Grados de libertad}}{8}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Robots estudiados como alternativa para armar un enjambre de robots.}}{12}{figure.caption.28}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Tabla comparativa robots}}{13}{figure.caption.32}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Nicho de mercado}}{14}{figure.caption.34}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Robots estudiados como alternativa para armar un enjambre de robots.}}{12}{figure.caption.29}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tabla comparativa robots}}{13}{figure.caption.33}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Nicho de mercado}}{14}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparaci\IeC {\'o}n de construcci\IeC {\'o}n an\IeC {\'a}loga y digital}}{18}{figure.caption.52}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Modelo funcionamiento Impresora 3D}}{19}{figure.caption.53}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tabla comparativa de impresoras 3D}}{19}{figure.caption.54}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Impresoras 3D}}{20}{figure.caption.55}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Mapa Fab Labs en el mundo.}}{20}{figure.caption.56}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparaci\IeC {\'o}n de construcci\IeC {\'o}n an\IeC {\'a}loga y digital}}{18}{figure.caption.53}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Modelo funcionamiento Impresora 3D}}{19}{figure.caption.54}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tabla comparativa de impresoras 3D}}{19}{figure.caption.55}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Impresoras 3D}}{20}{figure.caption.56}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mapa Fab Labs en el mundo.}}{20}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Piezas 3D}}{23}{figure.caption.65}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Comparaci\IeC {\'o}n entre el primer render realizado y el \IeC {\'u}ltimo}}{23}{figure.caption.66}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama MODI versi\IeC {\'o}n final}}{24}{figure.caption.67}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama el\IeC {\'e}ctrico de conexiones en PCB MODI}}{25}{figure.caption.69}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fabricaci\IeC {\'o}n de PCB}}{26}{figure.caption.70}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Componentes Electr\IeC {\'o}nicos}}{27}{figure.caption.72}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Conexi\IeC {\'o}n el\IeC {\'e}ctrica Motor Driver 1A Dual TB6612FNG}}{30}{figure.caption.78}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Conexi\IeC {\'o}n el\IeC {\'e}ctrica LED RGB}}{31}{figure.caption.80}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Tabla caracteristicas m\IeC {\'a}s importantes de los componentes El\IeC {\'e}ctronicos}}{32}{figure.caption.81}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Robots}}{33}{figure.caption.84}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Gr\IeC {\'a}ficos Motor DC}}{34}{figure.caption.85}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Se\IeC {\~n}al PWM}}{35}{figure.caption.87}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Setup Enjambre MODI}}{36}{figure.caption.90}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Fiduciales usados como tag en reacTIVision}}{37}{figure.caption.94}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Bill Of Materials}}{38}{figure.caption.97}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Tabla comparativa robots MODI}}{39}{figure.caption.98}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Piezas 3D}}{23}{figure.caption.66}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Comparaci\IeC {\'o}n entre el primer render realizado y el \IeC {\'u}ltimo}}{23}{figure.caption.67}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama MODI versi\IeC {\'o}n final}}{24}{figure.caption.68}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama el\IeC {\'e}ctrico de conexiones en PCB MODI}}{25}{figure.caption.70}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fabricaci\IeC {\'o}n de PCB}}{26}{figure.caption.71}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Componentes Electr\IeC {\'o}nicos}}{27}{figure.caption.73}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Conexi\IeC {\'o}n el\IeC {\'e}ctrica Motor Driver 1A Dual TB6612FNG}}{30}{figure.caption.79}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Conexi\IeC {\'o}n el\IeC {\'e}ctrica LED RGB}}{31}{figure.caption.81}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Tabla caracteristicas m\IeC {\'a}s importantes de los componentes El\IeC {\'e}ctronicos}}{32}{figure.caption.82}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Robots}}{33}{figure.caption.85}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Gr\IeC {\'a}ficos Motor DC}}{34}{figure.caption.86}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Se\IeC {\~n}al PWM}}{35}{figure.caption.88}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Setup Enjambre MODI}}{36}{figure.caption.91}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Fiduciales usados como tag en reacTIVision}}{37}{figure.caption.95}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Bill Of Materials}}{38}{figure.caption.98}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Tabla comparativa robots MODI}}{39}{figure.caption.99}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Cables incrustados y Soporte motor}}{43}{figure.caption.108}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Cables incrustados y Soporte motor}}{43}{figure.caption.109}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Historia de construcci\IeC {\'o}n}}{46}{figure.caption.114}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces PCB MODI}}{47}{figure.caption.115}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Historia de construcci\IeC {\'o}n}}{46}{figure.caption.115}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces PCB MODI}}{47}{figure.caption.116}

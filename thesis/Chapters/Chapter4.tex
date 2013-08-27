@@ -17,10 +17,11 @@
 
 Como se expuso en el capítulo anterior, actualmente existen varias alternativas de robots para comprar y construir un enjambre de robots. El problema es que o su precio es demasiado elevado o simplemente no son adaptables al tipo de investigación que se quiere realizar. Nuestro objetivo es tener un robot económico, fácil de reproducir y fabricable en la universidad para construir un enjambre de robots que permita hacer investigación y desarrollos en esta área.
 
+
 \section{Diseño}
 
 Para satisfacer los objetivos de diseño de MODI se pretende cumplir con los siguientes requerimientos:
-
+\newpage 
 \textbf{Requerimientos de desarrollo}
 
 \begin{enumerate}
@@ -30,10 +31,11 @@ Para satisfacer los objetivos de diseño de MODI se pretende cumplir con los sig
 \item \textbf{Minimizar la cantidad de componentes mecánicos extras necesarios}: La base del diseño mecánico del robot debe ser el Chasis de éste, pieza encargada de unir todos los componentes. No debe necesitar tornillos ni silicona para ensamblarlo.
 \item \textbf{Carga Autónoma}: El robot debe contar con un sistema que facilite la carga de energía autónoma para poder realizar experimentos de larga duración sin intervención humana. Debe permitir diferentes tipos de carga como inductiva o con panel solar.
 \item \textbf{Sistema de tracking}: Es necesario poder obtener la posición y orientación de cada uno de los robots. Por lo que el setup para todos los robots debe contar con una cámara que permita con procesamiento de imágenes obtener esta información.
-\item \textbf{Control individual del color de cada MODI}: Para poder observar de manera rápida el estado de cada robots es necesario que cada uno cuente con un LED RGB.
+\item \textbf{Control individual del color de cada MODI}: Para poder observar de manera rápida el estado de cada robot es necesario que cada uno cuente con un LED RGB.
 \item \textbf{Movimiento simple de cada robot de forma independiente}: Cada robot debe ser capaz de recibir y ejecutar órdenes simples de movimiento en el plano.
 \item \textbf{Comunicación inalámbrica}: Cada robot debe ser capaz de enviar y recibir informacion de manera inalámbrica con un servidor central. Debe tener la posibilidad de construir redes entre los robots también.
 \end{enumerate}
+
 
 La función principal de MODI es ser una plataforma móvil de fácil acceso. Existe un repositorio en GitHub  \footnote{https://github.com/FabLabUChile/modi} donde se tienen los códigos actualizados para controlar y construir robots MODI. Todo esto para poder cumplir con el \textbf{requerimiento 2}. Una lista con componentes extras para comprar se encuentra en la Figura \ref{fig:BOM}. Esta lista de materiales cumple con el \textbf{requerimiento 4}.
 
@@ -53,7 +55,7 @@ Construir un robot implica el diseño en computador de varios componentes. Estos
 %-----------------------------------
 \subsection{Software CAD}
 
-CAD viene de sus siglas del Inglés, Computer-aided design, y se refiere a un diseño asistido por herramientas computacionales. Profesionales como ingenieros, arquitectos y del área del diseño por lo general son los que hacen más uso de estas herramientas.
+CAD viene de sus siglas del inglés, Computer-aided design, y se refiere a un diseño asistido por herramientas computacionales. Profesionales como ingenieros, arquitectos y del área del diseño por lo general son los que hacen más uso de estas herramientas.
 
 Los software CAD se pueden dividir en programas de dibujo para dos dimensiones (2D) y modeladores en tres dimensiones (3D). Las herramientas de dibujo en 2D se basan en entidades geométricas vectoriales como puntos, líneas, arcos y polígonos, con las que se puede operar a través de una interfaz gráfica.
 
@@ -66,13 +68,13 @@ Durante el transcurso del proyecto se trabajó con varios softwares CAD. El prim
 %	SUBSECTION 2
 %-----------------------------------
 \subsection{Impresoras 3D}
-Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabricación. Dependiendo de la cantidad de herramientas que se tenga es más o menos fácil la tarea. Desde el comienzo hasta hace un par de años, quienes se dedican a construir robots, debían construir de manera \textit{artesanal} donde es imposible que las piezas queden todas iguales y el tiempo empleado era bastante. Hoy en día existe una gran alternativa, la Fabricación Digital, que surge como un nuevo paradigma de construcción y una herramienta clave para esto son las impresoras 3D. Las impresoras 3D, existen desde los 80' y hasta hace algunos años por su precio y tamaño eran de difícil acceso. Utilizan distintas tecnologías; las que se usaron en el proceso de este trabajo son las FDM, sigla del inglés "Fused deposition modeling" donde un cabezal extrusor de plástico se mueve en el plano xy depositando capa por capa de material mientras avanza en el eje z, ver Figura \ref{fig:3Dprint}. Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, ver Figura \ref{fig:impresoras} a, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1, ver Figura \ref{fig:impresoras} c. También existe otro tipo de máquinas que permite hacer diseños en 2D, éstas son las cortadoras LASER. La primera versión de MODI fue construido usando planchas de madera MDF y acrílico, cortados en LASER, ver figura \ref{fig:analgTodigital} a. Hacer uso de estas máquinas permite cumplir con los \textbf{requerimientos 1 y 3}.
+Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabricación. Dependiendo de la cantidad de herramientas que se tenga es más o menos fácil la tarea. Desde el comienzo hasta hace un par de años, quienes se dedican a construir robots, debían construir de manera \textit{artesanal} donde es imposible que las piezas queden todas iguales y el tiempo empleado era bastante. Hoy en día existe una gran alternativa, la Fabricación Digital, que surge como un nuevo paradigma de construcción y una herramienta clave que son las impresoras 3D. Las impresoras 3D, existen desde los 80' y hasta hace algunos años por su precio y tamaño eran de difícil acceso. Utilizan distintas tecnologías; las que se usaron en el proceso de este trabajo son las FDM, sigla del inglés "Fused deposition modeling" donde un cabezal extrusor de plástico se mueve en el plano xy depositando capa por capa de material mientras avanza en el eje z, ver Figura \ref{fig:3Dprint}. Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, ver Figura \ref{fig:impresoras} a, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1, ver Figura \ref{fig:impresoras} c. También existen otros tipos de máquinas que permiten hacer diseños en 2D, éstas son las cortadoras LASER. La primera versión de MODI fue construida usando planchas de madera MDF y acrílico, cortados en LASER, ver figura \ref{fig:analgTodigital} a. Hacer uso de estas máquinas permite cumplir con los \textbf{requerimientos 1 y 3}.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Pictures/modi_analogToDigital.png}
 		\rule{35em}{0.5pt}
-	\caption[Comparación de construcción análoga y digital]{\textbf{a.} Primera versión MODI construido con MDF y bastante silicona. Esta versión presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado. Más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO, que es una plataforma de desarrollo Arduino junto con un socket Xbee. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versiones exista la posibilidad de una carga autónoma por parte de los Robots.\textbf{b.} MODI usando técnica de \emph{ Fabricación Digital }con chasis de plástico construido con una MakerBot Replicator 1}
+	\caption[Comparación de construcción análoga y digital]{\textbf{a.} Primera versión MODI construida con MDF y bastante silicona. Esta versión presentaba el problema de involucrar demasiadas partes que debían ser hechas por una persona. El microcontrolador junto con la radio inalámbrica se colocaron en una placa electrónica para prototipado. Más adelante se puede ver que fueron reemplazados por una PCB llamada Arduino FIO, que es una plataforma de desarrollo Arduino junto con un socket Xbee. Otro factor clave para descartar esta versión es que utiliza 4 pilas AAA que necesitan ser removidas para poder ser recargadas, lo que impide que en futuras versiones exista la posibilidad de una carga autónoma por parte de los Robots.\textbf{b.} MODI usando técnica de \emph{ Fabricación Digital }con chasis de plástico construido con una MakerBot Replicator 1}
 	\label{fig:analgTodigital}
 \end{figure}
 
