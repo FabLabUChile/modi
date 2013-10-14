@@ -1,51 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
 Warning--can't use both volume and number fields in mondada2009puck
 Warning--empty journal in thurskyusing
 Warning--empty year in thurskyusing
 Warning--empty year in thurskyusing
-You've used 6 entries,
-            2481 wiz_defined-function locations,
-            593 strings with 6083 characters,
-and the built_in function-call counts, 3223 in all, are:
-= -- 281
-> -- 162
-< -- 9
-+ -- 60
-- -- 48
-* -- 237
-:= -- 473
-add.period$ -- 24
-call.type$ -- 6
-change.case$ -- 12
-chr.to.int$ -- 6
-cite$ -- 10
-duplicate$ -- 171
-empty$ -- 279
-format.name$ -- 60
-if$ -- 726
-int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 6
-newline$ -- 42
-num.names$ -- 18
-pop$ -- 64
-preamble$ -- 1
-purify$ -- 6
-quote$ -- 0
-skip$ -- 125
-stack$ -- 0
-substring$ -- 156
-swap$ -- 60
-text.length$ -- 6
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 42
-warning$ -- 4
-while$ -- 25
-width$ -- 0
-write$ -- 96
 (There were 4 warnings)

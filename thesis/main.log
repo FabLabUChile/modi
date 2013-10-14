@@ -1,26 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.5.16)  26 AUG 2013 23:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.25)  14 OCT 2013 17:38
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- piedmontese, polish, portuguese, romanian, romansh, russian, sanskrit, serbian
-, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, u
-ppersorbian, welsh, loaded.
-(./Thesis.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\seba\Documents\GitHub\modi\thesis\Thesis.cls
 Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
-(c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
+(C:\MiKTeX\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(c:/texlive/2012/texmf-dist/tex/latex/base/bk11.clo
+(C:\MiKTeX\tex\latex\base\bk11.clo
 File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,29 +32,26 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(c:/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+) (C:\MiKTeX\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(c:/texlive/2012/texmf-dist/tex/latex/vmargin/vmargin.sty
-Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+) (C:\MiKTeX\tex\latex\ieeepes\vmargin.sty
+Package: vmargin 1999/06/01
 
-Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+Package `vmargin', V2.2, <1999/06/01>
 \PaperWidth=\dimen103
 \PaperHeight=\dimen104
-) (c:/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
+) (C:\MiKTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(c:/texlive/2012/texmf-dist/tex/latex/base/utf8.def
+ (C:\MiKTeX\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(c:/texlive/2012/texmf-dist/tex/latex/base/t1enc.dfu
+(C:\MiKTeX\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -206,8 +200,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-(c:/texlive/2012/texmf-dist/tex/latex/base/ot1enc.dfu
+ (C:\MiKTeX\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -238,7 +231,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(c:/texlive/2012/texmf-dist/tex/latex/base/omsenc.dfu
+(C:\MiKTeX\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -261,14 +254,18 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(c:/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+)) (C:\MiKTeX\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
-(c:/texlive/2012/texmf-dist/tex/generic/babel/spanish.ldf
-Language: spanish.ldf 2011/10/06 v5.0k Spanish support from the babel system
-
-(c:/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\MiKTeX\tex\generic\babel\spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+ (C:\MiKTeX\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen105
@@ -276,12 +273,11 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \es@datefmt=\count89
 \es@quottoks=\toks16
 \es@quotdepth=\count90
-Package babel Info: Making " an active character on input line 496.
-Package babel Info: Making . an active character on input line 599.
-Package babel Info: Making < an active character on input line 644.
-Package babel Info: Making > an active character on input line 644.
-))
-(c:/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+)) (C:\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -292,24 +288,24 @@ Package babel Info: Making > an active character on input line 644.
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+(C:\MiKTeX\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\MiKTeX\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\MiKTeX\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen106
 ))
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\MiKTeX\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(C:\MiKTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -350,24 +346,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(C:\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(C:\MiKTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amscd.sty
+(C:\MiKTeX\tex\latex\amsmath\amscd.sty
 Package: amscd 1999/11/29 v2.0
 \athelp@=\toks22
 \minaw@=\dimen115
 \bigaw@=\dimen116
 \minCDarrowwidth=\dimen117
-)
-(c:/texlive/2012/texmf-dist/tex/latex/amscls/amsthm.sty
+) (C:\MiKTeX\tex\latex\amscls\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -378,20 +373,20 @@ Package: amsthm 2004/08/06 v2.20
 \thm@postskip=\skip56
 \thm@headsep=\skip57
 \dth@everypar=\toks28
-)
-(c:/texlive/2012/texmf-dist/tex/latex/tools/xspace.sty
+) (C:\MiKTeX\tex\latex\tools\xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
 \c@example=\count103
 \c@theorem=\count104
 
-(c:/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+(C:\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(c:/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+(C:\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 
-(c:/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\MiKTeX\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks29
 )
@@ -405,27 +400,27 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count105
 )
-(c:/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+(C:\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(C:\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(C:\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(c:/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(C:\MiKTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(C:\MiKTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(C:\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count106
@@ -433,28 +428,28 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(C:\MiKTeX\tex\latex\oberdiek\epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(C:\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+(C:\MiKTeX\tex\latex\oberdiek\grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(C:\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(C:\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(C:\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(C:\MiKTeX\tex\generic\oberdiek\etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(C:\MiKTeX\tex\generic\oberdiek\ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -463,11 +458,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(C:\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(C:\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -480,13 +475,9 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(c:/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+))
+(C:\MiKTeX\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip58
 \subfigcapskip=\skip59
 \subfigcaptopadj=\dimen127
@@ -501,11 +492,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(c:/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(C:\MiKTeX\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip62
 \subfig@bottom=\skip63
 )
-(c:/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
+(C:\MiKTeX\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen129
 \lightrulewidth=\dimen130
@@ -525,10 +516,9 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count114
 \@thisrulewidth=\dimen141
 )
-(c:/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
+(C:\MiKTeX\tex\latex\rotating\rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-
-(c:/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+ (C:\MiKTeX\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count115
@@ -536,8 +526,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip65
 \rot@float@box=\box28
 \rot@mess@toks=\toks30
-)
-(c:/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+) (C:\MiKTeX\tex\latex\listings\listings.sty
 \lst@mode=\count116
 \lst@gtempboxa=\box29
 \lst@token=\toks31
@@ -550,44 +539,46 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \lst@newlines=\count120
 \lst@lineno=\count121
 \lst@maxwidth=\dimen145
- (./lstpatch.sty
+
+(C:\Users\seba\Documents\GitHub\modi\thesis\lstpatch.sty
 
 ***
 *** This is a patch for listings 1.3, but you're using
-*** version 1.4.
+*** version 1.5b.
 ***
 *** Patch file not loaded.
 ***
 
-) (c:/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+) (C:\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count122
 \lst@skipnumbers=\count123
 \lst@framebox=\box30
 )
-(c:/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(C:\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
- (./lstpatch.sty
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(C:\Users\seba\Documents\GitHub\modi\thesis\lstpatch.sty
 
 ***
 *** This is a patch for listings 1.3, but you're using
-*** version 1.4.
+*** version 1.5b.
 ***
  *** Patch file not loaded.
 ***
 
-) (c:/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (C:\MiKTeX\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+(C:\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+(C:\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
@@ -607,7 +598,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -615,24 +606,24 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(C:\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(C:\MiKTeX\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen146
 \Hy@linkcounter=\count124
 \Hy@pagecounter=\count125
 
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+(C:\MiKTeX\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count126
 
-(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(C:\MiKTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
@@ -643,7 +634,7 @@ Package hyperref Info: Option `hypertexnames' set `false' on input line 4319.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
 Package hyperref Info: Option `unicode' set `true' on input line 4319.
 
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/puenc.def
+(C:\MiKTeX\tex\latex\hyperref\puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -657,8 +648,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count127
-
-(c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
+ (C:\MiKTeX\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -683,23 +673,22 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
+(C:\MiKTeX\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count132
 \c@bookmark@seq@number=\count133
 
-(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(C:\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip66
-) [1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 \c@dummy=\count134
-
-(c:/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
+ (C:\MiKTeX\tex\latex\tools\longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip67
 \LTright=\skip68
@@ -717,10 +706,10 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count139
 \LT@p@ftn=\toks32
 ))
-(c:/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
+(C:\MiKTeX\tex\latex\placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(c:/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+(C:\MiKTeX\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip71
 \bibsep=\skip72
@@ -728,19 +717,12 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count140
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 35.
- (./main.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
 
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.aux
 
 LaTeX Warning: Label `fig:MODI' multiply defined.
 
-
-LaTeX Warning: Label `fig:Historia' multiply defined.
-
 )
-\openout1 = `main.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
@@ -757,20 +739,18 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (c:/texlive/2012/texmf-dist/tex/latex/caption/ltcaption.sty
+ (C:\MiKTeX\tex\latex\caption\ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(c:/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
 \scratchdimen=\dimen151
@@ -786,20 +766,20 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count147
 \AtBeginShipoutBox=\box36
- (c:/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+ (C:\MiKTeX\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+(C:\MiKTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 Package hyperref Info: Link coloring ON on input line 38.
 
-(c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+(C:\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(C:\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count148
@@ -808,19 +788,18 @@ LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
 
-(./main.out) (./main.out)
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.out)
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
 
-
-<./Figures/usmLogo.png, id=209, 201.75375pt x 163.3603pt>
+<./Figures/usmLogo.png, id=207, 201.75375pt x 163.3603pt>
 File: ./Figures/usmLogo.png Graphic file (type png)
 
 <use ./Figures/usmLogo.png>
 Package pdftex.def Info: ./Figures/usmLogo.png used on input line 74.
 (pdftex.def)             Requested size: 166.44879pt x 134.7739pt.
 
-<./Figures/profesores.png, id=210, 477.28313pt x 85.06781pt>
+<./Figures/profesores.png, id=208, 477.28313pt x 85.06781pt>
 File: ./Figures/profesores.png Graphic file (type png)
 
 <use ./Figures/profesores.png>
@@ -836,7 +815,8 @@ Package hyperref Warning: Suppressing empty link on input line 154.
 [1
 
 
- <./Figures/usmLogo.png> <./Figures/profesores.png>] [2]
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/usmLogo.png> <C:/Users/seb
+a/Documents/GitHub/modi/thesis/Figures/profesores.png>] [2]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
@@ -855,10 +835,7 @@ Package hyperref Warning: Suppressing empty link on input line 167.
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.toc
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 2.
@@ -880,31 +857,24 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 (spanish)                faked small caps on input line 8.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 13.
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+(C:\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 13.
-
-(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (C:\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+)
+[5
 
 
 ])
 \tf@toc=\write4
-\openout4 = `main.toc'.
-
  [6]
 ------------------------------------------------------------------------------
  \IeC {\'I}ndice de Figuras y Tablas
 ------------------------------------------------------------------------------
-(./main.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.lof)
 \tf@lof=\write5
-\openout5 = `main.lof'.
-
  [7
 
 
@@ -914,16 +884,17 @@ LaTeX Info: Redefining \% on input line 1.
 ------------------------------------------------------------------------------
 [8
 
-] (./Chapters/Prefacio.tex [1
+] (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Prefacio.tex [1
 
 
 
-]) (./Chapters/Chapter1.tex [2]
+])
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter1.tex [2]
 Cap\'{\i }tulo 1.
 ------------------------------------------------------------------------------
  1 Introducci\IeC {\'o}n
 ------------------------------------------------------------------------------
-<./Figures/robot.jpg, id=377, 421.575pt x 279.0425pt>
+<./Figures/robot.jpg, id=374, 421.575pt x 279.0425pt>
 File: ./Figures/robot.jpg Graphic file (type jpg)
 
 <use ./Figures/robot.jpg>
@@ -931,13 +902,13 @@ Package pdftex.def Info: ./Figures/robot.jpg used on input line 18.
 (pdftex.def)             Requested size: 333.97972pt x 221.06705pt.
  [3
 
- <./Figures/robot.jpg>]) (./Chapters/Chapter2.tex
-[4]
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robot.jpg>])
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter2.tex [4]
 Cap\'{\i }tulo 2.
 ------------------------------------------------------------------------------
  2 Robot
 ------------------------------------------------------------------------------
-<./Figures/Duck_of_Vaucanson.jpg, id=388, 281.05pt x 252.945pt>
+<./Figures/Duck_of_Vaucanson.jpg, id=385, 281.05pt x 252.945pt>
 File: ./Figures/Duck_of_Vaucanson.jpg Graphic file (type jpg)
 
 <use ./Figures/Duck_of_Vaucanson.jpg>
@@ -946,27 +917,29 @@ Package pdftex.def Info: ./Figures/Duck_of_Vaucanson.jpg used on input line 19.
 (pdftex.def)             Requested size: 250.48637pt x 225.43683pt.
  [5
 
- <./Figures/Duck_of_Vaucanson.jpg>]
-<./Figures/RobotsInd.png, id=394, 608.2725pt x 282.30469pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/Duck_of_Vaucanson.jpg>]
+<./Figures/RobotsInd.png, id=391, 608.2725pt x 282.30469pt>
 File: ./Figures/RobotsInd.png Graphic file (type png)
 
 <use ./Figures/RobotsInd.png>
 Package pdftex.def Info: ./Figures/RobotsInd.png used on input line 44.
 (pdftex.def)             Requested size: 417.47307pt x 193.7566pt.
  [6]
-<./Figures/6DOF.png, id=407, 391.4625pt x 258.21469pt>
+<./Figures/6DOF.png, id=404, 391.4625pt x 258.21469pt>
 File: ./Figures/6DOF.png Graphic file (type png)
 
 <use ./Figures/6DOF.png>
 Package pdftex.def Info: ./Figures/6DOF.png used on input line 56.
 (pdftex.def)             Requested size: 417.47307pt x 275.3847pt.
-) (./Chapters/Chapter3.tex [7 <./Figures/RobotsInd.png>] [8 <./Figures/6DOF.png
->]
+)
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter3.tex [7 <C:/Users/
+seba/Documents/GitHub/modi/thesis/Figures/RobotsInd.png>] [8 <C:/Users/seba/Doc
+uments/GitHub/modi/thesis/Figures/6DOF.png>]
 Cap\'{\i }tulo 3.
 ------------------------------------------------------------------------------
  3 Swarm
 ------------------------------------------------------------------------------
-<./Figures/swarm.jpg, id=419, 146.36961pt x 99.71431pt>
+<./Figures/swarm.jpg, id=416, 146.36961pt x 99.71431pt>
 File: ./Figures/swarm.jpg Graphic file (type jpg)
 
 <use ./Figures/swarm.jpg>
@@ -974,34 +947,36 @@ Package pdftex.def Info: ./Figures/swarm.jpg used on input line 11.
 (pdftex.def)             Requested size: 333.97972pt x 227.56244pt.
  [9
 
- <./Figures/swarm.jpg>] [10] [11]
-<./Figures/robots1.png, id=444, 722.7pt x 542.025pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/swarm.jpg>] [10] [11] <./F
+igures/robots1.png, id=446, 722.7pt x 542.025pt>
 File: ./Figures/robots1.png Graphic file (type png)
 
 <use ./Figures/robots1.png>
 Package pdftex.def Info: ./Figures/robots1.png used on input line 70.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
 
-<./Figures/tabla_robots.png, id=457, 688.07062pt x 356.0803pt>
+<./Figures/tabla_robots.png, id=459, 688.07062pt x 356.0803pt>
 File: ./Figures/tabla_robots.png Graphic file (type png)
 
 <use ./Figures/tabla_robots.png>
-Package pdftex.def Info: ./Figures/tabla_robots.png used on input line 80.
+Package pdftex.def Info: ./Figures/tabla_robots.png used on input line 81.
 (pdftex.def)             Requested size: 417.47307pt x 216.04593pt.
- [12 <./Figures/robots1.png>]
-<./Figures/nicho.png, id=468, 722.7pt x 542.025pt>
+ [12] [13 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robots1.png> <C:/
+Users/seba/Documents/GitHub/modi/thesis/Figures/tabla_robots.png>] <./Figures/n
+icho.png, id=477, 722.7pt x 542.025pt>
 File: ./Figures/nicho.png Graphic file (type png)
- <use ./Figures/nicho.png>
-Package pdftex.def Info: ./Figures/nicho.png used on input line 97.
-(pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
+
+<use ./Figures/nicho.png>
+Package pdftex.def Info: ./Figures/nicho.png used on input line 100.
+(pdftex.def)             Requested size: 292.22987pt x 219.17155pt.
 )
-(./Chapters/Chapter4.tex [13 <./Figures/tabla_robots.png>] [14 <./Figures/nicho
-.png>]
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter4.tex [14 <C:/Users
+/seba/Documents/GitHub/modi/thesis/Figures/nicho.png>]
 Cap\'{\i }tulo 4.
 ------------------------------------------------------------------------------
  4 Dise\IeC {\~n}o y fabricaci\IeC {\'o}n digital
 ------------------------------------------------------------------------------
-<./Figures/FabDig.JPG, id=480, 1606.0pt x 1003.75pt>
+<./Figures/FabDig.JPG, id=483, 1606.0pt x 1003.75pt>
 File: ./Figures/FabDig.JPG Graphic file (type jpg)
 
 <use ./Figures/FabDig.JPG>
@@ -1009,8 +984,8 @@ Package pdftex.def Info: ./Figures/FabDig.JPG used on input line 12.
 (pdftex.def)             Requested size: 333.97972pt x 208.72606pt.
  [15
 
- <./Figures/FabDig.JPG>] [16] [17]
-<./Pictures/modi_analogToDigital.png, id=513, 722.7pt x 542.025pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/FabDig.JPG>] [16] [17]
+<./Pictures/modi_analogToDigital.png, id=516, 722.7pt x 542.025pt>
 File: ./Pictures/modi_analogToDigital.png Graphic file (type png)
 
 <use ./Pictures/modi_analogToDigital.png>
@@ -1018,108 +993,116 @@ Package pdftex.def Info: ./Pictures/modi_analogToDigital.png used on input line
  75.
 (pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
 
-<./Figures/3Dprint.png, id=514, 621.07031pt x 379.4175pt>
+<./Figures/3Dprint.png, id=517, 621.07031pt x 379.4175pt>
 File: ./Figures/3Dprint.png Graphic file (type png)
 
 <use ./Figures/3Dprint.png>
 Package pdftex.def Info: ./Figures/3Dprint.png used on input line 83.
 (pdftex.def)             Requested size: 417.47307pt x 255.03629pt.
 
-<./Figures/tabla_impresoras.png, id=515, 717.43031pt x 207.77625pt>
+<./Figures/tabla_impresoras.png, id=518, 717.43031pt x 207.77625pt>
 File: ./Figures/tabla_impresoras.png Graphic file (type png)
 
 <use ./Figures/tabla_impresoras.png>
 Package pdftex.def Info: ./Figures/tabla_impresoras.png used on input line 93.
 (pdftex.def)             Requested size: 417.47307pt x 120.9066pt.
 
-<./Figures/impresoras.png, id=516, 722.7pt x 542.025pt>
+<./Figures/impresoras.png, id=519, 722.7pt x 542.025pt>
 File: ./Figures/impresoras.png Graphic file (type png)
 
 <use ./Figures/impresoras.png>
 Package pdftex.def Info: ./Figures/impresoras.png used on input line 102.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [18 <./Pictures/modi_analogToDigital.png>]
-<./Figures/map.png, id=524, 788.19469pt x 455.45157pt>
+
+<./Figures/map.png, id=521, 788.19469pt x 455.45157pt>
 File: ./Figures/map.png Graphic file (type png)
  <use ./Figures/map.png>
 Package pdftex.def Info: ./Figures/map.png used on input line 114.
 (pdftex.def)             Requested size: 417.47307pt x 241.22833pt.
-) (./Chapters/Chapter5.tex [19 <./Figures/3Dprint.png> <./Figures/tabla_impreso
-ras.png>] [20 <./Figures/impresoras.png> <./Figures/map.png>]
+) (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter5.tex [18]
+[19 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/modi_analogToDigital.p
+ng> <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/3Dprint.png>] [20 <C:/U
+sers/seba/Documents/GitHub/modi/thesis/Figures/tabla_impresoras.png> <C:/Users/
+seba/Documents/GitHub/modi/thesis/Figures/impresoras.png>] [21 <C:/Users/seba/D
+ocuments/GitHub/modi/thesis/Figures/map.png>]
 Cap\'{\i }tulo 5.
 ------------------------------------------------------------------------------
  5 MODI
 ------------------------------------------------------------------------------
-<./Figures/MODI/render.png, id=536, 448.67625pt x 340.27126pt>
+<./Figures/MODI/render.png, id=543, 448.67625pt x 340.27126pt>
 File: ./Figures/MODI/render.png Graphic file (type png)
 
 <use ./Figures/MODI/render.png>
 Package pdftex.def Info: ./Figures/MODI/render.png used on input line 14.
 (pdftex.def)             Requested size: 333.97972pt x 253.2921pt.
- [21
+ [22
 
- <./Figures/MODI/render.png>]
-<./Figures/MODI/piezas.jpg, id=547, 803.0pt x 670.505pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/render.png>]
+<./Figures/MODI/piezas.jpg, id=560, 602.25pt x 502.87875pt>
 File: ./Figures/MODI/piezas.jpg Graphic file (type jpg)
 
 <use ./Figures/MODI/piezas.jpg>
 Package pdftex.def Info: ./Figures/MODI/piezas.jpg used on input line 44.
-(pdftex.def)             Requested size: 417.47307pt x 348.59299pt.
+(pdftex.def)             Requested size: 417.47307pt x 348.60577pt.
 
-<./Figures/MODI/compRender.png, id=548, 651.93562pt x 212.29312pt>
+<./Figures/MODI/compRender.png, id=561, 651.93562pt x 212.29312pt>
 File: ./Figures/MODI/compRender.png Graphic file (type png)
 
 <use ./Figures/MODI/compRender.png>
 Package pdftex.def Info: ./Figures/MODI/compRender.png used on input line 52.
 (pdftex.def)             Requested size: 417.47307pt x 135.9481pt.
 
-<./Figures/MODI/ensamble.png, id=549, 894.34125pt x 587.19376pt>
+<./Figures/MODI/ensamble.png, id=562, 894.34125pt x 587.19376pt>
 File: ./Figures/MODI/ensamble.png Graphic file (type png)
 
 <use ./Figures/MODI/ensamble.png>
 Package pdftex.def Info: ./Figures/MODI/ensamble.png used on input line 60.
 (pdftex.def)             Requested size: 417.47307pt x 274.09953pt.
- [22] [23 <./Figures/MODI/piezas.jpg> <./Figures/MODI/compRender.png>]
-<./Figures/modi/MODI_schem.png, id=567, 2472.98906pt x 2583.6525pt>
+ [23] [24 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/piezas.jpg> 
+<C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/compRender.png>]
+<./Figures/modi/MODI_schem.png, id=579, 2472.98906pt x 2583.6525pt>
 File: ./Figures/modi/MODI_schem.png Graphic file (type png)
 
 <use ./Figures/modi/MODI_schem.png>
 Package pdftex.def Info: ./Figures/modi/MODI_schem.png used on input line 77.
 (pdftex.def)             Requested size: 417.47307pt x 436.1401pt.
 
-<./Figures/modi/pcb.png, id=568, 722.7pt x 542.025pt>
+<./Figures/modi/pcb.png, id=580, 722.7pt x 542.025pt>
 File: ./Figures/modi/pcb.png Graphic file (type png)
 
 <use ./Figures/modi/pcb.png>
 Package pdftex.def Info: ./Figures/modi/pcb.png used on input line 85.
 (pdftex.def)             Requested size: 375.7232pt x 281.78845pt.
- [24 <./Figures/MODI/ensamble.png>] [25 <./Figures/modi/MODI_schem.png>] [26 <.
-/Figures/modi/pcb.png>]
-<./Figures/MODI/compElo.png, id=583, 722.7pt x 542.025pt>
+ [25 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/ensamble.png>] [2
+6 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/modi/MODI_schem.png>] [27
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/modi/pcb.png>] <./Figures/
+MODI/compElo.png, id=595, 722.7pt x 542.025pt>
 File: ./Figures/MODI/compElo.png Graphic file (type png)
 
 <use ./Figures/MODI/compElo.png>
 Package pdftex.def Info: ./Figures/MODI/compElo.png used on input line 99.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [27
+ [28
 
- <./Figures/MODI/compElo.png>] [28]
-[29] <./Figures/MODI/MODI_without_LED_bb.png, id=604, 927.465pt x 597.73312pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/compElo.png>] [29] [3
+0]
+<./Figures/MODI/MODI_without_LED_bb.png, id=615, 927.465pt x 597.73312pt>
 File: ./Figures/MODI/MODI_without_LED_bb.png Graphic file (type png)
 
 <use ./Figures/MODI/MODI_without_LED_bb.png>
 Package pdftex.def Info: ./Figures/MODI/MODI_without_LED_bb.png used on input l
 ine 155.
 (pdftex.def)             Requested size: 333.97972pt x 215.2476pt.
- [30 <./Figures/MODI/MODI_without_LED_bb.png>] <./Figures/MODI/RGBLED.png, id=6
-11, 1011.78pt x 429.10312pt>
+ [31 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/MODI_without_LED_
+bb.png>]
+<./Figures/MODI/RGBLED.png, id=622, 1011.78pt x 429.10312pt>
 File: ./Figures/MODI/RGBLED.png Graphic file (type png)
 
 <use ./Figures/MODI/RGBLED.png>
 Package pdftex.def Info: ./Figures/MODI/RGBLED.png used on input line 174.
 (pdftex.def)             Requested size: 333.97972pt x 141.64374pt.
 
-<./Figures/MODI/comparacionElo.png, id=612, 358.33875pt x 722.7pt>
+<./Figures/MODI/comparacionElo.png, id=623, 358.33875pt x 722.7pt>
 File: ./Figures/MODI/comparacionElo.png Graphic file (type png)
 
 <use ./Figures/MODI/comparacionElo.png>
@@ -1130,117 +1113,121 @@ Package pdftex.def Info: ./Figures/MODI/comparacionElo.png used on input line 1
 
 LaTeX Warning: Float too large for page by 36.24174pt on input line 186.
 
-[31 <./Figures/MODI/RGBLED.png>] [32 <./Figures/MODI/comparacionElo.png>]
-<./Figures/robots.png, id=625, 701.62125pt x 436.63126pt>
+[32 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/RGBLED.png>]
+[33 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/comparacionElo.png
+>] <./Figures/robots.png, id=636, 701.62125pt x 436.63126pt>
 File: ./Figures/robots.png Graphic file (type png)
 
 <use ./Figures/robots.png>
 Package pdftex.def Info: ./Figures/robots.png used on input line 199.
 (pdftex.def)             Requested size: 417.47307pt x 259.8088pt.
 
-<./Figures/graficosMotores.png, id=628, 722.7pt x 296.60812pt>
+<./Figures/graficosMotores.png, id=639, 722.7pt x 296.60812pt>
 File: ./Figures/graficosMotores.png Graphic file (type png)
 
 <use ./Figures/graficosMotores.png>
 Package pdftex.def Info: ./Figures/graficosMotores.png used on input line 210.
 (pdftex.def)             Requested size: 333.97972pt x 137.07048pt.
- [33 <./Figures/robots.png>]
-<./Figures/MODI/pwm.png, id=641, 722.7pt x 542.025pt>
+ [34 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robots.png>]
+<./Figures/MODI/pwm.png, id=653, 722.7pt x 542.025pt>
 File: ./Figures/MODI/pwm.png Graphic file (type png)
 
 <use ./Figures/MODI/pwm.png>
 Package pdftex.def Info: ./Figures/MODI/pwm.png used on input line 223.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [34 <./Figures/graficosMotores.png>] [35 <./Figures/MODI/pwm.png>] <./Figures/
-setup.png, id=655, 1606.0pt x 821.0675pt>
+ [35 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/graficosMotores.png>] 
+[36 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pwm.png>] <./Figur
+es/setup.png, id=666, 1606.0pt x 821.0675pt>
 File: ./Figures/setup.png Graphic file (type png)
 
 <use ./Figures/setup.png>
 Package pdftex.def Info: ./Figures/setup.png used on input line 245.
 (pdftex.def)             Requested size: 417.47307pt x 213.43492pt.
- [36 <./Figures/setup.png>]
-<./Figures/MODI/fiducial.png, id=665, 513.92pt x 385.44pt>
+ [37 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/setup.png>] <./Figures
+/MODI/fiducial.png, id=676, 513.92pt x 385.44pt>
 File: ./Figures/MODI/fiducial.png Graphic file (type png)
 
 <use ./Figures/MODI/fiducial.png>
 Package pdftex.def Info: ./Figures/MODI/fiducial.png used on input line 272.
 (pdftex.def)             Requested size: 271.35493pt x 203.51765pt.
 
-<./Figures/MODI/kitbom.png, id=668, 520.19344pt x 350.05782pt>
+<./Figures/MODI/kitbom.png, id=679, 520.19344pt x 350.05782pt>
 File: ./Figures/MODI/kitbom.png Graphic file (type png)
 
 <use ./Figures/MODI/kitbom.png>
 Package pdftex.def Info: ./Figures/MODI/kitbom.png used on input line 289.
 (pdftex.def)             Requested size: 417.47307pt x 280.9333pt.
- [37 <./Figures/MODI/fiducial.png (PNG copy)>]
-<./Figures/tabla_robots_modi.png, id=675, 358.33875pt x 874.76813pt>
+ [38 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/fiducial.png (PNG
+ copy)>]
+<./Figures/tabla_robots_modi.png, id=686, 358.33875pt x 874.76813pt>
 File: ./Figures/tabla_robots_modi.png Graphic file (type png)
 
 <use ./Figures/tabla_robots_modi.png>
 Package pdftex.def Info: ./Figures/tabla_robots_modi.png used on input line 299
 .
 (pdftex.def)             Requested size: 250.48637pt x 611.4926pt.
-) (./Chapters/Chapter6.tex [38 <./Figures/MODI/kitbom.png>] [39 <./Figures/tabl
-a_robots_modi.png>]
+)
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter6.tex [39 <C:/Users
+/seba/Documents/GitHub/modi/thesis/Figures/MODI/kitbom.png>] [40 <C:/Users/seba
+/Documents/GitHub/modi/thesis/Figures/tabla_robots_modi.png>]
 Cap\'{\i }tulo 6.
 ------------------------------------------------------------------------------
  6 Aplicaciones de MODI
 ------------------------------------------------------------------------------
-[40
+[41
 
-]) (./Chapters/Chapter7.tex [41]
+]) (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter7.tex
+[42]
 Cap\'{\i }tulo 7.
 ------------------------------------------------------------------------------
  7 Mejoras futuras y Conclusiones
 ------------------------------------------------------------------------------
-[42
+[43
 
-] <./Pictures/wires.png, id=704, 722.7pt x 542.025pt>
+] <./Pictures/wires.png, id=714, 722.7pt x 542.025pt>
 File: ./Pictures/wires.png Graphic file (type png)
 
 <use ./Pictures/wires.png>
 Package pdftex.def Info: ./Pictures/wires.png used on input line 34.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [43 <./Pictures/wires.png>] [44])
-(./Appendices/AppendixA.tex [45]
+ [44 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/wires.png>] [45])
+(C:\Users\seba\Documents\GitHub\modi\thesis\Appendices\AppendixA.tex [46]
 Ap\'{e}ndice A.
 ------------------------------------------------------------------------------
  A 
 ------------------------------------------------------------------------------
-<./Pictures/historia.jpg, id=721, 2055.68pt x 1541.76pt>
+<./Pictures/historia.jpg, id=732, 2055.68pt x 1541.76pt>
 File: ./Pictures/historia.jpg Graphic file (type jpg)
 
 <use ./Pictures/historia.jpg>
 Package pdftex.def Info: ./Pictures/historia.jpg used on input line 14.
 (pdftex.def)             Requested size: 417.47307pt x 313.09865pt.
- [46
+ [47
 
- <./Pictures/historia.jpg>]
-<./Figures/MODI/pcbmodi.png, id=727, 113.4639pt x 115.19838pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/historia.jpg>]
+<./Figures/MODI/pcbmodi.png, id=737, 113.4639pt x 115.19838pt>
 File: ./Figures/MODI/pcbmodi.png Graphic file (type png)
 
 <use ./Figures/MODI/pcbmodi.png>
 Package pdftex.def Info: ./Figures/MODI/pcbmodi.png used on input line 24.
 (pdftex.def)             Requested size: 417.47307pt x 423.95097pt.
-) [47 <./Figures/MODI/pcbmodi.png>]
+) [48 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pcbmodi.png>]
 ------------------------------------------------------------------------------
  Bibliograf\'{\i }a
 ------------------------------------------------------------------------------
-(./main.bbl)
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.bbl [49
+
+
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
- [48
-
-
-]
+ [50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
- (./main.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-)
+
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2B12343A036A91D4FCEC2D5644DB235;7799.
+(rerunfilecheck)             Checksum: 02F41D527246B61366B6F5FD50FB67EF;7849.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1251,28 +1238,24 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 14204 strings out of 493481
- 198931 string characters out of 3144398
- 270580 words of memory out of 3000000
- 17061 multiletter control sequences out of 15000+200000
+ 14230 strings out of 493921
+ 198300 string characters out of 3154503
+ 271267 words of memory out of 3000000
+ 17065 multiletter control sequences out of 15000+200000
  16339 words of font info for 60 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 49i,12n,45p,3738b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2012/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (57 pages, 11047458 bytes).
+ 841 hyphenation exceptions out of 8191
+ 49i,12n,45p,3738b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pf
+b><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C
+:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (59 pages, 11055182 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 680 compressed objects within 7 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 835 PDF objects out of 1000 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
