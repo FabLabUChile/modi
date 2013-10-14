@@ -37,7 +37,15 @@ Está formado por cuatro partes:
 
 Cada una de estas piezas puede ser vista en la Figura \ref{fig:Render Piezas 3D}.
 
-Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es el Chasis, que son 108 minutos. Cada Rueda demora 20 minutos, el accesorio 58 minutos y el logo 25 minutos. Se resume en la Figura
+Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es el Chasis, que son 108 minutos. Cada Rueda demora 20 minutos, el accesorio 58 minutos y el logo 25 minutos. En la la Figura \ref{fig:tabla impresion} hay una tabla que resume esto.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/MODI/tablaimpresion.png}
+		\rule{35em}{0.5pt}
+	\caption[Tabla impresion]{Tabla que resume los tiempos y configuración de impresión de las piezas de MODI en una MakerBot Replicator 1.}
+	\label{fig:tabla impresion}
+\end{figure}
 
 \begin{figure}[htbp]
 	\centering
@@ -59,7 +67,7 @@ Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es 
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/ensamble.png}
 		\rule{35em}{0.5pt}
-	\caption[Diagrama MODI versión final]{Diagrama de todos los componentes que forman parte de MODI, este diagrama sirve de guía para poder ensamblarlo.}
+	\caption[Diagrama MODI versión final]{Diagrama de todos los componentes que forman parte de MODI, este diagrama sirve de guía para poder ensamblarlo. Las piezas Logo y Accesorio permite personalizar a MODI y también incorporar sensores extras.}
 	\label{fig:DiagramaVersionFinal}
 \end{figure}	
 
@@ -69,7 +77,7 @@ Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es 
 %-----------------------------------
 \section{Diseño de PCB MODI}
 
-En los primeros prototipos un problema que se repetía constantemente fueron las conexiones entre los sistemas que componen al robot. Son 15 conexiones que unen distintos componentes, Figura \ref{fig:Diagrama cables}. Por esto se requiere un PCB que permita reducir al mínimo el espacio necesario para energizar y comunicar los componentes. El requerimiento principal es poder fabricarlo con una fresa CNC como la Roland Modela MDX-20, por lo que para facilitar el proceso de construcción es necesario diseñar un PCB de una sola capa. Se utilizó Eagle como software para el diseño del diagrama eléctrico y PCB, el resultado se puede ver en la Figura \ref{fig:pcb}.
+En los primeros prototipos un problema que se repetía constantemente fueron las conexiones entre los sistemas que componen al robot. Son 15 conexiones que unen distintos componentes, Figura \ref{fig:Diagrama cables}. Por esto se requiere un PCB que permita reducir al mínimo el espacio necesario para energizar y comunicar los componentes. El requerimiento principal es poder fabricarlo con una fresa CNC como la Roland Modela MDX-20 (disponible en el FABLAB UCHILE), por lo que para facilitar el proceso de construcción es necesario diseñar un PCB de una sola capa. Se utilizó Eagle como software para el diseño del diagrama eléctrico y PCB, el resultado se puede ver en la Figura \ref{fig:pcb}.
 
 
 \begin{figure}[htbp]
@@ -84,7 +92,7 @@ En los primeros prototipos un problema que se repetía constantemente fueron las
 	\centering
 		\includegraphics[width=0.9\textwidth]{./Figures/modi/pcb.png}
 		\rule{35em}{0.5pt}
-	\caption[Fabricación de PCB]{\textbf{a.} Roland Modelo MDX-20 usada para hacer PCB y modelos 3D \textbf{b.} MODIBoard es una PCB diseñada para poder conectar de forma simple los diversos componentes electrónicos. Conecta: Arduino Fio, Lipo Rider Pro, Motor Driver, LED RGB y Motores, \textbf{c. }PCB fresada en dos máquinas diferentes. Se puede apreciar en el detalle aumentado 60x, la importancia de contar con una buena resolución de fresado. En especial es necesario tener un buen pad para facilitar el soldado.}
+	\caption[Fabricación de PCB]{\textbf{a.} Roland Modelo MDX-20 usada para hacer PCB y modelos 3D \textbf{b.} MODIBoard es una PCB diseñada para poder conectar de forma simple los diversos componentes electrónicos. Conecta: Arduino Fio, Lipo Rider Pro, Motor Driver, LED RGB y Motores, \textbf{c. }PCB fresada en dos máquinas diferentes. Se puede apreciar en el detalle aumentado 60x, la importancia de contar con una buena resolución de fresado como en la imagen de la izquierda donde incluso se pudo hacer el logo. En especial es necesario tener un buen pad para facilitar el soldado.}
 	\label{fig:pcb}
 \end{figure}
 
@@ -104,7 +112,7 @@ En los primeros prototipos un problema que se repetía constantemente fueron las
 
 MODI está compuesto por varios componentes electrónicos que implementan tecnologías nuevas. De forma sencilla el usuario puede hacer uso de todas estas, que por ser Open Source tienen una amplia documentación. Su uso en colegios, talleres y universidades, por ser de bajo costo, y sin partes externas extremadamente frágiles, es una excelente herramienta para iniciar a alumnos en temas como la Programación, Robótica, Comunicación Inalámbrica y Visión Artificial, entre otros, sin los miedos asociados a utilizar un equipo costoso y delicado.
 
-El robot MODI es pequeño y de fácil construcción con las herramientas de Fabricación Digital que se pueden encontrar en un FabLab. Tiene un pequeño microcontrolador \textbf{Arduino} que controla dos motores, y un \textbf{XBee} para la comunicación inalámbrica con un computador central que usando cualquier lenguaje de programación con comunicación serial puede controlar uno o más robots. La posición de cada robot se obtiene con tags \textbf{Fiduciales}, que permiten por medio de una cámara cenital saber la coordenada y rotación de cada uno. En esta primera aplicación es necesario contar con autonomía energética por lo que se incluye una batería lipo de 2000[mAh] junto a un módulo que carga la batería y eleva el voltaje de salida a 5[v]. Este módulo de carga, \textbf{Lipo Rider Pro}, tiene además la ventaja de permitir distintos tipos de carga, como una celda de carga solar o un sistema de carga inalámbrica por medio de bobinas. Tener la posibilidad de cargar una batería con luz solar o por medio de forma inalámbrica hace posible el hacer experimentos que necesiten estar funcionando semanas sin la intervención de un humano para cargar cada uno.
+El robot MODI es pequeño y de fácil construcción con las herramientas de Fabricación Digital que se pueden encontrar en un FabLab. Tiene un pequeño microcontrolador \textbf{Arduino} que controla dos motores, y un \textbf{XBee} para la comunicación inalámbrica con un computador central que usando cualquier lenguaje de programación con comunicación serial puede controlar uno o más robots. La posición de cada robot se obtiene con tags \textbf{Fiduciales}, que permiten por medio de una cámara cenital saber la coordenada y rotación de cada uno, de esta forma se ahorra en costosos sistemas de tracking 2D. En esta primera aplicación es necesario contar con autonomía energética por lo que se incluye una batería lipo de 2000[mAh] junto a un módulo que carga la batería y eleva el voltaje de salida a 5[v]. Este módulo de carga, \textbf{Lipo Rider Pro}, tiene además la ventaja de permitir distintos tipos de carga, como una celda de carga solar o un sistema de carga inalámbrica por medio de bobinas. Tener la posibilidad de cargar una batería con luz solar o por medio de forma inalámbrica hace posible el hacer experimentos que necesiten estar funcionando semanas sin la intervención de un humano para cargar cada uno.
 
 A continuación describiremos en detalle cada uno de los componentes utilizados en MODI. Las especificaciones técnicas de cada uno de ellos se encuentra resumida en la tabla \ref{fig:TablaElo}
 
@@ -148,7 +156,7 @@ La Lipo Rider obtiene de dos formas la energía, una es con un panel solar y la 
 %	SUBSECTION 4
 %-----------------------------------
 \subsection{Motor Driver 1A Dual TB6612FNG}
-El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente constante de 1.2A (3.2A peak) y así separar la lógica del Arduino con la potencia que necesitan los motores. Dos señales de entrada (IN1 y IN2) puede ser usadas para controlar el motor en una de cuatro modos de funcionamiento: giro horario, giro anti horario, short-brake, y parada. A cada motor se le conectan dos salidas y cada motor se puede controlar separadamente, la velocidad de cada uno es controlada vía pin PWM y puede alcanzar las 440 RPM. El pin STBY debe colocarse en High para que el motor salga del estado Standby. Ver Figura  \ref{fig:TB6612FNG} para las conexiones. Con esto se cumple el \textbf{Requerimiento 8}.
+El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente constante de 1.2A (3.2A peak) y así separar la lógica del Arduino con la potencia que necesitan los motores. Dos señales de entrada (IN1 y IN2) puede ser usadas para controlar el motor en una de cuatro modos de funcionamiento: giro horario, giro anti horario, short-brake, y parada. A cada motor se le conectan dos salidas y cada motor se puede controlar separadamente, la velocidad de cada uno es controlada vía pin PWM y puede alcanzar las 440 RPM, lo que en la practica se traduce en una velocidad máxima de 50cm/segundo medida con la cámara, dado que los motores funcionan a 5[v]. El pin STBY debe colocarse en High para que el motor salga del estado Standby. Ver Figura  \ref{fig:TB6612FNG} para las conexiones. Con esto se cumple el \textbf{Requerimiento 8}.
 
 \begin{figure}[htbp]
 	\centering
@@ -230,9 +238,11 @@ Se puede realizar un control más fino de la posición usando la información de
 %	SECTION 5
 %-----------------------------------
 \section{Implementación}
-La construcción de MODI fue motivada por una aplicación concreta, que es tener un grupo de robots controlables de forma independiente para hacer estudios del comportamiento del grupo. Para esto fue necesario montar un sistema simple con una cámara cenital que vigila  la posición y orientación de cada uno de ellos.
+La construcción de MODI fue motivada por una aplicación concreta, que es tener un grupo de robots controlables de forma independiente para hacer estudios del comportamiento del grupo. Para esto fue necesario montar un sistema simple con una cámara cenital que vigila  la posición y orientación de cada uno de ellos, como se puede ver en la Figura \ref{fig:setup}
 
-El robot que se construyó para hacer las pruebas cuenta con un sistema externo de visión artificial que permite obtener posición y orientación de cada robot. Esto es necesario ya que como se mencionó, no existe ningún sensor interno del robot que le pueda ayudar a ubicarse en el espacio. Esta información es transmitida a cada robot por medio del protocolo \textit{zigbee} implementado en los chip XBee de la empresa Digi, ver Figura \ref{fig:compELO} b. Esto permite comunicar un alto número de robots, con muy poco consumo energético y de manera relativamente simple. Se escogió usar visión artificial sobre el sistema para bajar los costos individuales de los robots y XBee por ser el estándar en la industria en redes de sensores inalámbricos. Cabe destacar que los robots que existen en el mercado no incluyen XBee, y los que lo traen lo hacen como accesorio. 
+El robot que se construyó para hacer las pruebas cuenta con un sistema externo de visión artificial que permite obtener posición y orientación de cada robot . Esto es necesario ya que como se mencionó, no existe ningún sensor interno del robot que le pueda ayudar a ubicarse en el espacio. Esta información es transmitida a cada robot por medio del protocolo \textit{zigbee} implementado en los chip XBee de la empresa Digi, ver Figura \ref{fig:compELO} b. Esto permite comunicar un alto número de robots, con muy poco consumo energético y de manera relativamente simple. Se escogió usar visión artificial sobre el sistema para bajar los costos individuales de los robots y XBee por ser el estándar en la industria en redes de sensores inalámbricos. Cabe destacar que los robots que existen en el mercado no incluyen XBee, y los que lo traen lo hacen como accesorio. 
+
+
 %-----------------------------------
 %	SECTION 6
 %-----------------------------------
@@ -259,7 +269,16 @@ Firmware y algunos ejemplos para testear funciones de manera individual se encue
 
 
 \subsection{Tracking 2D}
-Al igual que los seres vivos un robot necesita \textit{sentidos} o algún sistema sensorial para poder interactuar con su entorno. Estos pueden ser sensores IR para detectar objetos cercanos, cámaras o LASER para hacer un mapa del entorno o simplemente un pulsador que sea presionado cada vez que el robot colisiona. Para bajar costos, MODI actualmente no cuenta con sensores “onBoard”. Cada robot es comandado por un sistema que le dice donde está él, donde están los demás, y los límites del área de trabajo. Se diseñó de esta manera para simplificar la programación de cada robot.
+Al igual que los seres vivos un robot necesita \textit{sentidos} o algún sistema sensorial para poder interactuar con su entorno. Estos pueden ser sensores IR para detectar objetos cercanos, cámaras o LASER para hacer un mapa del entorno o simplemente un pulsador que sea presionado cada vez que el robot colisiona. Para bajar costos, MODI actualmente no cuenta con sensores “onBoard”. Cada robot es comandado por un sistema que le dice donde está él, donde están los demás, y los límites del área de trabajo. Se diseñó de esta manera para simplificar la programación de cada robot. En la Figura \ref{fig:FidTracking} se diagrama el funcionamiento del sistema de traking 2D.
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.65\textwidth]{./Figures/MODI/fidPosicion.jpg}
+		\rule{35em}{0.5pt}
+	\caption[Diagrama Fiduciales]{Diagrama que explica el funcionamiento de tracking por medio de tags fiduciales.}
+	\label{fig:FidTracking}
+\end{figure}
 
 reacTIVision \cite{kaltenbrunner2007reactivision} es un framework Open Source, cross-platform, para realizar tracking rápido y robusto de tags fiduciales, pegadas a objetos físicos, ver Figura \ref{fig:Fiducial}. Ha sido diseñado como un toolkit para el desarrollo rápido de multi-touch interactive surfaces. Este framework fue desarrollado por Martin Kaltenbrunner y Ross Bencina en el Music Technology Group de la universidad de Pompeu Fabra en Barcelona, España. reacTIVision fue diseñado como sensor principal de la Reactable, un sintetizador modular tangible que ha marcado los standards en lo que a aplicaciones multitouch se refiere. 
 Esta alternativa debe ir acompañada de otros elementos, como la cámara y el computador en el cual se ejecuta el software. Con estos elementos mediante un protocolo llamado TUIO, disponible como biblioteca en los lenguajes de programación más populares, se puede obtener: la posición, orientación e identificador de cada robot, cumpliendo con el \textbf{Requerimiento 6}. Con reacTIVision es posible detectar hasta 216 tag fiduciales a una velocidad de 50 fps a una resolución de 640 x 480.
@@ -281,9 +300,9 @@ Esta alternativa debe ir acompañada de otros elementos, como la cámara y el co
 %	SECTION 7
 %-----------------------------------
 
-\subsection{Bill Of Material}
+\subsection{Lista de Materiales (BOM)}
 
-Con un precio total de 180 USD, Figura \ref{fig:BOM}, MODI se propone como una alternativa económica para construir un robot de desplazamiento diferencial. Pensando en comprar desde Chile, son tres las tiendas en que se cotizaron los componentes. Es posible comprar todo desde internet. Para más detalles sobre la Lista de materiales ver link \footnote{http://kitbom.com/otrab/modi}.
+Con un precio total de 180 USD, Figura \ref{fig:BOM}, MODI se propone como una alternativa económica para construir un robot de desplazamiento diferencial. Pensando en comprar desde Chile, son tres las tiendas en que se cotizaron los componentes. Es posible comprar todo desde internet. Para más detalles sobre la Lista de materiales, o en ingles Bill Of Materials (BOM), ver link \footnote{http://kitbom.com/otrab/modi}.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/kitbom.png}
