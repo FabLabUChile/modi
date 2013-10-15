@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.25)  14 OCT 2013 20:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.25)  14 OCT 2013 20:59
 entering extended mode
 **main.tex
 (C:\Users\seba\Documents\GitHub\modi\thesis\main.tex
@@ -891,7 +891,7 @@ Cap\'{\i }tulo 1.
 ------------------------------------------------------------------------------
  1 Introducci\IeC {\'o}n
 ------------------------------------------------------------------------------
-<./Figures/robot.jpg, id=380, 421.575pt x 279.0425pt>
+<./Figures/robot.jpg, id=382, 421.575pt x 279.0425pt>
 File: ./Figures/robot.jpg Graphic file (type jpg)
 
 <use ./Figures/robot.jpg>
@@ -905,7 +905,7 @@ Cap\'{\i }tulo 2.
 ------------------------------------------------------------------------------
  2 Robot
 ------------------------------------------------------------------------------
-<./Figures/Duck_of_Vaucanson.jpg, id=391, 281.05pt x 252.945pt>
+<./Figures/Duck_of_Vaucanson.jpg, id=393, 281.05pt x 252.945pt>
 File: ./Figures/Duck_of_Vaucanson.jpg Graphic file (type jpg)
 
 <use ./Figures/Duck_of_Vaucanson.jpg>
@@ -916,14 +916,14 @@ Package pdftex.def Info: ./Figures/Duck_of_Vaucanson.jpg used on input line 19.
 
  <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/Duck_of_Vaucanson.jpg>] [6
 ]
-<./Figures/RobotsInd.png, id=405, 608.2725pt x 282.30469pt>
+<./Figures/RobotsInd.png, id=407, 608.2725pt x 282.30469pt>
 File: ./Figures/RobotsInd.png Graphic file (type png)
 
 <use ./Figures/RobotsInd.png>
 Package pdftex.def Info: ./Figures/RobotsInd.png used on input line 53.
 (pdftex.def)             Requested size: 417.47307pt x 193.7566pt.
  [7 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/RobotsInd.png>] <./Figu
-res/6DOF.png, id=416, 391.4625pt x 258.21469pt>
+res/6DOF.png, id=418, 391.4625pt x 258.21469pt>
 File: ./Figures/6DOF.png Graphic file (type png)
 
 <use ./Figures/6DOF.png>
@@ -936,7 +936,7 @@ Cap\'{\i }tulo 3.
 ------------------------------------------------------------------------------
  3 Swarm
 ------------------------------------------------------------------------------
-<./Figures/swarm.jpg, id=422, 146.36961pt x 99.71431pt>
+<./Figures/swarm.jpg, id=424, 146.36961pt x 99.71431pt>
 File: ./Figures/swarm.jpg Graphic file (type jpg)
 
 <use ./Figures/swarm.jpg>
@@ -945,14 +945,14 @@ Package pdftex.def Info: ./Figures/swarm.jpg used on input line 11.
  [9
 
  <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/swarm.jpg>] [10] [11] <./F
-igures/robots1.png, id=452, 722.7pt x 542.025pt>
+igures/robots1.png, id=454, 722.7pt x 542.025pt>
 File: ./Figures/robots1.png Graphic file (type png)
 
 <use ./Figures/robots1.png>
 Package pdftex.def Info: ./Figures/robots1.png used on input line 70.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
 
-<./Figures/tabla_robots.png, id=465, 688.07062pt x 356.0803pt>
+<./Figures/tabla_robots.png, id=467, 688.07062pt x 356.0803pt>
 File: ./Figures/tabla_robots.png Graphic file (type png)
 
 <use ./Figures/tabla_robots.png>
@@ -960,14 +960,14 @@ Package pdftex.def Info: ./Figures/tabla_robots.png used on input line 81.
 (pdftex.def)             Requested size: 417.47307pt x 216.04593pt.
  [12] [13 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robots1.png> <C:/
 Users/seba/Documents/GitHub/modi/thesis/Figures/tabla_robots.png>] <./Figures/t
-hingiverse.png, id=486, 722.7pt x 542.025pt>
+hingiverse.png, id=488, 722.7pt x 542.025pt>
 File: ./Figures/thingiverse.png Graphic file (type png)
 
 <use ./Figures/thingiverse.png>
 Package pdftex.def Info: ./Figures/thingiverse.png used on input line 94.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
  [14 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/thingiverse.png>] <./F
-igures/nicho.png, id=496, 722.7pt x 542.025pt>
+igures/nicho.png, id=498, 722.7pt x 542.025pt>
 File: ./Figures/nicho.png Graphic file (type png)
 
 <use ./Figures/nicho.png>
@@ -980,7 +980,7 @@ Cap\'{\i }tulo 4.
 ------------------------------------------------------------------------------
  4 Dise\IeC {\~n}o y fabricaci\IeC {\'o}n digital
 ------------------------------------------------------------------------------
-<./Figures/FabDig.JPG, id=502, 1606.0pt x 1003.75pt>
+<./Figures/FabDig.JPG, id=504, 1606.0pt x 1003.75pt>
 File: ./Figures/FabDig.JPG Graphic file (type jpg)
 
 <use ./Figures/FabDig.JPG>
@@ -988,61 +988,69 @@ Package pdftex.def Info: ./Figures/FabDig.JPG used on input line 12.
 (pdftex.def)             Requested size: 333.97972pt x 208.72606pt.
  [16
 
- <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/FabDig.JPG>] [17] [18]
-<./Pictures/modi_analogToDigital.png, id=535, 722.7pt x 542.025pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/FabDig.JPG>] [17]
+<./Figures/MODI/tree.png, id=528, 226.59656pt x 267.24844pt>
+File: ./Figures/MODI/tree.png Graphic file (type png)
+
+<use ./Figures/MODI/tree.png>
+Package pdftex.def Info: ./Figures/MODI/tree.png used on input line 45.
+(pdftex.def)             Requested size: 333.97972pt x 393.8985pt.
+ [18 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/tree.png>] [19]
+<./Pictures/modi_analogToDigital.png, id=543, 722.7pt x 542.025pt>
 File: ./Pictures/modi_analogToDigital.png Graphic file (type png)
 
 <use ./Pictures/modi_analogToDigital.png>
 Package pdftex.def Info: ./Pictures/modi_analogToDigital.png used on input line
- 75.
+ 86.
 (pdftex.def)             Requested size: 333.97972pt x 250.48413pt.
 
-<./Figures/3Dprint.png, id=536, 621.07031pt x 379.4175pt>
+<./Figures/3Dprint.png, id=544, 621.07031pt x 379.4175pt>
 File: ./Figures/3Dprint.png Graphic file (type png)
 
 <use ./Figures/3Dprint.png>
-Package pdftex.def Info: ./Figures/3Dprint.png used on input line 83.
+Package pdftex.def Info: ./Figures/3Dprint.png used on input line 94.
 (pdftex.def)             Requested size: 417.47307pt x 255.03629pt.
 
-<./Figures/tabla_impresoras.png, id=537, 717.43031pt x 207.77625pt>
+<./Figures/tabla_impresoras.png, id=545, 717.43031pt x 207.77625pt>
 File: ./Figures/tabla_impresoras.png Graphic file (type png)
 
 <use ./Figures/tabla_impresoras.png>
-Package pdftex.def Info: ./Figures/tabla_impresoras.png used on input line 93.
+Package pdftex.def Info: ./Figures/tabla_impresoras.png used on input line 104.
+
 (pdftex.def)             Requested size: 417.47307pt x 120.9066pt.
 
-<./Figures/impresoras.png, id=538, 722.7pt x 542.025pt>
+<./Figures/impresoras.png, id=546, 722.7pt x 542.025pt>
 File: ./Figures/impresoras.png Graphic file (type png)
 
 <use ./Figures/impresoras.png>
-Package pdftex.def Info: ./Figures/impresoras.png used on input line 102.
+Package pdftex.def Info: ./Figures/impresoras.png used on input line 113.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
-
-<./Figures/map.png, id=540, 788.19469pt x 455.45157pt>
+ [20 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/modi_analogToDigital.
+png>]
+<./Figures/map.png, id=554, 788.19469pt x 455.45157pt>
 File: ./Figures/map.png Graphic file (type png)
  <use ./Figures/map.png>
-Package pdftex.def Info: ./Figures/map.png used on input line 114.
+Package pdftex.def Info: ./Figures/map.png used on input line 125.
 (pdftex.def)             Requested size: 417.47307pt x 241.22833pt.
-) (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter5.tex [19]
-[20 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/modi_analogToDigital.p
-ng> <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/3Dprint.png>] [21 <C:/U
-sers/seba/Documents/GitHub/modi/thesis/Figures/tabla_impresoras.png> <C:/Users/
-seba/Documents/GitHub/modi/thesis/Figures/impresoras.png>] [22 <C:/Users/seba/D
-ocuments/GitHub/modi/thesis/Figures/map.png>]
+) (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter5.tex [21 <C:/Use
+rs/seba/Documents/GitHub/modi/thesis/Figures/3Dprint.png> <C:/Users/seba/Docume
+nts/GitHub/modi/thesis/Figures/tabla_impresoras.png>] [22 <C:/Users/seba/Docume
+nts/GitHub/modi/thesis/Figures/impresoras.png>] [23 <C:/Users/seba/Documents/Gi
+tHub/modi/thesis/Figures/map.png>]
 Cap\'{\i }tulo 5.
 ------------------------------------------------------------------------------
  5 MODI
 ------------------------------------------------------------------------------
-<./Figures/MODI/render.png, id=563, 448.67625pt x 340.27126pt>
+<./Figures/MODI/render.png, id=571, 448.67625pt x 340.27126pt>
 File: ./Figures/MODI/render.png Graphic file (type png)
 
 <use ./Figures/MODI/render.png>
 Package pdftex.def Info: ./Figures/MODI/render.png used on input line 14.
 (pdftex.def)             Requested size: 333.97972pt x 253.2921pt.
- [23
+ [24
 
  <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/render.png>]
-<./Figures/MODI/tablaimpresion.png, id=580, 487.8225pt x 139.27031pt>
+<./Figures/MODI/tablaimpresion.png, id=588, 487.8225pt x 139.27031pt>
 File: ./Figures/MODI/tablaimpresion.png Graphic file (type png)
 
 <use ./Figures/MODI/tablaimpresion.png>
@@ -1050,72 +1058,72 @@ Package pdftex.def Info: ./Figures/MODI/tablaimpresion.png used on input line 4
 4.
 (pdftex.def)             Requested size: 333.97972pt x 95.3507pt.
 
-<./Figures/MODI/piezas.jpg, id=581, 602.25pt x 502.87875pt>
+<./Figures/MODI/piezas.jpg, id=589, 602.25pt x 502.87875pt>
 File: ./Figures/MODI/piezas.jpg Graphic file (type jpg)
 
 <use ./Figures/MODI/piezas.jpg>
 Package pdftex.def Info: ./Figures/MODI/piezas.jpg used on input line 52.
 (pdftex.def)             Requested size: 417.47307pt x 348.60577pt.
 
-<./Figures/MODI/compRender.png, id=582, 651.93562pt x 212.29312pt>
+<./Figures/MODI/compRender.png, id=590, 651.93562pt x 212.29312pt>
 File: ./Figures/MODI/compRender.png Graphic file (type png)
 
 <use ./Figures/MODI/compRender.png>
 Package pdftex.def Info: ./Figures/MODI/compRender.png used on input line 60.
 (pdftex.def)             Requested size: 417.47307pt x 135.9481pt.
 
-<./Figures/MODI/ensamble.png, id=583, 894.34125pt x 587.19376pt>
+<./Figures/MODI/ensamble.png, id=591, 894.34125pt x 587.19376pt>
 File: ./Figures/MODI/ensamble.png Graphic file (type png)
 
 <use ./Figures/MODI/ensamble.png>
 Package pdftex.def Info: ./Figures/MODI/ensamble.png used on input line 68.
 (pdftex.def)             Requested size: 417.47307pt x 274.09953pt.
- [24 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/tablaimpresion.pn
-g>] [25 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/piezas.jpg> <C
+ [25 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/tablaimpresion.pn
+g>] [26 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/piezas.jpg> <C
 :/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/compRender.png>]
-<./Figures/modi/MODI_schem.png, id=601, 2472.98906pt x 2583.6525pt>
+<./Figures/modi/MODI_schem.png, id=609, 2472.98906pt x 2583.6525pt>
 File: ./Figures/modi/MODI_schem.png Graphic file (type png)
 
 <use ./Figures/modi/MODI_schem.png>
 Package pdftex.def Info: ./Figures/modi/MODI_schem.png used on input line 85.
 (pdftex.def)             Requested size: 417.47307pt x 436.1401pt.
 
-<./Figures/modi/pcb.png, id=602, 722.7pt x 542.025pt>
+<./Figures/modi/pcb.png, id=610, 722.7pt x 542.025pt>
 File: ./Figures/modi/pcb.png Graphic file (type png)
 
 <use ./Figures/modi/pcb.png>
 Package pdftex.def Info: ./Figures/modi/pcb.png used on input line 93.
 (pdftex.def)             Requested size: 375.7232pt x 281.78845pt.
- [26 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/ensamble.png>] [2
-7 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/modi/MODI_schem.png>] [28
+ [27 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/ensamble.png>] [2
+8 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/modi/MODI_schem.png>] [29
  <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/modi/pcb.png>] <./Figures/
-MODI/compElo.png, id=618, 722.7pt x 542.025pt>
+MODI/compElo.png, id=626, 722.7pt x 542.025pt>
 File: ./Figures/MODI/compElo.png Graphic file (type png)
 
 <use ./Figures/MODI/compElo.png>
 Package pdftex.def Info: ./Figures/MODI/compElo.png used on input line 107.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [29
+ [30
 
- <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/compElo.png>] [30] [3
-1]
-<./Figures/MODI/MODI_without_LED_bb.png, id=637, 927.465pt x 597.73312pt>
+ <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/compElo.png>] [31] [3
+2]
+<./Figures/MODI/MODI_without_LED_bb.png, id=645, 927.465pt x 597.73312pt>
 File: ./Figures/MODI/MODI_without_LED_bb.png Graphic file (type png)
 
 <use ./Figures/MODI/MODI_without_LED_bb.png>
 Package pdftex.def Info: ./Figures/MODI/MODI_without_LED_bb.png used on input l
 ine 163.
 (pdftex.def)             Requested size: 333.97972pt x 215.2476pt.
- [32 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/MODI_without_LED_
+ [33 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/MODI_without_LED_
 bb.png>]
-<./Figures/MODI/RGBLED.png, id=644, 1011.78pt x 429.10312pt>
+<./Figures/MODI/RGBLED.png, id=652, 1011.78pt x 429.10312pt>
 File: ./Figures/MODI/RGBLED.png Graphic file (type png)
 
 <use ./Figures/MODI/RGBLED.png>
 Package pdftex.def Info: ./Figures/MODI/RGBLED.png used on input line 182.
 (pdftex.def)             Requested size: 333.97972pt x 141.64374pt.
 
-<./Figures/MODI/comparacionElo.png, id=645, 358.33875pt x 722.7pt>
+<./Figures/MODI/comparacionElo.png, id=653, 358.33875pt x 722.7pt>
 File: ./Figures/MODI/comparacionElo.png Graphic file (type png)
 
 <use ./Figures/MODI/comparacionElo.png>
@@ -1126,38 +1134,38 @@ Package pdftex.def Info: ./Figures/MODI/comparacionElo.png used on input line 1
 
 LaTeX Warning: Float too large for page by 36.24174pt on input line 194.
 
-[33 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/RGBLED.png>]
-[34 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/comparacionElo.png
->] <./Figures/robots.png, id=659, 701.62125pt x 436.63126pt>
+[34 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/RGBLED.png>]
+[35 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/comparacionElo.png
+>] <./Figures/robots.png, id=667, 701.62125pt x 436.63126pt>
 File: ./Figures/robots.png Graphic file (type png)
 
 <use ./Figures/robots.png>
 Package pdftex.def Info: ./Figures/robots.png used on input line 207.
 (pdftex.def)             Requested size: 417.47307pt x 259.8088pt.
 
-<./Figures/graficosMotores.png, id=662, 722.7pt x 296.60812pt>
+<./Figures/graficosMotores.png, id=670, 722.7pt x 296.60812pt>
 File: ./Figures/graficosMotores.png Graphic file (type png)
 
 <use ./Figures/graficosMotores.png>
 Package pdftex.def Info: ./Figures/graficosMotores.png used on input line 218.
 (pdftex.def)             Requested size: 333.97972pt x 137.07048pt.
- [35 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robots.png>]
-<./Figures/MODI/pwm.png, id=675, 722.7pt x 542.025pt>
+ [36 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/robots.png>]
+<./Figures/MODI/pwm.png, id=683, 722.7pt x 542.025pt>
 File: ./Figures/MODI/pwm.png Graphic file (type png)
 
 <use ./Figures/MODI/pwm.png>
 Package pdftex.def Info: ./Figures/MODI/pwm.png used on input line 231.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [36 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/graficosMotores.png>] 
-[37 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pwm.png>] <./Figur
-es/setup.png, id=689, 1606.0pt x 821.0675pt>
+ [37 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/graficosMotores.png>] 
+[38 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pwm.png>] <./Figur
+es/setup.png, id=697, 1606.0pt x 821.0675pt>
 File: ./Figures/setup.png Graphic file (type png)
 
 <use ./Figures/setup.png>
 Package pdftex.def Info: ./Figures/setup.png used on input line 255.
 (pdftex.def)             Requested size: 417.47307pt x 213.43492pt.
- [38 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/setup.png>] <./Figures
-/MODI/fidPosicion.jpg, id=697, 1927.2pt x 1084.05pt>
+ [39 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/setup.png>] <./Figures
+/MODI/fidPosicion.jpg, id=705, 1927.2pt x 1084.05pt>
 File: ./Figures/MODI/fidPosicion.jpg Graphic file (type jpg)
 
 <use ./Figures/MODI/fidPosicion.jpg>
@@ -1165,22 +1173,22 @@ Package pdftex.def Info: ./Figures/MODI/fidPosicion.jpg used on input line 277.
 
 (pdftex.def)             Requested size: 271.35493pt x 152.62611pt.
 
-<./Figures/MODI/fiducial.png, id=700, 513.92pt x 385.44pt>
+<./Figures/MODI/fiducial.png, id=708, 513.92pt x 385.44pt>
 File: ./Figures/MODI/fiducial.png Graphic file (type png)
 
 <use ./Figures/MODI/fiducial.png>
 Package pdftex.def Info: ./Figures/MODI/fiducial.png used on input line 291.
 (pdftex.def)             Requested size: 271.35493pt x 203.51765pt.
- [39 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/fidPosicion.jpg>]
+ [40 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/fidPosicion.jpg>]
 
-<./Figures/MODI/kitbom.png, id=709, 520.19344pt x 350.05782pt>
+<./Figures/MODI/kitbom.png, id=718, 520.19344pt x 350.05782pt>
 File: ./Figures/MODI/kitbom.png Graphic file (type png)
 
 <use ./Figures/MODI/kitbom.png>
 Package pdftex.def Info: ./Figures/MODI/kitbom.png used on input line 308.
 (pdftex.def)             Requested size: 417.47307pt x 280.9333pt.
 
-<./Figures/tabla_robots_modi.png, id=711, 358.33875pt x 874.76813pt>
+<./Figures/tabla_robots_modi.png, id=720, 358.33875pt x 874.76813pt>
 File: ./Figures/tabla_robots_modi.png Graphic file (type png)
 
 <use ./Figures/tabla_robots_modi.png>
@@ -1188,68 +1196,68 @@ Package pdftex.def Info: ./Figures/tabla_robots_modi.png used on input line 318
 .
 (pdftex.def)             Requested size: 250.48637pt x 611.4926pt.
 )
-(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter6.tex [40 <C:/Users
+(C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter6.tex [41 <C:/Users
 /seba/Documents/GitHub/modi/thesis/Figures/MODI/fiducial.png (PNG copy)>]
-[41 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/kitbom.png>]
-[42 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/tabla_robots_modi.png>]
+[42 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/kitbom.png>]
+[43 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/tabla_robots_modi.png>]
 Cap\'{\i }tulo 6.
 ------------------------------------------------------------------------------
  6 Aplicaciones de MODI
 ------------------------------------------------------------------------------
-[43
+[44
 
 ]) (C:\Users\seba\Documents\GitHub\modi\thesis\Chapters\Chapter7.tex
-[44]
+[45]
 Cap\'{\i }tulo 7.
 ------------------------------------------------------------------------------
  7 Mejoras futuras y Conclusiones
 ------------------------------------------------------------------------------
-[45
+[46
 
-] <./Pictures/wires.png, id=743, 722.7pt x 542.025pt>
+] <./Pictures/wires.png, id=752, 722.7pt x 542.025pt>
 File: ./Pictures/wires.png Graphic file (type png)
 
 <use ./Pictures/wires.png>
 Package pdftex.def Info: ./Pictures/wires.png used on input line 35.
 (pdftex.def)             Requested size: 417.47307pt x 313.1093pt.
- [46 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/wires.png>] [47])
-(C:\Users\seba\Documents\GitHub\modi\thesis\Appendices\AppendixA.tex [48]
+ [47 <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/wires.png>] [48])
+(C:\Users\seba\Documents\GitHub\modi\thesis\Appendices\AppendixA.tex [49]
 Ap\'{e}ndice A.
 ------------------------------------------------------------------------------
  A 
 ------------------------------------------------------------------------------
-<./Pictures/historia.jpg, id=761, 2055.68pt x 1541.76pt>
+<./Pictures/historia.jpg, id=769, 2055.68pt x 1541.76pt>
 File: ./Pictures/historia.jpg Graphic file (type jpg)
 
 <use ./Pictures/historia.jpg>
 Package pdftex.def Info: ./Pictures/historia.jpg used on input line 14.
 (pdftex.def)             Requested size: 417.47307pt x 313.09865pt.
- [49
+ [50
 
  <C:/Users/seba/Documents/GitHub/modi/thesis/Pictures/historia.jpg>]
-<./Figures/MODI/pcbmodi.png, id=766, 113.4639pt x 115.19838pt>
+<./Figures/MODI/pcbmodi.png, id=774, 113.4639pt x 115.19838pt>
 File: ./Figures/MODI/pcbmodi.png Graphic file (type png)
 
 <use ./Figures/MODI/pcbmodi.png>
 Package pdftex.def Info: ./Figures/MODI/pcbmodi.png used on input line 24.
 (pdftex.def)             Requested size: 417.47307pt x 423.95097pt.
-) [50 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pcbmodi.png>]
+) [51 <C:/Users/seba/Documents/GitHub/modi/thesis/Figures/MODI/pcbmodi.png>]
 ------------------------------------------------------------------------------
  Bibliograf\'{\i }a
 ------------------------------------------------------------------------------
-(C:\Users\seba\Documents\GitHub\modi\thesis\main.bbl [51
+(C:\Users\seba\Documents\GitHub\modi\thesis\main.bbl [52
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
- [52]
+ [53]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
 
 (C:\Users\seba\Documents\GitHub\modi\thesis\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8EEC29751B5988B53F446164A0BA1FF3;7905.
+(rerunfilecheck)             Checksum: 7F5896041A2B75D134D4EBA3D4800DFD;7905.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1257,10 +1265,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 14257 strings out of 493921
- 198933 string characters out of 3154503
- 271483 words of memory out of 3000000
- 17081 multiletter control sequences out of 15000+200000
+ 14265 strings out of 493921
+ 199087 string characters out of 3154503
+ 270539 words of memory out of 3000000
+ 17086 multiletter control sequences out of 15000+200000
  16339 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,13n,45p,3738b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1272,9 +1280,9 @@ public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
 ic/amsfonts/cm/cmr9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C
 :/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (61 pages, 12486824 bytes).
+Output written on main.pdf (62 pages, 12494137 bytes).
 PDF statistics:
- 867 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
- 596 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 875 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
 
