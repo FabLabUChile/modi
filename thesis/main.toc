@@ -25,33 +25,36 @@
 \contentsline {subsection}{\numberline {4.2.1}Software CAD}{19}{subsection.56}
 \contentsline {subsection}{\numberline {4.2.2}Impresoras 3D}{19}{subsection.57}
 \contentsline {chapter}{\numberline {5}MODI}{24}{chapter.64}
-\contentsline {section}{\numberline {5.1}Dise\IeC {\~n}o de Chasis MODI}{25}{section.66}
-\contentsline {section}{\numberline {5.2}Dise\IeC {\~n}o de PCB MODI}{27}{section.76}
-\contentsline {section}{\numberline {5.3}Componentes electr\IeC {\'o}nicos}{30}{section.79}
-\contentsline {subsection}{\numberline {5.3.1}Arduino FIO}{31}{subsection.81}
-\contentsline {subsection}{\numberline {5.3.2}Motores DC}{31}{subsection.82}
-\contentsline {subsection}{\numberline {5.3.3}XBee}{32}{subsection.83}
-\contentsline {subsection}{\numberline {5.3.4}Lipo Rider Pro}{32}{subsection.84}
-\contentsline {subsection}{\numberline {5.3.5}Motor Driver 1A Dual TB6612FNG}{33}{subsection.85}
-\contentsline {subsection}{\numberline {5.3.6}Bater\IeC {\'\i }a LiPo y LED RGB}{34}{subsection.87}
-\contentsline {section}{\numberline {5.4}Locomoci\IeC {\'o}n}{36}{section.90}
-\contentsline {section}{\numberline {5.5}Implementaci\IeC {\'o}n}{38}{section.96}
-\contentsline {subsection}{\numberline {5.5.1}Setup}{39}{subsection.97}
-\contentsline {subsection}{\numberline {5.5.2}Software}{39}{subsection.99}
-\contentsline {subsection}{\numberline {5.5.3}Tracking 2D}{40}{subsection.101}
-\contentsline {subsection}{\numberline {5.5.4}Lista de Materiales (BOM)}{41}{subsection.104}
-\contentsline {chapter}{\numberline {6}Aplicaciones de MODI}{44}{chapter.108}
-\contentsline {section}{\numberline {6.1}Educaci\IeC {\'o}n}{44}{section.109}
-\contentsline {section}{\numberline {6.2}Usos Militar}{44}{section.110}
-\contentsline {section}{\numberline {6.3}Usos Dom\IeC {\'e}stico}{45}{section.111}
-\contentsline {chapter}{\numberline {7}Mejoras futuras y Conclusiones}{46}{chapter.112}
-\contentsline {section}{\numberline {7.1}Mejoras futuras}{46}{section.113}
-\contentsline {subsection}{\numberline {7.1.1}Encoders}{46}{subsection.114}
-\contentsline {subsection}{\numberline {7.1.2}Cables incrustados y Soporte motor}{46}{subsection.116}
-\contentsline {subsection}{\numberline {7.1.3}Una PCB para todo}{47}{subsection.118}
-\contentsline {subsection}{\numberline {7.1.4}M\IeC {\'o}dulo de carga inal\IeC {\'a}mbrica}{48}{subsection.119}
-\contentsline {section}{\numberline {7.2}Conclusiones}{48}{section.121}
+\contentsline {section}{\numberline {5.1}Desarrollo de MODI}{25}{section.66}
+\contentsline {subsection}{\numberline {5.1.1}Electr\IeC {\'o}nica de MODI}{25}{subsection.67}
+\contentsline {subsection}{\numberline {5.1.2}Chasis de MODI}{25}{subsection.68}
+\contentsline {section}{\numberline {5.2}Dise\IeC {\~n}o de Chasis MODI}{25}{section.69}
+\contentsline {section}{\numberline {5.3}Dise\IeC {\~n}o de PCB MODI}{30}{section.80}
+\contentsline {section}{\numberline {5.4}Componentes electr\IeC {\'o}nicos}{31}{section.83}
+\contentsline {subsection}{\numberline {5.4.1}Arduino FIO}{33}{subsection.85}
+\contentsline {subsection}{\numberline {5.4.2}Motores DC}{33}{subsection.86}
+\contentsline {subsection}{\numberline {5.4.3}XBee}{33}{subsection.87}
+\contentsline {subsection}{\numberline {5.4.4}Lipo Rider Pro}{34}{subsection.88}
+\contentsline {subsection}{\numberline {5.4.5}Motor Driver 1A Dual TB6612FNG}{35}{subsection.89}
+\contentsline {subsection}{\numberline {5.4.6}Bater\IeC {\'\i }a LiPo y LED RGB}{35}{subsection.91}
+\contentsline {section}{\numberline {5.5}Locomoci\IeC {\'o}n}{38}{section.94}
+\contentsline {section}{\numberline {5.6}Implementaci\IeC {\'o}n}{40}{section.100}
+\contentsline {subsection}{\numberline {5.6.1}Setup}{41}{subsection.101}
+\contentsline {subsection}{\numberline {5.6.2}Software}{41}{subsection.103}
+\contentsline {subsection}{\numberline {5.6.3}Tracking 2D}{42}{subsection.105}
+\contentsline {subsection}{\numberline {5.6.4}Lista de Materiales (BOM)}{43}{subsection.108}
+\contentsline {chapter}{\numberline {6}Aplicaciones de MODI}{46}{chapter.112}
+\contentsline {section}{\numberline {6.1}Educaci\IeC {\'o}n}{46}{section.113}
+\contentsline {section}{\numberline {6.2}Usos Militar}{46}{section.114}
+\contentsline {section}{\numberline {6.3}Usos Dom\IeC {\'e}stico}{47}{section.115}
+\contentsline {chapter}{\numberline {7}Mejoras futuras y Conclusiones}{48}{chapter.116}
+\contentsline {section}{\numberline {7.1}Mejoras futuras}{48}{section.117}
+\contentsline {subsection}{\numberline {7.1.1}Encoders}{48}{subsection.118}
+\contentsline {subsection}{\numberline {7.1.2}Cables incrustados y Soporte motor}{48}{subsection.120}
+\contentsline {subsection}{\numberline {7.1.3}Una PCB para todo}{49}{subsection.122}
+\contentsline {subsection}{\numberline {7.1.4}M\IeC {\'o}dulo de carga inal\IeC {\'a}mbrica}{50}{subsection.123}
+\contentsline {section}{\numberline {7.2}Conclusiones}{50}{section.125}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}}{50}{appendix.122}
+\contentsline {chapter}{\numberline {A}}{52}{appendix.126}
 \vspace {2em}
-\contentsline {chapter}{Bibliograf\'{\i }a}{52}{dummy.125}
+\contentsline {chapter}{Bibliograf\'{\i }a}{54}{dummy.129}

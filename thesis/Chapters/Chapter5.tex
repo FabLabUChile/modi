@@ -19,10 +19,24 @@
 
 Como se expuso en el capítulo anterior, actualmente existen varias alternativas de robots para comprar y construir un enjambre de robots. El problema es que o su precio es demasiado elevado o simplemente no son adaptables al tipo de investigación que se quiere realizar. Nuestro objetivo es tener un robot económico, fácil de reproducir y fabricable en la universidad para construir un enjambre de robots que permita hacer investigación y desarrollos en esta área.
 
+\section{Desarrollo de MODI}
 
+En este trabajo para el desarrollo solamente del robot MODI se tomó un año, periodo durante el cual se hicieron muchos prototipos del chasis plastico que contiene la electrónica y también la electrónica tuvo cambios que fueron puliendo el diseño. 
+\subsection{Electrónica de MODI}
+Principalmente se tuvo que reducir lo más posible la cantidad y tamaño de los componentes, siempre haciendo uso de componentes fácil de conseguir en el mercado y que fueran de bajo costo. Otro aspecto importante a considerar en la elección de la electrónica fue el sistema de energía, que finalmente se optó por utilizar baterías del tipo Litio Polimero por su alta densidad de carga y la posibilidad de regargala con la misma tarjeta electrónica que controla el robot. Fundamental fue el uso de la paltaforma Arduino, que es un microcontrolador de fácil uso y ampliamente difundido en el mundo.
+\subsection{Chasis de MODI}
+El diseño del chasis fue sometido a varios cambios, primero para adaptarse a la electrónica escogida que tuvo varios cambios y segundo, este chasis debía ser pequeño y tener solo lo necesario. Es por esto que fue clave modelar cada uno de los componentes electrónicos para poder diseñar un chasis con un ajuste preciso a estos. Otro aspecto importante fue eliminar completamente las uniones hechas con silicona y el uso de pernos, para al final llegar a un diseño en que solo se utilizan piezas plasticas que encajan entre si.
 
 \section{Diseño de Chasis MODI}
-Luego de varias iteraciones (ver Figura \ref{fig:Historia})se logró el modelo final, ver Figura \ref{fig:compRender} b, que tiene cuatro piezas hechas en plástico PLA como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. 
+Luego de varias iteraciones (ver Figura \ref{fig:Historia})se logró el modelo final, ver Figura \ref{fig:compRender} b, que tiene cuatro piezas hechas en plástico PLA como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. En la Figura \ref{fig:modi real} hay unas fotos de siete robots MODI versión final y un robot MODI versión anterior.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=\textwidth]{./Figures/MODI/modi_real.png}
+		\rule{35em}{0.5pt}
+	\caption[MODI Swarm]{Fotos de enjambre de MODI, formado por siete robots MODI versión final y un robot MODI versión anterior. Robots MODI versión final ensamblados por Andres Ulloa.}
+	\label{fig:modi real}
+\end{figure}
 
 Las piezas del robot fueron diseñadas para ser construidas por una máquina de prototipado rápido del tipo FDM, como una Reprap o MakerBot Replicator 2. Se debe tener en cuenta la tolerancia mecánica de las piezas. En especial hay dos piezas: la rueda y el chasis, que se unen al motor. Esta unión debe quedar con un ajuste mecánico Forzado Medio \footnote{http://campuscurico.utalca.cl/\~ fespinos/Ajustes\%20y\%20tolerancias\%20mecanicas.pdf}, para que estas uniones queden fijas y las ruedas estén en el eje correspondiente.
 
@@ -49,19 +63,21 @@ Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es 
 
 \begin{figure}[htbp]
 	\centering
+		\includegraphics[width=\textwidth]{./Figures/MODI/compRender.png}
+		\rule{35em}{0.5pt}
+	\caption[Comparación entre el primer render realizado y el último]{\textbf{ a.} Primer Chasis de MODI, realizado con SolidWorks 2012. Esta versión sirve sólo como prueba de concepto ya que no tiene espacio para las conexiones eléctricas necesarias.\textbf{ b.} Última versión de MODI a la fecha, el diseño se realizó en Inventor 2013 y el render se obtuvo con KeyShot 4.}
+	\label{fig:compRender}
+\end{figure}	
+
+\begin{figure}[htbp]
+	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/piezas.jpg}
 		\rule{35em}{0.5pt}
 	\caption[Piezas 3D]{Las cinco piezas que componen el hardware mecánico de MODI, estas son: a) el chasis, d) las dos ruedas, c) el accesorio y b)logo. Las dimensiones del robot MODI ensamblado son 96[mm] de diámetro y 50 [mm] de alto.}
 	\label{fig:Render Piezas 3D}
 \end{figure}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=\textwidth]{./Figures/MODI/compRender.png}
-		\rule{35em}{0.5pt}
-	\caption[Comparación entre el primer render realizado y el último]{\textbf{ a.} Primer Chasis de MODI, realizado con SolidWorks 2012. Esta versión sirve sólo como prueba de concepto ya que no tiene espacio para las conexiones eléctricas necesarias.\textbf{ b.} Última versión de MODI a la fecha, el diseño se realizó en Inventor 2013 y el render se obtuvo con KeyShot 4.}
-	\label{fig:compRender}
-\end{figure}	
+
 
 \begin{figure}[htbp]
 	\centering
