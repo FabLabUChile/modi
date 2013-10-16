@@ -43,7 +43,7 @@ Algunos robots que pueden ser utilizados para hacer un Robot Swarm junto con las
 %	SUBSECTION 1
 %-----------------------------------
 \subsection{Kilobot}
-El proyecto Kilobot, ver Figura \ref{fig:robots estudiados} a, es un sistema de bajo costo escalable para demostrar comportamientos colectivos. Actualmente el grupo Self-organizing Systems Research Group \footnote{http://www.eecs.harvard.edu/ssr/index.html} , de la Universidad de Harvard, está investigando algoritmos para enjambres de robots, por esto diseñó Kilobot, que es un robot de bajo costo, accesible,  que permite hacer pruebas en cientos o miles de robots. Con estos robots investigan temas como: encontrar "alimento" de forma grupal, seguir al líder y dispersarse unos de otro. Su principal característica es que son muy pequeños y simples de usar. Las desventajas de Kilobots son: su sistema de locomoción que obliga a tener una superficie extremadamente lisa para usarlos y que no poseen sistema de radio que permita en control de forma inalámbrica.
+El proyecto Kilobot, ver Figura \ref{fig:robots estudiados} a, es un sistema de bajo costo escalable para demostrar comportamientos colectivos. Actualmente el grupo Self-organizing Systems Research Group \footnote{http://www.eecs.harvard.edu/ssr/index.html} , de la Universidad de Harvard, está investigando algoritmos para enjambres de robots, por esto diseñó Kilobot, que es un robot de bajo costo, accesible,  que permite hacer pruebas en cientos o miles de robots. Con estos robots investigan temas como: encontrar "alimento" de forma grupal, seguir al líder y dispersarse unos de otro. Su principal característica es que son muy pequeños y simples de usar. Las desventajas de Kilobots son: su sistema de locomoción que obliga a tener una superficie extremadamente lisa para usarlos y que no poseen sistema de radio que permita en control de forma inalámbrica, solo comunicación local.
 
 %-----------------------------------
 %	SUBSECTION 2
@@ -62,7 +62,7 @@ Uno de los robots más utilizados por los científicos en el mundo para estudios
 %-----------------------------------
 \subsection{3pi Robot}
 
-El 3pi fue diseñado especialmente como un robot seguidor de líneas y capaz de solucionar laberintos. Existen varios vídeos que muestran la asombrosa velocidad de estos robots para solucionar un laberinto \footnote{http://www.pololu.com/catalog/product/975}. Se programa en C, pero como posee un microcontrolador ATmega es posible hacer uso del bootloader Arduino y programarlo con ese IDE. Usa 4 baterías AAA y trae 4 LEDs.  Yi-Jen Mon1 utilizó estos robots para desarrollar Supervisory Adaptive Network-Based Fuzzy Inference System (SANFIS) de forma empírica en un robot móvil, no simulado en un computador. Sus desventajas son: No cuenta con un sistema de carga autónoma, hardware extra que no va ser necesario para nuestros experimentos, como su pantalla LCD, necesita un cable especial para programarlo y no incorpora ningún tipo de comunicación inalámbrica.
+El 3pi fue diseñado especialmente como un robot seguidor de líneas y capaz de solucionar laberintos. Existen varios vídeos que muestran la asombrosa velocidad de estos robots para solucionar un laberinto \footnote{http://www.pololu.com/catalog/product/975}. Se programa en C, pero como posee un microcontrolador ATmega es posible hacer uso del bootloader Arduino y programarlo con ese IDE. Usa 4 baterías AAA y trae 4 LEDs.  Yi-Jen Mon1 utilizó estos robots para desarrollar Supervisory Adaptive Network-Based Fuzzy Inference System (SANFIS) de forma empírica en un robot móvil, no simulado en un computador. Sus desventajas son: No cuenta con un sistema de carga autónoma, hardware extra que no va ser necesario para nuestros experimentos, necesita un cable especial para programarlo y no tiene comunicación inalámbrica.
 
 
 \begin{figure}[htbp]
@@ -84,16 +84,16 @@ En la Figura \ref{fig:Tabla robots} hay una tabla comparativa que resume las pri
 	\label{fig:Tabla robots}
 \end{figure}
 
-En esta tabla se comparan 3 robots que pueden usarse para hacer estudios de enjambres de robots. De acá se resume que kilobot es un robot simple que no tiene comunicación inalámbrica, E-puck es un robot sumamente completo con un alto costo y está sobredimencionado para los estudios que se quieren hacer. El que más se acerca a nuestros requerimientos es el 3Pi de Pololu, pero cuenta con hardware extra que aumenta su consumo energético y no incorpora ningún sistema de comunicación inalámbrica.
+En esta tabla se comparan tres robots que pueden usarse para hacer estudios de enjambres de robots. De acá se resume que kilobot es un robot simple que no tiene comunicación inalámbrica, E-puck es un robot sumamente completo con un alto costo y está sobredimencionado para los estudios que se quieren hacer. El que más se acerca a nuestros requerimientos es el 3Pi de Pololu, pero cuenta con hardware extra que aumenta su consumo energético y no incorpora ningún sistema de comunicación inalámbrica.
 
 \FloatBarrier
-Además existen otros robots que podrían utilizarse en este trabajo, pero que al momento del desarrollo no existian. En el repositorio de objetos 3D de MakelBot Thingiverse, existe algunos. Tres que destacan por su simplicidad son: SlinkyBOT Lunar mini rover \footnote{http://www.thingiverse.com/thing:98091}, Econo1Bot for the RAMB motherboards \footnote{http://www.thingiverse.com/thing:83998} y MiniSkybot \footnote{http://www.thingiverse.com/thing:7989}. En la Figura \ref{fig:thingiverse} se pueden ver estos robots.
+Además existen otros robots que podrían utilizarse en este trabajo, pero que al momento del desarrollo no existian. En el repositorio de objetos 3D de MakelBot Thingiverse existe algunos. Tres que destacan por su simplicidad son: SlinkyBOT Lunar mini rover \footnote{http://www.thingiverse.com/thing:98091} Ver Figura \ref{fig:thingiverse} b, Econo1Bot for the RAMB motherboards \footnote{http://www.thingiverse.com/thing:83998}  Ver Figura \ref{fig:thingiverse} c. y MiniSkybot \footnote{http://www.thingiverse.com/thing:7989}  Ver Figura \ref{fig:thingiverse} c.
  
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=1\textwidth]{./Figures/thingiverse.png}
 		\rule{35em}{0.5pt}
-	\caption[Robots en Thingiverse]{Robots que han sido subidos a la plataforma Thingiverse para que usuarios puedan descargar los modelos y construirlos.}
+	\caption[Robots en Thingiverse]{Robots que han sido subidos a la plataforma Thingiverse para que usuarios puedan descargar los modelos y construirlos. \textbf{a.} MiniSkybot, \textbf{b.}SlinkyBOT Lunar mini rover y \textbf{c.} Econo1Bot for the RAMB motherboards.}
 	\label{fig:thingiverse}
 \end{figure}
 
@@ -104,7 +104,7 @@ Además existen otros robots que podrían utilizarse en este trabajo, pero que a
 
 De los robots estudiados destaca en sus prestaciones el e-puck, pero este tiene dos grandes problemas para ser usado por gente que no es especialista en robots. Uno es que tiene demasiado hardware, lo que tiende a confundir y aumentar costos. Dos, que para su comunicación inalámbrica hace uso de Bluetooth, protocolo que no soporta las redes Mesh para hacer de manera simple el control de muchos dispositivos en una red. Por otro lado el robot Kilobot es extremadamente simple, no permite mucha modificación y este con 3pi no tienen sistema de comunicación inalámbrica.
 
-Hace falta un robot que no sobrepase los 200 USD, capaz de controlarse en forma inalámbrica, simple de construir y fácil de usar. Se requiere hacer uso de tecnologías como impresoras 3D y diseño Open Hardware - Open Source para formar el enjambre. Tener un diseño compatible con las impresoras 3D facilita enormemente la distribución del proyecto ya que cualquier persona con acceso a una impresora 3D puede replicar el robot. Y para hacer más simple el proceso de réplica y fomentar las mejoras en el proyecto, se requiere que tanto el hardware como el software sean Open, esto significa por ejemplo, que cualquier persona puede acceder al código fuente del robot, copiarlo, redistribuirlo y modificarlo para que se adapte a sus necesidades. El nombre del robot será MODI que viene de las siglas del inglés Modular Intelligence. MODI quiere satisfacer el nicho de mercado donde se necesitan robots simples y de bajo precio, como se ve en la figura \ref{fig:nicho}.
+Hace falta un robot que no sobrepase los 200 USD, capaz de controlarse en forma inalámbrica, simple de construir y fácil de usar. Se requiere hacer uso de tecnologías como impresoras 3D y diseño Open Hardware para los robot que formen el enjambre. El tener un diseño compatible con las impresoras 3D facilita enormemente la difusión y distribución del proyecto, ya que cualquier persona con acceso a una impresora 3D puede replicar el robot. Y para hacer más simple el proceso de réplica y fomentar las mejoras en el proyecto, se requiere que tanto el hardware como el software sean Open, esto significa que cualquier persona puede acceder a los archivos de diseño del robot, copiarlos, redistribuirlo y modificarlo para que se adapte a sus necesidades. El nombre del robot será MODI que viene de las siglas del inglés Modular Intelligence. MODI quiere satisfacer el nicho de mercado donde se necesitan robots simples y de bajo precio, como se ve en la Figura \ref{fig:nicho}.
 
 \begin{figure}[htbp]
 	\centering

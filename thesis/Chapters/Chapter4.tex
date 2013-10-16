@@ -18,7 +18,7 @@
 Como se expuso en el capítulo anterior, actualmente existen varias alternativas de robots para comprar y construir un enjambre de robots. El problema es que o su precio es demasiado elevado o simplemente no son adaptables al tipo de investigación que se quiere realizar. Nuestro objetivo es tener un robot económico, fácil de reproducir y fabricable en la universidad para construir un enjambre de robots que permita hacer investigación y desarrollos en esta área.
 
 
-\section{Diseño}
+\section{Requerimientos de desarrollo}
 
 Para satisfacer los objetivos de diseño de MODI se pretende cumplir con los siguientes requerimientos:
 \newpage 
@@ -27,7 +27,7 @@ Para satisfacer los objetivos de diseño de MODI se pretende cumplir con los sig
 \begin{enumerate}
 \item \textbf{Simple de fabricar}: Mientras más simple de fabricar sea MODI, más fácil va a ser reproducirlo para tener muchos robots en el enjambre. Esto también permite mantener los costos de fabricación bajos. 
 \item \textbf{Open Source, Open Hardware}: Si se liberan tanto el código fuente del robot como la información detallada del Hardware es más fácil que otros laboratorios puedan replicar este trabajo y a su vez mejorarlo. Una de las ventajas de seguir la filosofía \textit{Open} en el desarrollo es que los que hagan uso de nuestro Hardware o Software están comprometidos a compartir sus mejoras.
-\item \textbf{Fabricable en un Fab Lab}: Actualmente existen cerca de 500 Fab Labs en el mundo, así que tener un diseño compatible con las maquinarias que utilizan los Fab Labs ayuda a poder difundir este trabajo. Los componentes que no puedan ser fabricados deben ser de fácil acceso.
+\item \textbf{Fabricable en un Fab Lab}: Actualmente existen cerca de 263 Fab Labs en el mundo, así que tener un diseño compatible con las maquinarias que utilizan los Fab Labs ayuda a poder difundir este trabajo. Los componentes que no puedan ser fabricados deben ser de fácil acceso.
 \item \textbf{Minimizar la cantidad de componentes mecánicos extras necesarios}: La base del diseño mecánico del robot debe ser el Chasis de éste, pieza encargada de unir todos los componentes. No debe necesitar tornillos ni silicona para ensamblarlo.
 \item \textbf{Carga Autónoma}: El robot debe contar con un sistema que facilite la carga de energía autónoma para poder realizar experimentos de larga duración sin intervención humana. Debe permitir diferentes tipos de carga como inductiva o con panel solar.
 \item \textbf{Sistema de tracking}: Es necesario poder obtener la posición y orientación de cada uno de los robots. Por lo que el setup para todos los robots debe contar con una cámara que permita con procesamiento de imágenes obtener esta información.
@@ -39,7 +39,7 @@ Para satisfacer los objetivos de diseño de MODI se pretende cumplir con los sig
 
 La función principal de MODI es ser una plataforma móvil de fácil acceso. Existe un repositorio en GitHub  \footnote{https://github.com/FabLabUChile/modi} donde se tienen los códigos actualizados para controlar y construir robots MODI. Todo esto para poder cumplir con el \textbf{requerimiento 2}. Una lista con componentes extras para comprar se encuentra en la Figura \ref{fig:BOM}. Esta lista de materiales cumple con el \textbf{requerimiento 4}. 
 
-El Robot MODI es Open Hardware, por lo mismo sus archivos se encuentran en el repositorio GitHub nombrado anteriormente. Todas las piezas que componene al robot son de libre distribución y uso, además pueden modificarse a gusto. La estructura de archivos se puede ver en la Figura \ref{fig:tree}, donde se puede ver que están los archivos del hardware, software y los que generar este documento Latex.
+El Robot MODI es Open Hardware, por lo mismo sus archivos se encuentran en el repositorio GitHub nombrado anteriormente. Todas las piezas que componene al robot son de libre distribución y uso, además pueden modificarse a gusto. La estructura de archivos se puede ver en la Figura \ref{fig:tree}, donde están los archivos del Hardware, Software y los que generar este documento Latex.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/MODI/tree.png}
@@ -56,7 +56,7 @@ El Robot MODI es Open Hardware, por lo mismo sus archivos se encuentran en el re
 
 \section{Fabricación Digital}
 
-La Fabricación Digital es una técnica que permite una traducción directa del mundo digital al mundo físico. Gracias a la fabricación digital es posible diseñar y contruir con presición objetos y formas cuya geometrías dificilmente podrían ser logrados en una producción artesanal o industrial. Es por esto que es una técnica perfecta para el desarrollo del proyecto MODI. Construir un robot implica el diseño en computador de varios componentes. Estos pueden ser circuitos electrónicos (PCB), software de control y piezas mecánicas. Uno de los requerimientos principales del desarrollo es que sea simple de fabricar, es por esto que en el resultado final se reflejan las horas de diseño. Las herramientas que se necesitan son software CAD para el modelado y diversas maquinas que construyan con presición los modelos diseñados en el software CAD. Algunas maquinas son: impresora 3D, Router CNC y cortadora LASER.
+La Fabricación Digital es una técnica que permite una traducción directa del mundo digital al mundo físico. Gracias a esta es posible diseñar y contruir con presición objetos y formas cuya geometrías dificilmente podrían ser logrados en una producción artesanal o industrial. Es por esto que es una técnica perfecta para el desarrollo del proyecto MODI. Construir un robot implica el diseño en computador de varios componentes. Estos pueden ser circuitos electrónicos (PCB), software de control y piezas mecánicas. Uno de los requerimientos principales del desarrollo es que sea simple de fabricar, es por esto que en el resultado final se reflejan las horas de diseño. Las herramientas que se necesitan son software CAD para el modelado y diversas maquinas que construyan con presición los modelos diseñados en el software CAD. Algunas maquinas son: impresora 3D, Router CNC y cortadora LASER.
 
 
 
@@ -79,7 +79,7 @@ Durante el transcurso del proyecto se trabajó con varios softwares CAD. El prim
 %	SUBSECTION 2
 %-----------------------------------
 \subsection{Impresoras 3D}
-Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabricación. Dependiendo de la cantidad de herramientas que se tenga es más o menos fácil la tarea. Desde el comienzo hasta hace un par de años, quienes se dedican a construir robots, debían construir de manera \textit{artesanal} donde es imposible que las piezas queden todas iguales y el tiempo empleado era bastante. Hoy en día existe una gran alternativa, la Fabricación Digital, que surge como un nuevo paradigma de construcción y una herramienta clave que son las impresoras 3D. Las impresoras 3D, existen desde los 80' y hasta hace algunos años por su precio y tamaño eran de difícil acceso. Utilizan distintas tecnologías; las que se usaron en el proceso de este trabajo son las FDM, sigla del inglés "Fused deposition modeling" donde un cabezal extrusor de plástico se mueve en el plano xy depositando capa por capa de material mientras avanza en el eje z, ver Figura \ref{fig:3Dprint}. Primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, ver Figura \ref{fig:impresoras} a, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1, ver Figura \ref{fig:impresoras} c. También existen otros tipos de máquinas que permiten hacer diseños en 2D, éstas son las cortadoras LASER. La primera versión de MODI fue construida usando planchas de madera MDF y acrílico, cortados en LASER, ver figura \ref{fig:analgTodigital} a. Hacer uso de estas máquinas permite cumplir con los \textbf{requerimientos 1 y 3}.
+Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabricación. Dependiendo de la cantidad de herramientas que se tenga es más o menos fácil la tarea. Desde el comienzo hasta hace un par de años, quienes se dedican a construir robots, debían construir de manera \textit{artesanal} donde es imposible que las piezas queden todas iguales y el tiempo empleado era bastante. Hoy en día existe una gran alternativa, la Fabricación Digital, que surge como un nuevo paradigma de construcción y una herramienta clave que son las impresoras 3D. Las impresoras 3D, existen desde los 80' y hasta hace algunos años por su precio y tamaño eran de difícil acceso. Utilizan distintas tecnologías; las que se usaron en el proceso de este trabajo son las FDM, sigla del inglés "Fused deposition modeling" donde un cabezal extrusor de plástico se mueve en el plano xy depositando capa por capa de material mientras avanza en el eje z, ver Figura \ref{fig:3Dprint}. En este trabajo primero se utilizó la 3D Touch Dual de la empresa Bit from Bytes, ver Figura \ref{fig:impresoras} a, que permite hacer modelos de hasta 185 x 273 x 200[mm], con una buena resolución de 0.125[mm]\footnote{teambastech.com/Store/index.php?route=product/product\&product\_id=205} cada capa en eje z. Luego por facilidad de uso y menor tiempo de impresión se usa una impresora MakerBot Replicator 1, ver Figura \ref{fig:impresoras} c. También existen otros tipos de máquinas que permiten hacer diseños en 2D, éstas son las cortadoras LASER. La primera versión de MODI fue construida usando planchas de madera MDF y acrílico, cortados en LASER, ver figura \ref{fig:analgTodigital} a. Hacer uso de estas máquinas permite cumplir con los \textbf{requerimientos 1 y 3}.
 
 \begin{figure}[htbp]
 	\centering
@@ -103,7 +103,7 @@ Cuando se quiere pasar una idea al mundo real es necesario un proceso de fabrica
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/tabla_impresoras.png}
 		\rule{35em}{0.5pt}
-	\caption[Tabla comparativa de impresoras 3D]{Tabla comparativa de las características más importantes de impresoras 3D, Replicator 1, 3D Touch y Uprint}
+	\caption[Tabla comparativa de Impresoras 3D]{Tabla comparativa de las características más importantes de impresoras 3D, Replicator 1, 3D Touch y Uprint}
 	\label{fig:TablaImpresoras}
 \end{figure}
 
@@ -122,7 +122,7 @@ Aunque han bajado los precios de las máquinas para prototipado rápido, aún no
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=\textwidth]{./Figures/map.png}
+		\includegraphics[width=0.9\textwidth]{./Figures/map.png}
 		\rule{35em}{0.5pt}
 	\caption[Mapa Fab Labs en el mundo.]{Mapa actual de lugares en el mundo que cuentan con un Fab Lab, actualmente en el sitio http://wiki.fablab.is/wiki/Portal:Labs se registran 263. En Chile a la fecha existen 3. Imagen tomada de fablabamersfoort.nl/fablabs/}
 	\label{fig:Fablabs}
