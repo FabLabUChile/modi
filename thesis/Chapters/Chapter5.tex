@@ -28,7 +28,7 @@ Principalmente se tuvo que reducir lo más posible la cantidad y tamaño de los 
 El diseño del chasis fue sometido a varios cambios, primero para adaptarse a la electrónica escogida que tuvo varios cambios y segundo, este chasis debía ser pequeño y tener solo lo necesario. Es por esto que fue clave modelar cada uno de los componentes electrónicos para poder diseñar un chasis con un ajuste preciso a estos. Otro aspecto importante fue eliminar completamente las uniones hechas con silicona y el uso de pernos, para al final llegar a un diseño en que solo se utilizan piezas plasticas que encajan entre si.
 
 \section{Diseño de Chasis MODI}
-Luego de varias iteraciones (ver Figura \ref{fig:Historia})se logró el modelo final, ver Figura \ref{fig:compRender} b, que tiene cuatro piezas hechas en plástico PLA como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. En la Figura \ref{fig:modi real} hay unas fotos de siete robots MODI versión final y un robot MODI versión anterior.
+Luego de varias iteraciones (ver Figura \ref{fig:Historia})se logró el modelo final, ver Figura \ref{fig:compRender} b, que tiene cuatro piezas hechas en plástico PLA como se puede ver en la Figura \ref{fig:DiagramaVersionFinal}. En la Figura \ref{fig:modi real} hay unas fotos de siete robots MODI versión final y un robot MODI versión anterior. En la Figura \ref{fig:MODI Detalle} se puede ver en detalle un robot MODI.
 
 \begin{figure}[htbp]
 	\centering
@@ -36,6 +36,15 @@ Luego de varias iteraciones (ver Figura \ref{fig:Historia})se logró el modelo f
 		\rule{35em}{0.5pt}
 	\caption[MODI Swarm]{Fotos de enjambre de MODI, formado por siete robots MODI versión final y un robot MODI versión anterior. Robots MODI versión final ensamblados por Andres Ulloa.}
 	\label{fig:modi real}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=\textwidth]{./Pictures/modi_photo.jpg}
+		\rule{35em}{0.5pt}
+	\caption[MODI Detalle]{Fotografía de robot MODI.}
+	\label{fig:MODI Detalle}
 \end{figure}
 
 Las piezas del robot fueron diseñadas para ser construidas por una máquina de prototipado rápido del tipo FDM, como una Reprap o MakerBot Replicator 2. Se debe tener en cuenta la tolerancia mecánica de las piezas. En especial hay dos piezas: la rueda y el chasis, que se unen al motor. Esta unión debe quedar con un ajuste mecánico Forzado Medio \footnote{http://campuscurico.utalca.cl/\~ fespinos/Ajustes\%20y\%20tolerancias\%20mecanicas.pdf}, para que estas uniones queden fijas y las ruedas estén en el eje correspondiente.
@@ -77,8 +86,6 @@ Usando una Replicator 1 de MakerBot, la pieza que más demora en construirse es 
 	\label{fig:Render Piezas 3D}
 \end{figure}
 
-
-
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\textwidth]{./Figures/MODI/ensamble.png}
@@ -111,6 +118,17 @@ En los primeros prototipos un problema que se repetía constantemente fueron las
 	\caption[Fabricación de PCB]{\textbf{a.} Roland Modelo MDX-20 usada para hacer PCB y modelos 3D \textbf{b.} MODIBoard es una PCB diseñada para poder conectar de forma simple los diversos componentes electrónicos. Conecta: Arduino Fio, Lipo Rider Pro, Motor Driver, LED RGB y Motores, \textbf{c. }PCB fresada en dos máquinas diferentes. Se puede apreciar en el detalle aumentado 60x, la importancia de contar con una buena resolución de fresado como en la imagen de la izquierda donde incluso se pudo hacer el logo. En especial es necesario tener un buen pad para facilitar el soldado.}
 	\label{fig:pcb}
 \end{figure}
+
+En la Figura \ref{fig:ComponentesPCB} hay una fotografía con todos los componentes necesarios para ensamblar una PCB MODI, para controlar motores con un Arduino FIO.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=\textwidth]{./Pictures/soldado.jpg}
+		\rule{35em}{0.5pt}
+	\caption[Componentes PCB MODI antes de soldar]{Fotografía de todos los componentes para ensamblar una PCB MODI.}
+	\label{fig:ComponentesPCB}
+\end{figure}	
+
 
 %-----------------------------------
 %	SECTION 2
@@ -189,7 +207,7 @@ El TB6612FNG motor driver puede controlar hasta dos motores DC, a una corriente 
 %-----------------------------------
 \subsection{Batería LiPo y LED RGB}
 
-Al comienzo se utilizaron baterías AAA para el robot, pero estas tienen el problema de que es necesario que el usuario las retire del robot para recargarlas. Por su parte las baterías LiPo permiten cargarse con el circuito de la Lipo Rider Pro y posee una alta densidad de carga, 2000mAh a 3.7V, que significa casi 3 horas de autonomía en funcionamiento continuo de los motores. Esta batería ayuda a cumplir con el \textbf{Requerimiento 5.}
+Al comienzo se utilizaron baterías AAA para el robot, pero estas tienen el problema de que es necesario que el usuario las retire del robot para recargarlas. Por su parte las baterías LiPo permiten cargarse con el circuito de la Lipo Rider Pro y posee una alta densidad de carga, 2000mAh a 3.7V, que significa 10 horas de autonomía en funcionamiento continuo de los motores. Esta batería ayuda a cumplir con el \textbf{Requerimiento 5.}. Las pruebas de batería se realizaron solo utilizando los motores, la comunicación inalámbrica se desactivó para lograr 10.5 horas de funcionamiento continuo.
 
 El \textbf{Requerimiento 7} se cumple incluyendo un LED RGB, que se puede controlar de manera simple para indicar los distintos estados en que puede encontrarse el robot. En la Figura \ref{fig:LED} se puede ver un diagrama de conexiones.
 
